@@ -26,11 +26,11 @@ header-includes: |
 # 1. Introduction
 
 When language-model agents work alongside one another, sharing tools, schedules, budgets and spaces, they can
-coordinate in ways that are concealed from the parties affected or from an overseer, and such collusion has become a
-concern for AI safety [1, 2]. Most evaluations of it are conducted in
+coordinate in ways that are concealed from the parties affected or from an overseer, and recent work treats such
+collusion as a safety problem to be audited and detected [1, 2]. Most evaluations of it are conducted in
 text: agents negotiate prices or exchange messages, and a monitor is given the resulting transcript and asked whether
 they colluded. This design omits two features of deployed settings. First, an agreement has no effect until it is
-carried out, and agreements reached in text are frequently not acted on [1]. Second, the observer that matters is often
+carried out, and agents that plan collusion in text often do not carry it out [1]. Second, the observer that matters is often
 not an external monitor holding the full record but an agent inside the system, which perceives only part of what
 happens, is occupied with its own work, and is rarely asked directly whether anything is amiss.
 
@@ -68,25 +68,29 @@ Our main contributions are:
 # 2. Related work
 
 **Collusion among language-model agents.** Studies of collusion have mostly used markets and messages. Colosseum [1]
-finds that agents often agree to collude without acting on the agreement. NARCBench [2] defines collusion causally, by
-whether removing a communication would change the collusive act, and notes that testing this definition requires
-counterfactual simulation. Breaking the Secret [3] gives colluding embodied agents incentives to report to an honest
-manager, and Paglieri et al. [4] observe whistleblowing emerging in large populations of agents. We contribute a setting
-in which coordination must be carried out physically, so that what agents did can be compared with what they said, and
-in which exact branches of an episode supply the counterfactuals.
+finds that agents often plan collusion in text but then choose non-collusive actions, which it calls collusion on paper.
+Rose et al. [2], who introduce the NARCBench benchmark, would define collusion causally, by whether removing a
+communication would change the collusive act, but adopt a weaker criterion because testing causation needs
+counterfactual simulation. Breaking the Secret [3] rewards colluding embodied agents for reporting collusion to a
+manager assumed honest, and Paglieri et al. [4] observe cheating and whistleblowing emerging in a swarm of 100 LLM
+agents. We contribute a setting in which coordination must be carried out physically, so that what agents did can be
+compared with what they said, and in which exact branches of an episode supply the counterfactuals.
 
-**Monitoring.** Monitors of agent behaviour are usually evaluated on transcripts. SHADE-Arena [5] and AutoMonitor-Bench
-[6] show that a monitor's instructions shift its operating point, and signal detection theory has been applied to LLM
-judgements [7]. SCHEME [8] and Arike et al. [9] restrict monitors by channel, such as code, messages or reasoning. We
-instead restrict a monitor to what one observer inside the world could perceive, and compare it with that observer.
+**Monitoring.** Monitors of agent behaviour are usually evaluated on transcripts, and their instructions matter: a
+better system prompt raises a monitor's AUC in SHADE-Arena [5], and in AutoMonitor-Bench prompting lowers missed
+detections at the cost of more false alarms [6]. Cacioli [7] applies the full signal detection framework to LLMs as
+detectors. SCHEME [8] compares monitors that see agents' code edits alone or also their messages, and Arike et al. [9]
+compare monitors that see an agent's reasoning, its actions or both. We instead restrict a monitor to what one observer inside
+the world could perceive, and compare it with that observer.
 
-**Social deduction and embodied deception.** In social-deduction games, LLM agents are evaluated as players who must
-detect deceivers [10, 11, 12, 13] or as outside judges [10, 14], rarely both on the same observations. Given the partial
-information of human bystanders in Mafia, GPT-4 identified the mafia more often than the bystanders had [15], and LLMs
-achieve social goals far more often when one model simulates every participant than when each holds only its own
-information [16]. MineAmongUs [11] places deception in Minecraft, and generative agents [17] exhibit rich social
-behaviour, but neither records what each observer perceived. In our study the overseer and the monitor read records
-computed from the same logged perceptions, and the same model plays both.
+**Social deduction and embodied deception.** In social-deduction games, language-model agents play both the deceivers
+and the players who must find them [10, 11, 12, 13], and some studies add an outside detector, an LLM reading the
+transcripts or a probe on activations [10, 14]; players and outside detectors are rarely compared on the same
+observations. Given the same partial dialogue as human bystanders in Mafia, GPT-4 identified the mafia more often than
+the bystanders had [15], and an LLM that simulates every participant scores significantly higher on social goals than
+agents that each hold only their own information [16]. MineAmongUs [11] places deception in Minecraft, and each
+generative agent [17] keeps a memory stream of what it observed. In our study the overseer and an outside monitor read
+records computed from the same logged perceptions, and the same model plays both.
 
 # 3. Setting and methods
 
