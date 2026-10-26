@@ -425,41 +425,42 @@ greatly overstated its oversight.
 
 # References
 
-\begingroup\small\setlength{\parskip}{3pt}
+\begingroup\small\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}\everypar{\hangindent=2.4em\hangafter=1}
 
-\[1\] Nakamura, M., Kumar, A., Das, S., et al. (2026). Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems. [arXiv:2602.15198](https://arxiv.org/abs/2602.15198)
+\makebox[2.4em][l]{[1]}Nakamura, M., Kumar, A., Das, S., et al. (2026). Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems. [arXiv:2602.15198](https://arxiv.org/abs/2602.15198)
 
-\[2\] Rose, A., Cullen, C., Abdelnabi, S., Torr, P., Kaplowitz, B. G., and Schroeder de Witt, C. (2026). Detecting Multi-Agent Collusion Through Multi-Agent Interpretability. [arXiv:2604.01151](https://arxiv.org/abs/2604.01151)
+\makebox[2.4em][l]{[2]}Rose, A., Cullen, C., Abdelnabi, S., Torr, P., Kaplowitz, B. G., and Schroeder de Witt, C. (2026). Detecting Multi-Agent Collusion Through Multi-Agent Interpretability. [arXiv:2604.01151](https://arxiv.org/abs/2604.01151)
 
-\[3\] Liu, Q., Chen, X., Zhao, Z., et al. (2026). Breaking the Secret: Economic Interventions for Combating Collusion in Embodied Multi-Agent Systems. [arXiv:2604.23511](https://arxiv.org/abs/2604.23511)
+\makebox[2.4em][l]{[3]}Liu, Q., Chen, X., Zhao, Z., et al. (2026). Breaking the Secret: Economic Interventions for Combating Collusion in Embodied Multi-Agent Systems. [arXiv:2604.23511](https://arxiv.org/abs/2604.23511)
 
-\[4\] Paglieri, D., Cross, L., Genewein, T., Leibo, J. Z., Tomasev, N., and Vezhnevets, A. S. (2026). A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms. [arXiv:2609.04170](https://arxiv.org/abs/2609.04170)
+\makebox[2.4em][l]{[4]}Paglieri, D., Cross, L., Genewein, T., Leibo, J. Z., Tomasev, N., and Vezhnevets, A. S. (2026). A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms. [arXiv:2609.04170](https://arxiv.org/abs/2609.04170)
 
-\[5\] Kutasov, J., Sun, Y., Colognese, P., et al. (2025). SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents. [arXiv:2506.15740](https://arxiv.org/abs/2506.15740)
+\makebox[2.4em][l]{[5]}Kutasov, J., Sun, Y., Colognese, P., et al. (2025). SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents. [arXiv:2506.15740](https://arxiv.org/abs/2506.15740)
 
-\[6\] Yang, S., Hu, J., Li, T., Yan, H., Wang, W., and Wang, D. (2026). AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor. *Findings of ACL 2026*. [arXiv:2601.05752](https://arxiv.org/abs/2601.05752)
+\makebox[2.4em][l]{[6]}Yang, S., Hu, J., Li, T., Yan, H., Wang, W., and Wang, D. (2026). AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor. *Findings of ACL 2026*. [arXiv:2601.05752](https://arxiv.org/abs/2601.05752)
 
-\[7\] Cacioli, J.-P. (2026). LLMs as Signal Detectors: Sensitivity, Bias, and the Temperature-Criterion Analogy. [arXiv:2603.14893](https://arxiv.org/abs/2603.14893)
+\makebox[2.4em][l]{[7]}Cacioli, J.-P. (2026). LLMs as Signal Detectors: Sensitivity, Bias, and the Temperature-Criterion Analogy. [arXiv:2603.14893](https://arxiv.org/abs/2603.14893)
 
-\[8\] Radev, N., Haas, L., Arnav, B., and Bernabeu-Pérez, P. (2026). The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems. [arXiv:2605.29178](https://arxiv.org/abs/2605.29178)
+\makebox[2.4em][l]{[8]}Radev, N., Haas, L., Arnav, B., and Bernabeu-Pérez, P. (2026). The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems. [arXiv:2605.29178](https://arxiv.org/abs/2605.29178)
 
-\[9\] Arike, R., Mehta Moreno, R., Subramani, R., Biswas, S., and Ward, F. R. (2026). How does information access affect LLM monitors' ability to detect sabotage? [arXiv:2601.21112](https://arxiv.org/abs/2601.21112)
+\makebox[2.4em][l]{[9]}Arike, R., Mehta Moreno, R., Subramani, R., Biswas, S., and Ward, F. R. (2026). How does information access affect LLM monitors' ability to detect sabotage? [arXiv:2601.21112](https://arxiv.org/abs/2601.21112)
 
-\[10\] Golechha, S., and Garriga-Alonso, A. (2025). Among Us: A Sandbox for Measuring and Detecting Agentic Deception. *NeurIPS 2025*. [arXiv:2504.04072](https://arxiv.org/abs/2504.04072)
+\makebox[2.4em][l]{[10]}Golechha, S., and Garriga-Alonso, A. (2025). Among Us: A Sandbox for Measuring and Detecting Agentic Deception. *NeurIPS 2025*. [arXiv:2504.04072](https://arxiv.org/abs/2504.04072)
 
-\[11\] Ahn, J., Kim, J., Kim, H., et al. (2026). Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions. *Workshop on Agent Behavior at COLM 2026*. [arXiv:2608.30428](https://arxiv.org/abs/2608.30428)
+\makebox[2.4em][l]{[11]}Ahn, J., Kim, J., Kim, H., et al. (2026). Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions. *Workshop on Agent Behavior at COLM 2026*. [arXiv:2608.30428](https://arxiv.org/abs/2608.30428)
 
-\[12\] Agarwal, M., Rana, S., Sundoro, T., et al. (2025). WOLF: Werewolf-based Observations for LLM Deception and Falsehoods. *MTI-LLM Workshop at NeurIPS 2025*. [arXiv:2512.09187](https://arxiv.org/abs/2512.09187)
+\makebox[2.4em][l]{[12]}Agarwal, M., Rana, S., Sundoro, T., et al. (2025). WOLF: Werewolf-based Observations for LLM Deception and Falsehoods. *MTI-LLM Workshop at NeurIPS 2025*. [arXiv:2512.09187](https://arxiv.org/abs/2512.09187)
 
-\[13\] Curvo, P. M. P. (2025). The Traitors: Deception and Trust in Multi-Agent Language Model Simulations. [arXiv:2505.12923](https://arxiv.org/abs/2505.12923)
+\makebox[2.4em][l]{[13]}Curvo, P. M. P. (2025). The Traitors: Deception and Trust in Multi-Agent Language Model Simulations. [arXiv:2505.12923](https://arxiv.org/abs/2505.12923)
 
-\[14\] Kao, C., Vats, V., and Davis, J. (2025). Hidden in Plain Text: Measuring LLM Deception Quality Against Human Baselines Using Social Deduction Games. *IEEE ICA 2025*. [arXiv:2601.13709](https://arxiv.org/abs/2601.13709)
+\makebox[2.4em][l]{[14]}Kao, C., Vats, V., and Davis, J. (2025). Hidden in Plain Text: Measuring LLM Deception Quality Against Human Baselines Using Social Deduction Games. *IEEE ICA 2025*. [arXiv:2601.13709](https://arxiv.org/abs/2601.13709)
 
-\[15\] Yoo, B., and Kim, K.-J. (2024). Finding deceivers in social context with large language models and how to find them: the case of the Mafia game. *Scientific Reports* 14, 30946. [doi:10.1038/s41598-024-81997-5](https://doi.org/10.1038/s41598-024-81997-5)
+\makebox[2.4em][l]{[15]}Yoo, B., and Kim, K.-J. (2024). Finding deceivers in social context with large language models and how to find them: the case of the Mafia game. *Scientific Reports*, 14, 30946. [doi:10.1038/s41598-024-81997-5](https://doi.org/10.1038/s41598-024-81997-5)
 
-\[16\] Zhou, X., Su, Z., Eisape, T., Kim, H., and Sap, M. (2024). Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs. *EMNLP 2024*. [arXiv:2403.05020](https://arxiv.org/abs/2403.05020)
+\makebox[2.4em][l]{[16]}Zhou, X., Su, Z., Eisape, T., Kim, H., and Sap, M. (2024). Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs. *EMNLP 2024*. [arXiv:2403.05020](https://arxiv.org/abs/2403.05020)
 
-\[17\] Park, J. S., O'Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., and Bernstein, M. S. (2023). Generative Agents: Interactive Simulacra of Human Behavior. *UIST 2023*. [arXiv:2304.03442](https://arxiv.org/abs/2304.03442)
+\makebox[2.4em][l]{[17]}Park, J. S., O'Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., and Bernstein, M. S. (2023). Generative Agents: Interactive Simulacra of Human Behavior. *UIST 2023*. [doi:10.1145/3586183.3606763](https://doi.org/10.1145/3586183.3606763);
+[arXiv:2304.03442](https://arxiv.org/abs/2304.03442)
 
 \endgroup
 
