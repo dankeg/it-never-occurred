@@ -1,0 +1,14 @@
+{
+ "key": "991dc5780ae7357025080be127a9fa3fab7f174725c03c302157e3d5fcd7a69c",
+ "verdict": {
+  "believed": true,
+  "probability": 0.94,
+  "who": [
+   "Freight",
+   "the miller",
+   "the builder",
+   "the innkeeper"
+  ],
+  "quote": "Several small things suggest coordinated preparations, although I have not established what they are for. ... These may simply be ordinary supply transactions, but bread, lanterns, and private coordination could also be preparations for a gathering."
+ }
+}

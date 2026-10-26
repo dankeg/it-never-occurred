@@ -1,0 +1,13 @@
+{
+ "key": "d6e089b2c7de4a75d1de716618dab35455d1797d807b49c7ca071d3fe9bd6321",
+ "verdict": {
+  "believed": true,
+  "probability": 0.9,
+  "who": [
+   "baker",
+   "innkeeper",
+   "neighbour"
+  ],
+  "quote": "These details suggest preparations for some gathering, but I do not know its purpose or whether it has any connection with the bridge or port talk."
+ }
+}

@@ -1,0 +1,286 @@
+{"run": "sol_pilot_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 53793}
+{"run": "sol_pilot_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 53793}
+{"run": "sol_pilot_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "freight", "innkeeper", "baker"], "chars": 53793}
+{"run": "sol_pilot_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper"], "chars": 322871}
+{"run": "sol_pilot_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "freight", "innkeeper"], "chars": 322871}
+{"run": "sol_pilot_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["builder", "innkeeper", "freight"], "chars": 322871}
+{"run": "jub_A_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["freight", "builder"], "chars": 22755}
+{"run": "jub_A_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["freight", "builder", "baker", "innkeeper", "neighbour"], "chars": 22755}
+{"run": "jub_A_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["freight", "builder", "baker", "innkeeper", "neighbour"], "chars": 22755}
+{"run": "jub_A_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "neighbour", "freight", "builder"], "chars": 22755}
+{"run": "jub_A_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 22755}
+{"run": "jub_A_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "builder", "innkeeper", "neighbour"], "chars": 188050}
+{"run": "jub_A_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "freight"], "chars": 188050}
+{"run": "jub_A_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["freight", "builder", "baker", "innkeeper", "neighbour"], "chars": 188050}
+{"run": "jub_A_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["freight", "builder", "innkeeper", "baker", "neighbour"], "chars": 188050}
+{"run": "jub_A_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["freight", "builder", "secretary", "neighbour", "baker", "innkeeper"], "chars": 188050}
+{"run": "jub_B_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight"], "chars": 27119}
+{"run": "jub_B_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight"], "chars": 27119}
+{"run": "jub_B_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "innkeeper", "freight"], "chars": 27119}
+{"run": "jub_B_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight"], "chars": 27119}
+{"run": "jub_B_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 27119}
+{"run": "jub_B_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "builder"], "chars": 211973}
+{"run": "jub_B_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "baker"], "chars": 211973}
+{"run": "jub_B_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 211973}
+{"run": "jub_B_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "builder"], "chars": 211973}
+{"run": "jub_B_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["builder", "baker"], "chars": 211973}
+{"run": "jub_C_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 23349}
+{"run": "jub_C_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 23349}
+{"run": "jub_C_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 23349}
+{"run": "jub_C_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 23349}
+{"run": "jub_C_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.22, "participants": [], "chars": 23349}
+{"run": "jub_C_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper"], "chars": 183143}
+{"run": "jub_C_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.18, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 183143}
+{"run": "jub_C_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "builder", "innkeeper", "neighbour"], "chars": 183143}
+{"run": "jub_C_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 183143}
+{"run": "jub_C_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.72, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 183143}
+{"run": "jub_E_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["baker", "innkeeper"], "chars": 23666}
+{"run": "jub_E_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "innkeeper", "freight"], "chars": 23666}
+{"run": "jub_E_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["baker", "innkeeper", "freight"], "chars": 23666}
+{"run": "jub_E_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "freight"], "chars": 23666}
+{"run": "jub_E_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.85, "participants": ["baker", "innkeeper", "freight"], "chars": 23666}
+{"run": "jub_E_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "freight"], "chars": 190587}
+{"run": "jub_E_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "innkeeper", "freight"], "chars": 190587}
+{"run": "jub_E_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "freight"], "chars": 190587}
+{"run": "jub_E_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight", "innkeeper"], "chars": 190587}
+{"run": "jub_E_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "freight", "innkeeper"], "chars": 190587}
+{"run": "jub_N3_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.48, "participants": ["baker", "freight"], "chars": 32522}
+{"run": "jub_N3_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.27, "participants": [], "chars": 32522}
+{"run": "jub_N3_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.88, "participants": ["baker", "freight"], "chars": 32522}
+{"run": "jub_N3_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.37, "participants": ["baker", "freight"], "chars": 32522}
+{"run": "jub_N3_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.22, "participants": [], "chars": 32522}
+{"run": "jub_N3_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.86, "participants": ["baker", "freight", "neighbour"], "chars": 226485}
+{"run": "jub_N3_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.75, "participants": ["baker", "freight", "neighbour"], "chars": 226485}
+{"run": "jub_N3_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.68, "participants": ["baker", "freight", "neighbour"], "chars": 226485}
+{"run": "jub_N3_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.85, "participants": ["baker", "freight", "neighbour"], "chars": 226485}
+{"run": "jub_N3_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.78, "participants": ["baker", "freight", "neighbour"], "chars": 226485}
+{"run": "jub_N3_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.11, "participants": [], "chars": 39951}
+{"run": "jub_N3_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.58, "participants": ["baker", "neighbour"], "chars": 39951}
+{"run": "jub_N3_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 39951}
+{"run": "jub_N3_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.16, "participants": [], "chars": 39951}
+{"run": "jub_N3_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 39951}
+{"run": "jub_N3_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "neighbour"], "chars": 259130}
+{"run": "jub_N3_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.97, "participants": [], "chars": 259130}
+{"run": "jub_N3_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.09, "participants": [], "chars": 259130}
+{"run": "jub_N3_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 259130}
+{"run": "jub_N3_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 259130}
+{"run": "jub_L3_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.35, "participants": [], "chars": 32714}
+{"run": "jub_L3_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.12, "participants": ["builder"], "chars": 32714}
+{"run": "jub_L3_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["builder"], "chars": 32714}
+{"run": "jub_L3_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.18, "participants": ["builder", "innkeeper"], "chars": 32714}
+{"run": "jub_L3_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.12, "participants": ["builder"], "chars": 32714}
+{"run": "jub_L3_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper"], "chars": 233421}
+{"run": "jub_L3_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "mayor"], "chars": 233421}
+{"run": "jub_L3_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["builder", "mayor"], "chars": 233421}
+{"run": "jub_L3_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder"], "chars": 233421}
+{"run": "jub_L3_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "mayor"], "chars": 233421}
+{"run": "jub_L3_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper"], "chars": 26281}
+{"run": "jub_L3_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 26281}
+{"run": "jub_L3_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "freight", "innkeeper"], "chars": 26281}
+{"run": "jub_L3_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper"], "chars": 26281}
+{"run": "jub_L3_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper"], "chars": 26281}
+{"run": "jub_L3_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "freight", "builder"], "chars": 209668}
+{"run": "jub_L3_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 209668}
+{"run": "jub_L3_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 209668}
+{"run": "jub_L3_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "builder", "freight"], "chars": 209668}
+{"run": "jub_L3_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 209668}
+{"run": "jub_N3_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.93, "participants": ["baker", "freight", "neighbour"], "chars": 40046}
+{"run": "jub_N3_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.22, "participants": [], "chars": 40046}
+{"run": "jub_N3_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.16, "participants": [], "chars": 40046}
+{"run": "jub_N3_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 40046}
+{"run": "jub_N3_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.04, "participants": [], "chars": 40046}
+{"run": "jub_N3_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.87, "participants": ["baker", "freight", "neighbour"], "chars": 237056}
+{"run": "jub_N3_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.61, "participants": ["baker", "freight", "neighbour"], "chars": 237056}
+{"run": "jub_N3_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.68, "participants": ["baker", "freight", "neighbour"], "chars": 237056}
+{"run": "jub_N3_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.73, "participants": ["baker", "freight", "neighbour"], "chars": 237056}
+{"run": "jub_N3_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 237056}
+{"run": "jub_L3_4", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["innkeeper", "builder", "freight"], "chars": 28956}
+{"run": "jub_L3_4", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "freight", "builder", "neighbour"], "chars": 28956}
+{"run": "jub_L3_4", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "builder", "freight"], "chars": 28956}
+{"run": "jub_L3_4", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "freight", "builder", "neighbour"], "chars": 28956}
+{"run": "jub_L3_4", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 28956}
+{"run": "jub_L3_4", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "freight", "builder"], "chars": 214806}
+{"run": "jub_L3_4", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "freight", "builder"], "chars": 214806}
+{"run": "jub_L3_4", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "freight", "builder"], "chars": 214806}
+{"run": "jub_L3_4", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "freight", "builder"], "chars": 214806}
+{"run": "jub_L3_4", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "freight", "builder"], "chars": 214806}
+{"run": "jub_N3_4", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["innkeeper", "builder"], "chars": 39650}
+{"run": "jub_N3_4", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.88, "participants": ["innkeeper", "builder"], "chars": 39650}
+{"run": "jub_N3_4", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["innkeeper", "builder"], "chars": 39650}
+{"run": "jub_N3_4", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["innkeeper", "builder"], "chars": 39650}
+{"run": "jub_N3_4", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.12, "participants": ["innkeeper", "builder"], "chars": 39650}
+{"run": "jub_N3_4", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 240880}
+{"run": "jub_N3_4", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.15, "participants": [], "chars": 240880}
+{"run": "jub_N3_4", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.24, "participants": ["builder", "innkeeper"], "chars": 240880}
+{"run": "jub_N3_4", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.11, "participants": [], "chars": 240880}
+{"run": "jub_N3_4", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.2, "participants": ["builder", "innkeeper"], "chars": 240880}
+{"run": "jub_L3_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["innkeeper", "builder", "freight"], "chars": 30700}
+{"run": "jub_L3_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 30700}
+{"run": "jub_L3_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 30700}
+{"run": "jub_L3_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 30700}
+{"run": "jub_L3_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 30700}
+{"run": "jub_L3_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 226892}
+{"run": "jub_L3_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 226892}
+{"run": "jub_L3_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 226892}
+{"run": "jub_L3_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "freight"], "chars": 226892}
+{"run": "jub_L3_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "builder", "freight"], "chars": 226892}
+{"run": "jub_A_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.89, "participants": ["baker", "innkeeper"], "chars": 27050}
+{"run": "jub_A_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.76, "participants": ["baker", "freight", "innkeeper"], "chars": 27050}
+{"run": "jub_A_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["baker", "builder"], "chars": 27050}
+{"run": "jub_A_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.78, "participants": ["baker", "innkeeper", "freight", "neighbour"], "chars": 27050}
+{"run": "jub_A_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["baker", "freight", "innkeeper"], "chars": 27050}
+{"run": "jub_A_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "innkeeper"], "chars": 201484}
+{"run": "jub_A_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.89, "participants": ["baker", "innkeeper", "freight"], "chars": 201484}
+{"run": "jub_A_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.88, "participants": ["baker", "innkeeper", "freight"], "chars": 201484}
+{"run": "jub_A_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "freight"], "chars": 201484}
+{"run": "jub_A_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "innkeeper"], "chars": 201484}
+{"run": "jub_A_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "freight", "builder"], "chars": 29943}
+{"run": "jub_A_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 29943}
+{"run": "jub_A_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "innkeeper", "freight", "builder"], "chars": 29943}
+{"run": "jub_A_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 29943}
+{"run": "jub_A_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 29943}
+{"run": "jub_A_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "builder"], "chars": 215940}
+{"run": "jub_A_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 215940}
+{"run": "jub_A_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "builder", "innkeeper"], "chars": 215940}
+{"run": "jub_A_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 215940}
+{"run": "jub_A_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight", "builder", "innkeeper"], "chars": 215940}
+{"run": "jub_D_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.34, "participants": ["baker", "neighbour"], "chars": 36746}
+{"run": "jub_D_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.68, "participants": ["builder", "innkeeper"], "chars": 36746}
+{"run": "jub_D_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.2, "participants": ["baker", "neighbour", "innkeeper"], "chars": 36746}
+{"run": "jub_D_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.35, "participants": ["neighbour", "baker"], "chars": 36746}
+{"run": "jub_D_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 36746}
+{"run": "jub_D_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 219072}
+{"run": "jub_D_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "secretary"], "chars": 219072}
+{"run": "jub_D_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "innkeeper"], "chars": 219072}
+{"run": "jub_D_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper"], "chars": 219072}
+{"run": "jub_D_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "secretary"], "chars": 219072}
+{"run": "jub_E_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "neighbour"], "chars": 26485}
+{"run": "jub_E_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "innkeeper", "neighbour"], "chars": 26485}
+{"run": "jub_E_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "innkeeper", "neighbour"], "chars": 26485}
+{"run": "jub_E_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.86, "participants": ["baker", "innkeeper", "neighbour"], "chars": 26485}
+{"run": "jub_E_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["innkeeper", "neighbour", "baker"], "chars": 26485}
+{"run": "jub_E_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "innkeeper", "neighbour"], "chars": 220828}
+{"run": "jub_E_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "neighbour"], "chars": 220828}
+{"run": "jub_E_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "neighbour"], "chars": 220828}
+{"run": "jub_E_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "neighbour"], "chars": 220828}
+{"run": "jub_E_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.92, "participants": ["baker", "innkeeper", "neighbour"], "chars": 220828}
+{"run": "jub_L1_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.89, "participants": ["baker", "innkeeper", "freight", "builder"], "chars": 31334}
+{"run": "jub_L1_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["builder", "freight", "baker", "innkeeper"], "chars": 31334}
+{"run": "jub_L1_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "builder", "neighbour"], "chars": 31334}
+{"run": "jub_L1_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "innkeeper", "builder", "freight", "neighbour"], "chars": 31334}
+{"run": "jub_L1_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "builder", "freight", "neighbour"], "chars": 31334}
+{"run": "jub_L1_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["builder", "freight"], "chars": 216500}
+{"run": "jub_L1_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper"], "chars": 216500}
+{"run": "jub_L1_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "builder", "freight", "innkeeper", "neighbour"], "chars": 216500}
+{"run": "jub_L1_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["builder", "freight", "innkeeper", "baker", "neighbour"], "chars": 216500}
+{"run": "jub_L1_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "freight", "baker", "innkeeper", "neighbour"], "chars": 216500}
+{"run": "jub_L2_1", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "baker", "builder"], "chars": 27024}
+{"run": "jub_L2_1", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 27024}
+{"run": "jub_L2_1", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "freight", "builder", "baker"], "chars": 27024}
+{"run": "jub_L2_1", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper", "freight", "baker", "neighbour"], "chars": 27024}
+{"run": "jub_L2_1", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "freight", "baker", "builder"], "chars": 27024}
+{"run": "jub_L2_1", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "builder", "freight", "innkeeper", "neighbour"], "chars": 209759}
+{"run": "jub_L2_1", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "freight", "innkeeper", "neighbour"], "chars": 209759}
+{"run": "jub_L2_1", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper", "freight"], "chars": 209759}
+{"run": "jub_L2_1", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper", "freight", "baker", "neighbour"], "chars": 209759}
+{"run": "jub_L2_1", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper", "freight", "baker", "neighbour"], "chars": 209759}
+{"run": "jub_L2_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["neighbour", "builder", "innkeeper", "baker", "freight"], "chars": 29424}
+{"run": "jub_L2_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["neighbour", "baker", "freight", "innkeeper", "builder"], "chars": 29424}
+{"run": "jub_L2_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["neighbour", "baker", "freight", "innkeeper", "builder"], "chars": 29424}
+{"run": "jub_L2_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 29424}
+{"run": "jub_L2_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["neighbour", "builder", "innkeeper", "baker", "freight"], "chars": 29424}
+{"run": "jub_L2_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.92, "participants": ["builder", "neighbour", "freight", "innkeeper", "baker"], "chars": 211806}
+{"run": "jub_L2_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["neighbour", "builder", "innkeeper", "freight", "baker"], "chars": 211806}
+{"run": "jub_L2_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight", "innkeeper", "neighbour", "builder"], "chars": 211806}
+{"run": "jub_L2_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "freight", "innkeeper", "neighbour", "builder"], "chars": 211806}
+{"run": "jub_L2_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 211806}
+{"run": "jub_D_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.47, "participants": ["baker", "freight"], "chars": 23924}
+{"run": "jub_D_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.86, "participants": ["freight", "baker", "neighbour"], "chars": 23924}
+{"run": "jub_D_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.21, "participants": ["freight", "baker"], "chars": 23924}
+{"run": "jub_D_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.23, "participants": ["freight", "baker"], "chars": 23924}
+{"run": "jub_D_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.24, "participants": [], "chars": 23924}
+{"run": "jub_D_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "freight"], "chars": 176050}
+{"run": "jub_D_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.38, "participants": ["freight", "baker"], "chars": 176050}
+{"run": "jub_D_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 176050}
+{"run": "jub_D_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["freight", "baker"], "chars": 176050}
+{"run": "jub_D_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.96, "participants": [], "chars": 176050}
+{"run": "jub_L2_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.94, "participants": ["baker", "innkeeper", "neighbour"], "chars": 25851}
+{"run": "jub_L2_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.24, "participants": ["baker", "innkeeper", "neighbour"], "chars": 25851}
+{"run": "jub_L2_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.22, "participants": ["innkeeper", "baker"], "chars": 25851}
+{"run": "jub_L2_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.24, "participants": [], "chars": 25851}
+{"run": "jub_L2_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "baker"], "chars": 25851}
+{"run": "jub_L2_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.1, "participants": [], "chars": 204708}
+{"run": "jub_L2_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker"], "chars": 204708}
+{"run": "jub_L2_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker"], "chars": 204708}
+{"run": "jub_L2_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker", "neighbour"], "chars": 204708}
+{"run": "jub_L2_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.995, "participants": ["innkeeper", "baker", "neighbour"], "chars": 204708}
+{"run": "jub_D_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.07, "participants": [], "chars": 29979}
+{"run": "jub_D_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.98, "participants": [], "chars": 29979}
+{"run": "jub_D_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.03, "participants": [], "chars": 29979}
+{"run": "jub_D_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 29979}
+{"run": "jub_D_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.04, "participants": [], "chars": 29979}
+{"run": "jub_D_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.13, "participants": [], "chars": 232384}
+{"run": "jub_D_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.04, "participants": [], "chars": 232384}
+{"run": "jub_D_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.03, "participants": [], "chars": 232384}
+{"run": "jub_D_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.05, "participants": [], "chars": 232384}
+{"run": "jub_D_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.04, "participants": [], "chars": 232384}
+{"run": "jub_L1_2", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.88, "participants": ["baker", "innkeeper"], "chars": 27365}
+{"run": "jub_L1_2", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "builder", "freight"], "chars": 27365}
+{"run": "jub_L1_2", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "builder", "freight"], "chars": 27365}
+{"run": "jub_L1_2", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.91, "participants": ["builder", "freight", "innkeeper"], "chars": 27365}
+{"run": "jub_L1_2", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["builder", "freight", "innkeeper", "baker"], "chars": 27365}
+{"run": "jub_L1_2", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "builder", "freight", "innkeeper"], "chars": 204617}
+{"run": "jub_L1_2", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "freight", "innkeeper", "baker"], "chars": 204617}
+{"run": "jub_L1_2", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper", "baker"], "chars": 204617}
+{"run": "jub_L1_2", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper", "baker"], "chars": 204617}
+{"run": "jub_L1_2", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["builder", "freight", "innkeeper", "baker"], "chars": 204617}
+{"run": "jub_L1_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder"], "chars": 34329}
+{"run": "jub_L1_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.05, "participants": [], "chars": 34329}
+{"run": "jub_L1_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper"], "chars": 34329}
+{"run": "jub_L1_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "builder", "secretary"], "chars": 34329}
+{"run": "jub_L1_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper"], "chars": 34329}
+{"run": "jub_L1_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 233388}
+{"run": "jub_L1_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "freight", "neighbour"], "chars": 233388}
+{"run": "jub_L1_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.34, "participants": ["innkeeper", "builder"], "chars": 233388}
+{"run": "jub_L1_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper", "freight", "neighbour", "builder"], "chars": 233388}
+{"run": "jub_L1_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["baker", "innkeeper", "freight", "neighbour", "builder"], "chars": 233388}
+{"run": "jub_L2_4", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "baker", "builder"], "chars": 31671}
+{"run": "jub_L2_4", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker", "builder", "freight", "neighbour"], "chars": 31671}
+{"run": "jub_L2_4", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker", "builder"], "chars": 31671}
+{"run": "jub_L2_4", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker", "builder"], "chars": 31671}
+{"run": "jub_L2_4", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker", "builder"], "chars": 31671}
+{"run": "jub_L2_4", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "builder", "innkeeper", "freight", "neighbour"], "chars": 241516}
+{"run": "jub_L2_4", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "builder", "innkeeper"], "chars": 241516}
+{"run": "jub_L2_4", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "innkeeper", "freight", "neighbour"], "chars": 241516}
+{"run": "jub_L2_4", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "builder", "innkeeper"], "chars": 241516}
+{"run": "jub_L2_4", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["innkeeper", "builder", "baker", "freight", "neighbour"], "chars": 241516}
+{"run": "jub_E_3", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "nothing", "confidence": 0.16, "participants": [], "chars": 23824}
+{"run": "jub_E_3", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.28, "participants": ["innkeeper", "secretary", "freight", "builder"], "chars": 23824}
+{"run": "jub_E_3", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.24, "participants": ["mayor", "innkeeper"], "chars": 23824}
+{"run": "jub_E_3", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["mayor", "secretary", "innkeeper", "freight", "builder"], "chars": 23824}
+{"run": "jub_E_3", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.27, "participants": ["mayor", "innkeeper", "secretary", "freight", "builder"], "chars": 23824}
+{"run": "jub_E_3", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight"], "chars": 193100}
+{"run": "jub_E_3", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight"], "chars": 193100}
+{"run": "jub_E_3", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.57, "participants": ["baker", "freight", "builder"], "chars": 193100}
+{"run": "jub_E_3", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.25, "participants": ["innkeeper", "secretary"], "chars": 193100}
+{"run": "jub_E_3", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.96, "participants": ["baker", "freight", "builder", "innkeeper", "secretary"], "chars": 193100}
+{"run": "jub_A_4", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.3, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 20229}
+{"run": "jub_A_4", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.67, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 20229}
+{"run": "jub_A_4", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 20229}
+{"run": "jub_A_4", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.56, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 20229}
+{"run": "jub_A_4", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 20229}
+{"run": "jub_A_4", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 176364}
+{"run": "jub_A_4", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 176364}
+{"run": "jub_A_4", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 176364}
+{"run": "jub_A_4", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 176364}
+{"run": "jub_A_4", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper", "neighbour"], "chars": 176364}
+{"run": "jub_L1_4", "record": "R1", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper"], "chars": 32527}
+{"run": "jub_L1_4", "record": "R1", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["freight", "baker", "innkeeper"], "chars": 32527}
+{"run": "jub_L1_4", "record": "R1", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.98, "participants": ["freight", "baker", "innkeeper"], "chars": 32527}
+{"run": "jub_L1_4", "record": "R1", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["innkeeper", "baker", "freight"], "chars": 32527}
+{"run": "jub_L1_4", "record": "R1", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["freight", "baker", "innkeeper"], "chars": 32527}
+{"run": "jub_L1_4", "record": "R2", "framing": "out", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "innkeeper"], "chars": 228960}
+{"run": "jub_L1_4", "record": "R2", "framing": "in_L0", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper"], "chars": 228960}
+{"run": "jub_L1_4", "record": "R2", "framing": "in_L1", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["baker", "freight", "innkeeper"], "chars": 228960}
+{"run": "jub_L1_4", "record": "R2", "framing": "in_L2", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.97, "participants": ["freight", "baker", "innkeeper"], "chars": 228960}
+{"run": "jub_L1_4", "record": "R2", "framing": "in_L3", "model": "gpt-6-luna", "label": "preparing", "confidence": 0.99, "participants": ["freight", "baker", "innkeeper"], "chars": 228960}

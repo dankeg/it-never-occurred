@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/jubilee_fork.py", line 164, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/jubilee_fork.py", line 156, in main
+    report = JubileeFork(fork_parser(__doc__).parse_args(argv)).run()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 389, in run
+    report["arms"]["control"] = self.control()
+                                ^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 346, in control
+    session.run_checked(runtime, tracker, now, self._end)
+  File "<repo>/scripts/village_session.py", line 157, in run_checked
+    runtime.run(now)
+  File "<repo>/orchestrator/runtime.py", line 383, in run
+    self._poll(now)
+  File "<repo>/orchestrator/runtime.py", line 454, in _poll
+    decisions = self._decide(now, pending)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/orchestrator/runtime.py", line 479, in _decide
+    raise ReplayDiverged(f"No matching source decision at tick {now} for {names} (see diverged.json)")
+orchestrator.runtime.ReplayDiverged: No matching source decision at tick 37000 for ['neighbour', 'watchman'] (see diverged.json)

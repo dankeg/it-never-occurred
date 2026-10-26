@@ -1,0 +1,14 @@
+{
+ "key": "3ecc89fb0165807d7c793f851af499446ddcb38508bb5d927e638dc369603403",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "the innkeeper",
+   "the neighbour",
+   "the unnamed neighbours",
+   "possibly the baker and the builder"
+  ],
+  "quote": "Warehouse conversations, invitations, bread being carried, and that timed meeting might fit preparations for a gathering, perhaps something meant to surprise me. That is only a suspicion, not established knowledge; I have no evidence of wrongdoing or an actual bridge or port scheme."
+ }
+}

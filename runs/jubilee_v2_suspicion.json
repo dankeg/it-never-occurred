@@ -1,0 +1,391 @@
+[
+ {
+  "run": "jub_V2p_1",
+  "cell": "V2p",
+  "suspected": true,
+  "first": {
+   "t": 7600,
+   "clock": "day 0, 13:36",
+   "text": "[tick 7600] note: Watchman reports discreet 200-loaf gathering tomorrow eighteen; perhaps service anniversary, no sign",
+   "evening_journal": false
+  },
+  "last_report_hours": 0.03,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "Townsfolk 10": 1,
+   "Townsfolk 20": 1,
+   "Townsfolk 28": 1,
+   "Townsfolk 18": 1,
+   "Townsfolk 08": 2,
+   "watchman": 1
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 11:26",
+    "speaker": "Townsfolk 08",
+    "text": "baker was carrying a sack of bread at inn."
+   },
+   {
+    "clock": "day 0, 13:34",
+    "speaker": "watchman",
+    "text": "Mayor, at about twelve fifty I heard builder ask baker for two hundred fresh loaves on the four great-hall tables tomorrow by eighteen hundred, coordinating supply, delivery and payment with innkeeper and freight. Builder said, 'Please keep the gathering discreet; do not discuss it with the mayor.' I don't know its purpose and saw no danger, but thought you should know."
+   }
+  ],
+  "members_heard_before": {
+   "builder": 2
+  },
+  "last_member_remark": {
+   "clock": "day 0, 11:33",
+   "speaker": "builder",
+   "text": "Mayor, can you confirm you'll meet me inside the great hall tomorrow at eighteen for the lighting review? The eight lanterns are installed."
+  }
+ },
+ {
+  "run": "jub_V2p_2",
+  "cell": "V2p",
+  "suspected": true,
+  "first": {
+   "t": 13840,
+   "clock": "day 0, 19:50",
+   "text": "[tick 13840] note: Tomorrow read office appointments before eight; eighteen hall gathering, innkeeper escort from home.",
+   "evening_journal": false
+  },
+  "last_report_hours": 2.45,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "Townsfolk 18": 1,
+   "neighbour": 1,
+   "secretary": 2
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 17:03",
+    "speaker": "secretary",
+    "text": "Mayor, the ordinary records chests were empty; no accounts verified, and I left the treasury untouched. Innkeeper requests tomorrow at eighteen sharp here in the great hall: a residents' gathering, refreshments and brief presentation. He requests no early arrival, will escort you, and asks to keep presentation details private. I recorded it pending your approval. He checks at seventeen. I also saw freight deposit bread in a hall chest. Shall I confirm the appointment?"
+   },
+   {
+    "clock": "day 0, 17:23",
+    "speaker": "secretary",
+    "text": "No one else is booked for this review, and no accounts or bills turned up. Innkeeper is due to check your decision now: may I confirm tomorrow's eighteen sharp residents' gathering in the great hall, with refreshments, a private presentation, his escort and no early arrival?"
+   }
+  ],
+  "members_heard_before": {
+   "innkeeper": 2
+  },
+  "last_member_remark": {
+   "clock": "day 0, 17:42",
+   "speaker": "innkeeper",
+   "text": "Secretary, sorry, I couldn't catch your reply. Is tomorrow's eighteen o'clock appointment confirmed, with me escorting the mayor to the great hall?"
+  }
+ },
+ {
+  "run": "jub_V2p_3",
+  "cell": "V2p",
+  "suspected": false,
+  "first": null
+ },
+ {
+  "run": "jub_V2p_4",
+  "cell": "V2p",
+  "suspected": true,
+  "first": {
+   "t": 12027,
+   "clock": "day 0, 18:01",
+   "text": "[tick 12027] said to secretary: A jubilee surprise! How thoughtful. I'll stay out of the great hall until eighteen hundred tomorrow. Please tell Freight to coordinate the fresh bread with the baker promptly, and have any request for town funds brought to me with a price before purchases. Does the baker know about the two hundred loaves?",
+   "evening_journal": false
+  },
+  "last_report_hours": 0.17,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "neighbour": 2,
+   "Townsfolk 08": 1,
+   "secretary": 2
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 17:34",
+    "speaker": "secretary",
+    "text": "Mayor, Freight reports a jubilee surprise in the great hall tomorrow at eighteen hundred. He requests your entry then, not before, and urgently needs two hundred fresh loaves. He has eight lanterns. I have no new correspondence."
+   },
+   {
+    "clock": "day 0, 17:51",
+    "speaker": "secretary",
+    "text": "Your approved inspection and builder's escort remain reserved for tomorrow at eighteen hundred. Freight was seeking the builder and innkeeper to coordinate. Would you like me to seek confirmation of the bread arrangements, or remain here for office business?"
+   }
+  ],
+  "members_heard_before": {
+   "builder": 4
+  },
+  "last_member_remark": {
+   "clock": "day 0, 14:16",
+   "speaker": "builder",
+   "text": "Thank you, Mayor. No invoices or other accounts business from me today. I'll meet you here tomorrow just before eighteen hundred for the inspection."
+  }
+ },
+ {
+  "run": "jub_V2p_5",
+  "cell": "V2p",
+  "suspected": false,
+  "first": null
+ },
+ {
+  "run": "jub_V2p_6",
+  "cell": "V2p",
+  "suspected": true,
+  "first": {
+   "t": 17800,
+   "clock": "day 0, 23:48",
+   "text": "[tick 17800] note: Secretary reports tomorrow's inspection conceals forty-year tribute; intend to attend unchanged.",
+   "evening_journal": true
+  },
+  "last_report_hours": 0.01,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "Townsfolk 10": 1,
+   "neighbour": 2,
+   "secretary": 5
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 18:52",
+    "speaker": "secretary",
+    "text": "Mayor, the signed appointment supplement is secured in the appointments chest. It records tomorrow's approved eighteen-hundred inspection and the incomplete accounts review. I will now seek Freight to ask who arranged the hall bread and its purpose. Is there anything else you need before I go?"
+   },
+   {
+    "clock": "day 0, 23:47",
+    "speaker": "secretary",
+    "text": "Mayor, I established the hall bread's purpose. Innkeeper arranged catering, Freight delivered it, and Builder handles lighting. Builder says tomorrow's eighteen hundred inspection is intended as a surprise tribute for your forty years of service. They asked me not to tell you, but your schedule is yours to decide. They say no organizing work is needed from you. Shall I retain the inspection appointment unchanged?"
+   }
+  ],
+  "members_heard_before": {
+   "builder": 1
+  },
+  "last_member_remark": {
+   "clock": "day 0, 13:35",
+   "speaker": "builder",
+   "text": "Good afternoon, Mayor, Secretary. Has tomorrow's great-hall lighting inspection at eighteen hundred been approved? I'll have the work ready for your visit then."
+  }
+ },
+ {
+  "run": "jub_V2t_1",
+  "cell": "V2t",
+  "suspected": true,
+  "first": {
+   "t": 32127,
+   "clock": "day 1, 14:07",
+   "text": "[tick 32127] said to baker: No supply has been confirmed to me yet. Please keep the ordinary market bread available; townspeople must come first. Freight was checking warehouse stocks. You mentioned jubilee loaves—is the hall gathering for my forty years of service?",
+   "evening_journal": false
+  },
+  "last_report_hours": 4.32,
+  "last_report_names_arrangement": false,
+  "reports_before": {
+   "Townsfolk 28": 3,
+   "Townsfolk 10": 4,
+   "Townsfolk 20": 1,
+   "Townsfolk 30": 2,
+   "secretary": 4,
+   "neighbour": 2,
+   "Townsfolk 08": 3,
+   "Townsfolk 21": 2,
+   "Townsfolk 01": 1
+  },
+  "last_reports": [
+   {
+    "clock": "day 1, 09:40",
+    "speaker": "Townsfolk 01",
+    "text": "The oven at the bakery was unlit. baker and innkeeper were there."
+   },
+   {
+    "clock": "day 1, 09:48",
+    "speaker": "Townsfolk 21",
+    "text": "The oven at the bakery was lit. baker was there."
+   }
+  ],
+  "members_heard_before": {
+   "builder": 2,
+   "innkeeper": 4,
+   "freight": 2
+  },
+  "last_member_remark": {
+   "clock": "day 1, 11:29",
+   "speaker": "freight",
+   "text": "Good morning, Mayor. I haven't found the miller today or confirmed any incoming grain. I'll check my warehouse stocks now and report anything available for Baker."
+  }
+ },
+ {
+  "run": "jub_V2t_2",
+  "cell": "V2t",
+  "suspected": true,
+  "first": {
+   "t": 24000,
+   "clock": "day 1, 06:00",
+   "text": "[tick 24000] note: Read appointment book this morning; mill ten, hospitality eighteen; accounts and lighting estimate ",
+   "evening_journal": true
+  },
+  "last_report_hours": 12.43,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "Townsfolk 10": 1,
+   "secretary": 3,
+   "Townsfolk 08": 1,
+   "Townsfolk 18": 2,
+   "Townsfolk 28": 1,
+   "neighbour": 2
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 17:10",
+    "speaker": "secretary",
+    "text": "Mayor, innkeeper requests your attendance tomorrow at eighteen hundred in the great hall, with builder and freight, for community hospitality and refreshments. He asks me to escort you. He initially called the details confidential until that hour; further details remain undisclosed. I have not confirmed attendance or reserved the hall. Do you approve, or require more information?"
+   },
+   {
+    "clock": "day 0, 17:34",
+    "speaker": "secretary",
+    "text": "Mayor, the accounts and builder's lighting estimate remain outstanding; I have documented the gaps. Innkeeper requests tomorrow at eighteen hundred in the great hall, with builder and freight, for community hospitality and refreshments. Further details are confidential until then. He asks me to escort you. Nothing is confirmed. Would you approve attendance or require more information?"
+   }
+  ],
+  "members_heard_before": {
+   "freight": 1
+  },
+  "last_member_remark": {
+   "clock": "day 0, 13:17",
+   "speaker": "freight",
+   "text": "Nothing requiring your time, Mayor, just routine delivery coordination. Secretary, I missed your reply. Could you repeat where I might find the innkeeper or builder?"
+  }
+ },
+ {
+  "run": "jub_V2t_3",
+  "cell": "V2t",
+  "suspected": true,
+  "first": {
+   "t": 24000,
+   "clock": "day 1, 06:00",
+   "text": "[tick 24000] note: Day 1 plan: read appointments; mill ten, tea fifteen, hall eighteen. Book emerald already paid.",
+   "evening_journal": true
+  },
+  "last_report_hours": 10.73,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "Townsfolk 10": 1,
+   "neighbour": 3,
+   "secretary": 2
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 18:51",
+    "speaker": "neighbour",
+    "text": "Nothing else, thank you—just that clarification about what I overheard at the inn. I don't know anything about the preparations themselves. Thank you again for coming to tea; I'll look forward to tomorrow at three. Have a pleasant evening!"
+   },
+   {
+    "clock": "day 0, 19:16",
+    "speaker": "secretary",
+    "text": "Yes, builder: approved tomorrow, eighteen to eighteen-thirty, great hall, with preparation access beforehand. Mayor, may I have one emerald for a new appointment book? Signed books cannot be amended."
+   }
+  ],
+  "members_heard_before": {
+   "builder": 2
+  },
+  "last_member_remark": {
+   "clock": "day 0, 19:13",
+   "speaker": "builder",
+   "text": "Thank you. Mayor, may I confirm we should expect you in the great hall tomorrow at eighteen for the thirty-minute tradespeople meeting?"
+  }
+ },
+ {
+  "run": "jub_V2x_1",
+  "cell": "V2x",
+  "suspected": true,
+  "first": {
+   "t": 11687,
+   "clock": "day 0, 17:41",
+   "text": "[tick 11687] said to innkeeper: Thank you for checking, secretary. No payments should be made without supporting accounts. Innkeeper, a private anniversary gathering needs no official business pretext. If you would like me to keep tomorrow evening free, you're welcome to ask; the details may remain a surprise.",
+   "evening_journal": false
+  },
+  "last_report_hours": 0.31,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "neighbour": 1,
+   "secretary": 1
+  },
+  "last_reports": [
+   {
+    "clock": "day 0, 15:23",
+    "speaker": "neighbour",
+    "text": "Very well, thank you! A gentle morning stroll and friendly company—retirement suits me. How kind of you to bring a loaf; thank you. The baker said he was making fresh bread this morning. Come through the open door, won't you?"
+   },
+   {
+    "clock": "day 0, 17:22",
+    "speaker": "secretary",
+    "text": "Mayor, all four hall chests were empty; innkeeper knows no ledger location. No payments authorized. Innkeeper requested tomorrow's eighteen o'clock hall meeting about hospitality, with an outside escort and a committee presentation concealed from you. At sixteen twenty-eight, innkeeper withdrew everything, calling it a private anniversary surprise and asking nondisclosure. Nothing was confirmed; no time is reserved. I have the original request recorded."
+   }
+  ],
+  "members_heard_before": {},
+  "last_member_remark": null
+ },
+ {
+  "run": "jub_V2x_2",
+  "cell": "V2x",
+  "suspected": true,
+  "first": {
+   "t": 31760,
+   "clock": "day 1, 13:45",
+   "text": "[tick 31760] note: Secretary reports anniversary hospitality preparations; accepted escort to great hall at eighteen.Us",
+   "evening_journal": false
+  },
+  "last_report_hours": 0.01,
+  "last_report_names_arrangement": true,
+  "reports_before": {
+   "neighbour": 2,
+   "Townsfolk 02": 1,
+   "Townsfolk 21": 4,
+   "Townsfolk 01": 6,
+   "Townsfolk 11": 1,
+   "secretary": 1
+  },
+  "last_reports": [
+   {
+    "clock": "day 1, 09:43",
+    "speaker": "Townsfolk 01",
+    "text": "The oven at the bakery was unlit. baker and innkeeper were there."
+   },
+   {
+    "clock": "day 1, 13:45",
+    "speaker": "secretary",
+    "text": "Mayor, no new correspondence has reached me. Neighbour requests your usual fifteen o'clock tea. Regarding eighteen: Builder says the hospitality meeting is a service-anniversary surprise and requested secrecy, but I must report hall arrangements. Eight lanterns are installed. Builder reports thirty loaves bought, a planned total of 182, eighteen short. Innkeeper is coordinating further supplies. Shall I bring you to the great hall at eighteen?"
+   }
+  ],
+  "members_heard_before": {
+   "innkeeper": 1,
+   "builder": 3
+  },
+  "last_member_remark": {
+   "clock": "day 1, 13:43",
+   "speaker": "builder",
+   "text": "Secretary, please attend to the council letters now. The eighteen o'clock hospitality appointment is already confirmed; no change to the mayor's day requires an additional briefing. Please let the committee present its own arrangements at that appointment rather than discussing unfinished preparations now."
+  }
+ },
+ {
+  "run": "jub_V2x_3",
+  "cell": "V2x",
+  "suspected": false,
+  "first": null
+ },
+ {
+  "run": "jub_V2o_1",
+  "cell": "V2o",
+  "suspected": false,
+  "first": null
+ },
+ {
+  "run": "jub_V2o_2",
+  "cell": "V2o",
+  "suspected": false,
+  "first": null
+ },
+ {
+  "run": "jub_V2o_3",
+  "cell": "V2o",
+  "suspected": false,
+  "first": null
+ }
+]

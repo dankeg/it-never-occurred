@@ -1,0 +1,13 @@
+{
+ "key": "3178d04adf1f4a5ae627267a50c73ace4f387f871df903f9c51cb0d23b2dccee",
+ "verdict": {
+  "believed": true,
+  "probability": 0.93,
+  "who": [
+   "baker",
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "That suggests people are organizing food or hospitality at the hall, possibly for tonight's meeting, although nobody has told me the connection or its precise purpose. It could be a gathering or surprise, but that is only a guess."
+ }
+}

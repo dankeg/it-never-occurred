@@ -1,0 +1,33 @@
+{
+ "point": {
+  "run": "jub_V2p_3",
+  "agent": "freight",
+  "game_time": 15360,
+  "swap": null,
+  "resample": [
+   "freight"
+  ],
+  "mute": []
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 123,
+   "replayed": 123,
+   "mayor_unaware": true
+  },
+  "resample_route": {
+   "calls": 37,
+   "decisions": 87,
+   "replayed": 50,
+   "mayor_unaware": true
+  },
+  "brief_route": {
+   "calls": 93,
+   "decisions": 100,
+   "replayed": 7,
+   "mayor_unaware": true
+  }
+ }
+}

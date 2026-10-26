@@ -1,0 +1,13 @@
+{
+ "key": "c7f796dd9d8390b2fb01a2693dfa60cb893adc2ae35880289a6c7bba21f82d75",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "innkeeper",
+   "baker",
+   "perhaps builder"
+  ],
+  "quote": "Together these reports suggest some community provisioning or fundraising effort involving the innkeeper, baker, and perhaps builder. ... Overall, people seem to be arranging something without much direct communication to me."
+ }
+}

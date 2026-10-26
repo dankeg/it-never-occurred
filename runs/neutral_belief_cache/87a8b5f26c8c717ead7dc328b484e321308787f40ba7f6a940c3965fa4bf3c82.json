@@ -1,0 +1,13 @@
+{
+ "key": "87a8b5f26c8c717ead7dc328b484e321308787f40ba7f6a940c3965fa4bf3c82",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "local tradespeople",
+   "secretary"
+  ],
+  "quote": "This makes me suspect a surprise celebration or tribute, possibly for me, rather than ordinary public business, though I do not know the actual contents."
+ }
+}

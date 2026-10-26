@@ -1,0 +1,13 @@
+{
+ "key": "34266f1a931ce586b2b85c9a20fdff016ff4c73ed81ab01f652f5be0557211dc",
+ "verdict": {
+  "believed": true,
+  "probability": 0.97,
+  "who": [
+   "innkeeper",
+   "baker",
+   "builder"
+  ],
+  "quote": "These observations suggest preparations for some hospitality gathering, possibly connected with the innkeeper's meeting, but nobody has told me its exact purpose or confirmed that connection."
+ }
+}

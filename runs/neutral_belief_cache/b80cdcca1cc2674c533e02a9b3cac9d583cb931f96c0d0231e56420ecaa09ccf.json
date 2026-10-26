@@ -1,0 +1,14 @@
+{
+ "key": "b80cdcca1cc2674c533e02a9b3cac9d583cb931f96c0d0231e56420ecaa09ccf",
+ "verdict": {
+  "believed": true,
+  "probability": 0.94,
+  "who": [
+   "innkeeper",
+   "neighbour",
+   "baker",
+   "builder"
+  ],
+  "quote": "Combined with warehouse conversations, invitations, and possible bread supplies, it could be preparations for a private gathering or surprise, perhaps involving the innkeeper, neighbour, baker, and builder. That is only a hypothesis, not evidence of wrongdoing or even of a coordinated plan."
+ }
+}

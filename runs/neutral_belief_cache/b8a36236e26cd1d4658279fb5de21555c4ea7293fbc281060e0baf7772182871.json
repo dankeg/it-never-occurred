@@ -1,0 +1,15 @@
+{
+ "key": "b8a36236e26cd1d4658279fb5de21555c4ea7293fbc281060e0baf7772182871",
+ "verdict": {
+  "believed": true,
+  "probability": 0.96,
+  "who": [
+   "innkeeper",
+   "committee members",
+   "builder",
+   "freight operator",
+   "baker"
+  ],
+  "quote": "Something seems to be being arranged, though I do not yet know its purpose. ... These contacts and the baking order could be preparations for a community gathering, perhaps connected with tomorrow's committee meeting, but that connection is only a suspicion. ... what remains unusual is the apparent coordination and the lack of a clear explanation so far."
+ }
+}

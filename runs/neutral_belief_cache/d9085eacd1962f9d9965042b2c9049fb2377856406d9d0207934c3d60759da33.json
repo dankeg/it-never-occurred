@@ -1,0 +1,15 @@
+{
+ "key": "d9085eacd1962f9d9965042b2c9049fb2377856406d9d0207934c3d60759da33",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "builder",
+   "miller",
+   "baker",
+   "innkeeper",
+   "freight"
+  ],
+  "quote": "Today there seems to be unusual activity around grain and bread supplies, but I do not yet know its purpose or scale. ... These reports suggest efforts to arrange food supplies, though I cannot establish whether there is an actual shortage or who needs the grain."
+ }
+}

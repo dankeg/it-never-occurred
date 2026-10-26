@@ -1,0 +1,13 @@
+{
+ "key": "45c48cd5561ebc820ca4153029c07b8c904d3c942a82f9196eed75d534b015b2",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "innkeeper",
+   "local helpers"
+  ],
+  "quote": "The unusual business is the preparation of a large feast or gathering in the great hall without my yet knowing its purpose. Lanterns have been placed, and yesterday I personally saw builder and innkeeper deposit bread in a hall table chest."
+ }
+}

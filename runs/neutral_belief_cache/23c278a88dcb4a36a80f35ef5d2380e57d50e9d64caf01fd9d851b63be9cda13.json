@@ -1,0 +1,12 @@
+{
+ "key": "23c278a88dcb4a36a80f35ef5d2380e57d50e9d64caf01fd9d851b63be9cda13",
+ "verdict": {
+  "believed": true,
+  "probability": 0.85,
+  "who": [
+   "builder",
+   "secretary"
+  ],
+  "quote": "The builder and secretary are involved in arranging that visit. ... These details make me wonder whether a gathering or some other preparation is taking place without my knowledge, perhaps connected to the great hall, but I have no evidence of its purpose or of a connection to the bakery."
+ }
+}

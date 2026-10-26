@@ -1,0 +1,13 @@
+{
+ "key": "d6ca7421839cd0500699c5aa9714e5903ee6ce8871d48a62b19453c00f8cc9fc",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight"
+  ],
+  "quote": "My best guess is that this is a planned communal meal or surprise occasion whose purpose is deliberately being kept from me until tonight."
+ }
+}

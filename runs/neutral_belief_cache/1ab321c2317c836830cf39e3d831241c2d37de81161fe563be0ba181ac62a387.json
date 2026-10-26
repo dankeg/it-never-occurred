@@ -1,0 +1,12 @@
+{
+ "key": "1ab321c2317c836830cf39e3d831241c2d37de81161fe563be0ba181ac62a387",
+ "verdict": {
+  "believed": true,
+  "probability": 0.86,
+  "who": [
+   "innkeeper",
+   "builder"
+  ],
+  "quote": "Something is being arranged through informal conversations, but I do not yet know its full purpose. ... The neighbour clarified that builder reportedly wanted to meet the innkeeper, not me. Secretary independently says builder mentioned funding, not an appointment."
+ }
+}

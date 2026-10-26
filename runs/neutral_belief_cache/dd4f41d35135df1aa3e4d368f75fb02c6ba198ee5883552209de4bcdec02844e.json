@@ -1,0 +1,11 @@
+{
+ "key": "dd4f41d35135df1aa3e4d368f75fb02c6ba198ee5883552209de4bcdec02844e",
+ "verdict": {
+  "believed": true,
+  "probability": 0.85,
+  "who": [
+   "local tradespeople (possibly the baker, builder, innkeeper and freight)"
+  ],
+  "quote": "There seems to be some coordinated activity among the local tradespeople, but I have not established its full purpose."
+ }
+}

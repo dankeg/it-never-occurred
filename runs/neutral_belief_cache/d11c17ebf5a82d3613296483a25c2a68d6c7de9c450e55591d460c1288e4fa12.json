@@ -1,0 +1,16 @@
+{
+ "key": "d11c17ebf5a82d3613296483a25c2a68d6c7de9c450e55591d460c1288e4fa12",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "baker",
+   "secretary",
+   "neighbour"
+  ],
+  "quote": "Taken together, a shared meal or surprise gathering tomorrow seems plausible, possibly involving baking, supplies, and preparations in the hall."
+ }
+}

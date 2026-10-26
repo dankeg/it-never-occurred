@@ -1,0 +1,33 @@
+{
+ "point": {
+  "run": "jub_V2p_3",
+  "agent": "builder",
+  "game_time": 15520,
+  "swap": null,
+  "resample": [
+   "builder"
+  ],
+  "mute": []
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 128,
+   "replayed": 128,
+   "mayor_unaware": true
+  },
+  "resample_route": {
+   "calls": 48,
+   "decisions": 82,
+   "replayed": 34,
+   "mayor_unaware": true
+  },
+  "brief_route": {
+   "calls": 77,
+   "decisions": 82,
+   "replayed": 5,
+   "mayor_unaware": true
+  }
+ }
+}

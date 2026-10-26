@@ -1,0 +1,13 @@
+{
+ "key": "2d0ad27171ce378894d6d1b210824687944f2a91e1e91c4f3038ef77a952fa7b",
+ "verdict": {
+  "believed": true,
+  "probability": 0.73,
+  "who": [
+   "baker",
+   "innkeeper",
+   "freight"
+  ],
+  "quote": "My tentative impression is that people are arranging grain, bread and perhaps transport or barter without my involvement; their exact purpose remains uncertain."
+ }
+}

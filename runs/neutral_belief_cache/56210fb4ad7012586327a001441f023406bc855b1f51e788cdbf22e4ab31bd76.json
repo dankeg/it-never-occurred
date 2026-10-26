@@ -1,0 +1,13 @@
+{
+ "key": "56210fb4ad7012586327a001441f023406bc855b1f51e788cdbf22e4ab31bd76",
+ "verdict": {
+  "believed": true,
+  "probability": 0.98,
+  "who": [
+   "builder",
+   "freight",
+   "innkeeper"
+  ],
+  "quote": "My best guess is that people are jointly preparing a gathering with food, perhaps something more social than an ordinary business appointment. The unexplained purpose and request not to arrive early could mean they want the preparations kept from me, possibly for a surprise, but I have no confirmation."
+ }
+}

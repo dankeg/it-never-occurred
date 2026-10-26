@@ -1,0 +1,13 @@
+{
+ "key": "31c665811eded543b042a68aed67d8fc8def56ec22e67a8c2c021198642d6af6",
+ "verdict": {
+  "believed": true,
+  "probability": 0.72,
+  "who": [
+   "innkeeper",
+   "secretary",
+   "builder"
+  ],
+  "quote": "My feeling that something may be happening without me remains a suspicion, not a discovery."
+ }
+}

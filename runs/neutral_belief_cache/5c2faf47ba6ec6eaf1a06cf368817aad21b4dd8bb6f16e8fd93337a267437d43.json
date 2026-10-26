@@ -1,0 +1,12 @@
+{
+ "key": "5c2faf47ba6ec6eaf1a06cf368817aad21b4dd8bb6f16e8fd93337a267437d43",
+ "verdict": {
+  "believed": true,
+  "probability": 0.88,
+  "who": [
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "I suspect the hall arrangements may be for some gathering, possibly a social occasion they have not told me about, rather than merely routine maintenance."
+ }
+}

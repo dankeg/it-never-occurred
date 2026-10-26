@@ -1,0 +1,13 @@
+{
+ "key": "1d844078ae2063f5620f8deddc75cfb53c2ae12bf92cb38c2e1337a7ea89af94",
+ "verdict": {
+  "believed": true,
+  "probability": 0.65,
+  "who": [
+   "baker",
+   "freight",
+   "neighbour (possibly)"
+  ],
+  "quote": "I do not yet know what change was proposed, whether anyone agreed to it, or whether anything has actually happened. ... The bakery discussion might concern transport, access, or freight arrangements, but that is only a possibility, not an established purpose."
+ }
+}

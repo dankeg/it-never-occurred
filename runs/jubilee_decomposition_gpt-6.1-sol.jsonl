@@ -1,0 +1,56 @@
+{"run": "jub_A_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.78, "participants": ["builder", "freight", "baker", "innkeeper"], "chars": 188050}
+{"run": "jub_A_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.9, "participants": ["baker", "innkeeper", "freight", "builder"], "chars": 188050}
+{"run": "jub_B_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.65, "participants": ["builder", "baker", "freight", "innkeeper"], "chars": 211973}
+{"run": "jub_B_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.65, "participants": ["builder", "baker", "freight", "innkeeper"], "chars": 211973}
+{"run": "jub_C_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.65, "participants": ["innkeeper", "freight", "builder"], "chars": 183143}
+{"run": "jub_C_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.72, "participants": ["baker", "innkeeper", "freight", "builder", "neighbour"], "chars": 183143}
+{"run": "jub_E_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.65, "participants": ["baker", "innkeeper", "freight"], "chars": 190587}
+{"run": "jub_E_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.66, "participants": ["innkeeper", "baker", "freight", "builder"], "chars": 190587}
+{"run": "jub_N3_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.15, "participants": [], "chars": 226485}
+{"run": "jub_N3_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 226485}
+{"run": "jub_N3_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 259130}
+{"run": "jub_N3_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 259130}
+{"run": "jub_L3_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.25, "participants": [], "chars": 233421}
+{"run": "jub_L3_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.38, "participants": [], "chars": 233421}
+{"run": "jub_L3_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.88, "participants": ["innkeeper", "builder", "freight"], "chars": 209668}
+{"run": "jub_L3_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.97, "participants": ["innkeeper", "builder", "freight"], "chars": 209668}
+{"run": "jub_N3_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 237056}
+{"run": "jub_N3_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 237056}
+{"run": "jub_L3_4", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.86, "participants": ["innkeeper", "builder", "freight"], "chars": 214806}
+{"run": "jub_L3_4", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.94, "participants": ["innkeeper", "builder", "freight"], "chars": 214806}
+{"run": "jub_N3_4", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.78, "participants": ["builder", "innkeeper"], "chars": 240880}
+{"run": "jub_N3_4", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.86, "participants": ["innkeeper", "builder"], "chars": 240880}
+{"run": "jub_L3_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.22, "participants": [], "chars": 226892}
+{"run": "jub_L3_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.65, "participants": ["innkeeper", "builder", "freight"], "chars": 226892}
+{"run": "jub_A_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.3, "participants": [], "chars": 201484}
+{"run": "jub_A_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.35, "participants": [], "chars": 201484}
+{"run": "jub_A_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.82, "participants": ["innkeeper", "baker", "freight", "builder"], "chars": 215940}
+{"run": "jub_A_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.93, "participants": ["innkeeper", "baker", "freight", "builder"], "chars": 215940}
+{"run": "jub_D_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 219072}
+{"run": "jub_D_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.18, "participants": [], "chars": 219072}
+{"run": "jub_E_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.3, "participants": [], "chars": 220828}
+{"run": "jub_E_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.65, "participants": ["baker", "innkeeper", "neighbour"], "chars": 220828}
+{"run": "jub_L1_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.94, "participants": ["builder", "freight", "innkeeper"], "chars": 216500}
+{"run": "jub_L1_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.96, "participants": ["builder", "freight", "innkeeper"], "chars": 216500}
+{"run": "jub_L2_1", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.97, "participants": ["builder", "innkeeper", "freight"], "chars": 209759}
+{"run": "jub_L2_1", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.99, "participants": ["builder", "innkeeper", "freight"], "chars": 209759}
+{"run": "jub_L2_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.86, "participants": ["builder", "neighbour", "innkeeper"], "chars": 211806}
+{"run": "jub_L2_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.93, "participants": ["builder", "neighbour", "innkeeper"], "chars": 211806}
+{"run": "jub_D_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.1, "participants": [], "chars": 176050}
+{"run": "jub_D_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 176050}
+{"run": "jub_L2_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.15, "participants": [], "chars": 204708}
+{"run": "jub_L2_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.12, "participants": [], "chars": 204708}
+{"run": "jub_D_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.06, "participants": [], "chars": 232384}
+{"run": "jub_D_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.08, "participants": [], "chars": 232384}
+{"run": "jub_L1_2", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.3, "participants": [], "chars": 204617}
+{"run": "jub_L1_2", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.3, "participants": [], "chars": 204617}
+{"run": "jub_L1_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.25, "participants": [], "chars": 233388}
+{"run": "jub_L1_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.6, "participants": ["innkeeper", "builder"], "chars": 233388}
+{"run": "jub_L2_4", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.78, "participants": ["innkeeper", "builder", "baker"], "chars": 241516}
+{"run": "jub_L2_4", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.86, "participants": ["innkeeper", "baker", "builder", "freight"], "chars": 241516}
+{"run": "jub_E_3", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.25, "participants": [], "chars": 193100}
+{"run": "jub_E_3", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.28, "participants": [], "chars": 193100}
+{"run": "jub_A_4", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.3, "participants": [], "chars": 176364}
+{"run": "jub_A_4", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "nothing", "confidence": 0.35, "participants": [], "chars": 176364}
+{"run": "jub_L1_4", "record": "R2", "framing": "out", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.88, "participants": ["innkeeper", "baker", "freight", "builder"], "chars": 228960}
+{"run": "jub_L1_4", "record": "R2", "framing": "in_L0", "model": "gpt-6.1-sol", "label": "preparing", "confidence": 0.96, "participants": ["innkeeper", "baker", "freight", "builder"], "chars": 228960}

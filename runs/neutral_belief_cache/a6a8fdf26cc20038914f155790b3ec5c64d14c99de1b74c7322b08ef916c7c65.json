@@ -1,0 +1,14 @@
+{
+ "key": "a6a8fdf26cc20038914f155790b3ec5c64d14c99de1b74c7322b08ef916c7c65",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "secretary"
+  ],
+  "quote": "Something unusual is being organized around this evening's eighteen-hundred appointment in the great hall. The innkeeper described a hospitality committee involving the innkeeper, builder and freight, said bread was reserved, and promised explanations at eighteen. ... That quantity and the insistence on timing suggest a substantial gathering, perhaps a surprise celebration or communal hospitality event, but I do not know its real purpose or guests."
+ }
+}

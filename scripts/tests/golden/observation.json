@@ -1,0 +1,35 @@
+{
+ "gameTime": 2000,
+ "self": {
+  "name": "role",
+  "pos": [0, -60, 0],
+  "health": 20.0,
+  "food": 20,
+  "inventory": [
+   {"slot": 0, "item": "minecraft:written_book", "count": 1,
+    "doc": {"title": "Road ledger", "author": "Clerk", "pages": ["Timber is needed at the bridge."]}},
+   {"slot": 1, "item": "minecraft:emerald", "count": 3},
+   {"slot": 2, "item": "minecraft:oak_planks", "count": 2}
+  ],
+  "skill": {"skillId": null, "skill": null, "state": "idle", "progress": {}}
+ },
+ "entities": [
+  {"uuid": "villager-00", "type": "minecraft:villager", "name": "Clerk", "npcId": "npc:adult_00",
+   "pos": [-10, -60, 2], "distance": 4.0},
+  {"uuid": "visitor-00", "type": "minecraft:player", "name": "visitor", "pos": [-12, -60, 1], "distance": 3.0}
+ ],
+ "blocks": [
+  {"pos": [-10, -60, 0], "block": "minecraft:chest", "distance": 2.0},
+  {"pos": [-10, -60, 2], "block": "minecraft:lectern", "distance": 4.0},
+  {"pos": [-12, -60, 0], "block": "minecraft:oak_sign", "distance": 3.0}
+ ],
+ "documents": [
+  {"kind": "sign", "pos": [-12, -60, 0], "distance": 3.0,
+   "text": {"front": ["Market open", "Bring timber", "", ""], "back": ["Use west road", "", "", ""]}},
+  {"kind": "lectern", "pos": [-10, -60, 2], "distance": 4.0, "title": "Notice — bridge", "author": "Council",
+   "pages": ["Repairs start at dawn.", "Ask the clerk."]}
+ ],
+ "structures": [{"name": "bridge_span_3", "pos": [-3, -61, 0], "built": 2, "total": 6, "distance": 8.0}],
+ "heard": [{"speaker": "visitor", "text": "The bridge needs timber.", "gameTime": 1980, "distance": 3.0}],
+ "changes": [{"pos": [-3, -61, 0], "from": "minecraft:air", "to": "minecraft:oak_planks", "gameTime": 1990}]
+}

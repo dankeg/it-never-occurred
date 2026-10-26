@@ -1,0 +1,227 @@
+{
+ "point": {
+  "run": "jub_V2t_1",
+  "agent": "builder",
+  "game_time": 17080,
+  "swap": null,
+  "resample": [
+   "builder"
+  ],
+  "mute": [
+   [
+    "builder",
+    "watchman"
+   ]
+  ]
+ },
+ "horizon": 2400,
+ "arms": {
+  "control": {
+   "arm": "control",
+   "point": {
+    "run": "jub_V2t_1",
+    "agent": "builder",
+    "game_time": 17080,
+    "swap": null,
+    "resample": [
+     "builder"
+    ],
+    "mute": [
+     [
+      "builder",
+      "watchman"
+     ]
+    ]
+   },
+   "end": 19480,
+   "hall": {
+    "game_time": 19480,
+    "fresh_bread": 64,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {},
+    "secretary": {},
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 24
+    },
+    "neighbour": {},
+    "innkeeper": {},
+    "freight": {},
+    "builder": {},
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 32,
+    "secretary": 0,
+    "baker": 10,
+    "neighbour": 0,
+    "innkeeper": 0,
+    "freight": 0,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {
+    "baker": {
+     "first": {
+      "t": 14400,
+      "agent": "baker",
+      "channel": "sack",
+      "source": "freight",
+      "detail": "at [40.62463505561695, -60.0, 33.499969766323595]"
+     },
+     "channels": {
+      "sack": 81
+     }
+    }
+   },
+   "mayor_unaware": true,
+   "calls": 0,
+   "decisions": 122,
+   "replayed": 122,
+   "override_applied": false,
+   "held_rejected": [],
+   "exposure_from": 14400
+  },
+  "resample_sighting": {
+   "arm": "resample_sighting",
+   "point": {
+    "run": "jub_V2t_1",
+    "agent": "builder",
+    "game_time": 17080,
+    "swap": null,
+    "resample": [
+     "builder"
+    ],
+    "mute": [
+     [
+      "builder",
+      "watchman"
+     ]
+    ]
+   },
+   "end": 19480,
+   "hall": {
+    "game_time": 19480,
+    "fresh_bread": 64,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {},
+    "secretary": {},
+    "baker": {},
+    "neighbour": {},
+    "innkeeper": {},
+    "freight": {},
+    "builder": {},
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 32,
+    "secretary": 0,
+    "baker": 8,
+    "neighbour": 0,
+    "innkeeper": 0,
+    "freight": 0,
+    "builder": 2,
+    "watchman": 0
+   },
+   "leaks": {
+    "baker": {
+     "first": {
+      "t": 17080,
+      "agent": "baker",
+      "channel": "sack",
+      "source": "freight",
+      "detail": "at [39.607550129215646, -60.0, 33.186396549574596]"
+     },
+     "channels": {
+      "sack": 40
+     }
+    }
+   },
+   "mayor_unaware": true,
+   "calls": 46,
+   "decisions": 50,
+   "replayed": 4,
+   "override_applied": true,
+   "held_rejected": [],
+   "exposure_from": 14400
+  },
+  "mute_sighting": {
+   "arm": "mute_sighting",
+   "point": {
+    "run": "jub_V2t_1",
+    "agent": "builder",
+    "game_time": 17080,
+    "swap": null,
+    "resample": [
+     "builder"
+    ],
+    "mute": [
+     [
+      "builder",
+      "watchman"
+     ]
+    ]
+   },
+   "end": 19480,
+   "hall": {
+    "game_time": 19480,
+    "fresh_bread": 64,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {},
+    "secretary": {},
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 24
+    },
+    "neighbour": {},
+    "innkeeper": {},
+    "freight": {},
+    "builder": {},
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 32,
+    "secretary": 0,
+    "baker": 8,
+    "neighbour": 0,
+    "innkeeper": 0,
+    "freight": 0,
+    "builder": 2,
+    "watchman": 0
+   },
+   "leaks": {
+    "baker": {
+     "first": {
+      "t": 17080,
+      "agent": "baker",
+      "channel": "sack",
+      "source": "freight",
+      "detail": "at [39.607550129215646, -60.0, 33.186396549574596]"
+     },
+     "channels": {
+      "sack": 44
+     }
+    }
+   },
+   "mayor_unaware": true,
+   "calls": 49,
+   "decisions": 51,
+   "replayed": 2,
+   "override_applied": true,
+   "held_rejected": [],
+   "exposure_from": 14400
+  }
+ },
+ "stopped": null
+}

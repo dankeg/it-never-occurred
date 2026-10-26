@@ -1,0 +1,178 @@
+{
+ "309db2696486806efe43e8d5bcc372a44d5118e80c6a7e8d96ab702a9b7a3e76": {
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "other",
+   "store_in_hall"
+  ]
+ },
+ "4673cacec0a12b529d89a28ea0b6433c4424a79d591a485ff81fc48e2a830d54": {
+  "commits": false,
+  "tasks": []
+ },
+ "e10064022efa9ac58026491613573fb96ac7818a7ef02b0b1dd252d3bc4c1af4": {
+  "commits": false,
+  "tasks": []
+ },
+ "6b3ac9ad5c0103667a82c2f0de769ddc033cea3c25e2ff4ddcacba85c648f0dd": {
+  "commits": true,
+  "tasks": [
+   "move_bread"
+  ]
+ },
+ "e09e499e22cdd2d5564573622c5ed665a550873312b025a0b9e86d782ed94e14": {
+  "commits": true,
+  "tasks": [
+   "move_bread"
+  ]
+ },
+ "b27cd2dba3a068610805d390804b6530718ab312882f31f338eb90acce869013": {
+  "commits": false,
+  "tasks": []
+ },
+ "480e9113c1289b79c49166d3ad436e2d1053306f399b3f8bb99a3b16b37c6b28": {
+  "commits": true,
+  "tasks": [
+   "bring_mayor",
+   "other"
+  ]
+ },
+ "9388202a276417bb7ce93bba1e3c8adcea3859adc7dbca24087da251e26edf00": {
+  "commits": false,
+  "tasks": []
+ },
+ "6e784eb9639b5000a0466736d54e54fd7879067283e786bdb42e6dc199b047d4": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "27be6e2051041edfeb13d9bec7a66ac90bdbef822f9626f41774e7f118d0f7fa": {
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "other"
+  ]
+ },
+ "af07ea83896a4616a329f4b1e6ba51a626e31b38fef12267ab7ed87b0a8004a6": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "cbe1d0c8b145d510c4bd996067e023315c57301b6f5a6259bf40511d885e73dd": {
+  "commits": false,
+  "tasks": []
+ },
+ "6a39fb4741db40ac2fe98a3dc8aaf8a73f4c0dccc67923fde492fde8b54eb55e": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "97dea61de64997bf3c2bc2930f4aed1a4e3b49a5d2f1d9a970ecba204fe1eb32": {
+  "commits": false,
+  "tasks": []
+ },
+ "a0ea8b0f420a2fcb126e2c2e27fe4d436ec156b064a36a2d0b4f1711b9190c67": {
+  "commits": true,
+  "tasks": [
+   "pay"
+  ]
+ },
+ "652da3422d6677fba5f81f5fdb11abebc4e63345834f7f1a6693122013942583": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "8fbf25538284d54b2baaadb8d2685bef3f620d409869f5848af5bcfbcab00fcf": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "50e8ac3fd20b68db280eb5e28f8a8b4bcb0d232b65fb430e8f93e61e36024d50": {
+  "commits": true,
+  "tasks": [
+   "bring_mayor",
+   "move_bread"
+  ]
+ },
+ "643e70f868ab50cca66a8a329eff33771550923c4a255b4bbf014a4d3bb66b0e": {
+  "commits": false,
+  "tasks": []
+ },
+ "aacdccdef4c7e3b4b6703aa23956a0d9de0d1f8fb61099717ee85072513e0f4e": {
+  "commits": true,
+  "tasks": [
+   "get_grain"
+  ]
+ },
+ "1afef3b6d7e2242c3cce7b627c2b6ac9436ee2314c136f05693ffc95a74c9d26": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "017517151b8752f242767bf5961fb0011b9a3f5e932c061fb1ba5a8a78b6550a": {
+  "commits": true,
+  "tasks": [
+   "get_grain"
+  ]
+ },
+ "067419d5b09731e2acb96698e7039a7e314bcbf05d4b9a70ab3f89de451634a7": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "d46ef7d16286f9124abbf57093ade618d80d8322673825cfc8f998789b7e374d": {
+  "commits": true,
+  "tasks": [
+   "bake",
+   "move_bread"
+  ]
+ },
+ "0fe8fb91692e190d30f19002310867cbddb2019c04b725792baae5b4c0660548": {
+  "commits": true,
+  "tasks": [
+   "bake",
+   "get_grain",
+   "move_bread"
+  ]
+ },
+ "3fbbe8282bd232737ed106fe9d387ab4fc37a331bf41b351a86a03a44e2778e5": {
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "pay"
+  ]
+ },
+ "ceb67d7cbaaa978059d313809860fb85de0b806e1f8c4e04c0800f8c32a8ba9f": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "3a02e81f711b830122463918048fa7183f0a1ddf845aec4ff79dc6e0e565e8ca": {
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "other"
+  ]
+ },
+ "175ce22eb8c7e221b84f121257e84e10ef73fd98c5072161d6e407736812f9bc": {
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ "d40b27b5cc4bdfbb5ae194c973abe01005057fa740018ebcbc368849e942eb4b": {
+  "commits": true,
+  "tasks": [
+   "move_bread"
+  ]
+ }
+}

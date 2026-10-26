@@ -1,0 +1,62 @@
+{
+ "point": {
+  "run": "jub_A_4",
+  "agent": "freight",
+  "game_time": 3360,
+  "swap": null,
+  "resample": [
+   "baker"
+  ],
+  "mute": [
+   [
+    "baker",
+    "freight"
+   ]
+  ]
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 105,
+   "replayed": 105,
+   "mayor_unaware": true
+  },
+  "resample_1": {
+   "calls": 17,
+   "decisions": 60,
+   "replayed": 43,
+   "mayor_unaware": true
+  },
+  "resample_2": {
+   "calls": 27,
+   "decisions": 61,
+   "replayed": 34,
+   "mayor_unaware": true
+  },
+  "mute_1": {
+   "calls": 18,
+   "decisions": 56,
+   "replayed": 38,
+   "mayor_unaware": true
+  },
+  "mute_2": {
+   "calls": 18,
+   "decisions": 55,
+   "replayed": 37,
+   "mayor_unaware": true
+  },
+  "brief_1": {
+   "calls": 16,
+   "decisions": 57,
+   "replayed": 41,
+   "mayor_unaware": true
+  },
+  "brief_2": {
+   "calls": 19,
+   "decisions": 60,
+   "replayed": 41,
+   "mayor_unaware": true
+  }
+ }
+}

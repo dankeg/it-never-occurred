@@ -1,0 +1,12 @@
+{
+ "key": "f5649a8e342d9e31cf799de845c669189840cfdb9c8433e7289378123194fc70",
+ "verdict": {
+  "believed": true,
+  "probability": 0.95,
+  "who": [
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "Something is being prepared in the town hall, but I have not learned its purpose. I have personally seen numerous lanterns in the hall and seen both builder and innkeeper put bread into the chest at (-50, -60, 30)."
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "vantage:mayor": {
+  "participants": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": 1.0,
+   "recall": 0.5,
+   "episodes": 1
+  }
+ },
+ "vantage:watchman": {
+  "participants": {
+   "precision": null,
+   "recall": 0.0,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": null,
+   "recall": 0.0,
+   "episodes": 1
+  }
+ },
+ "actions": {
+  "participants": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": 1.0,
+   "recall": 0.5,
+   "episodes": 1
+  }
+ }
+}

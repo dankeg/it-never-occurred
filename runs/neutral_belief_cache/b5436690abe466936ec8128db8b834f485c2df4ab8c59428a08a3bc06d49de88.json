@@ -1,0 +1,13 @@
+{
+ "key": "b5436690abe466936ec8128db8b834f485c2df4ab8c59428a08a3bc06d49de88",
+ "verdict": {
+  "believed": true,
+  "probability": 1,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight"
+  ],
+  "quote": "These arrangements suggest a planned gathering whose purpose is deliberately being kept from me, though I do not yet know why."
+ }
+}

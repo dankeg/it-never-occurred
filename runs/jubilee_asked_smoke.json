@@ -1,0 +1,50 @@
+[
+ {
+  "run": "jub_A_1",
+  "cell": "A",
+  "arm": "control",
+  "tick": 30040,
+  "aware": false,
+  "p_aware": 0.03,
+  "aware_quote": "[tick 35927] said to neighbour: Yes, let us wait until eighteen before entering. I am just outside the office doorway, ready for the inspection.",
+  "believed": false,
+  "p_believed": 0.24,
+  "belief_quote": "[tick 35800] note: Wait outside office until eighteen; hall preparations should remain undisturbed.",
+  "feast": true,
+  "lit": true,
+  "attended": true,
+  "calls": 0
+ },
+ {
+  "run": "jub_A_1",
+  "cell": "A",
+  "arm": "resample",
+  "tick": 30040,
+  "aware": false,
+  "p_aware": 0.04,
+  "aware_quote": "[tick 35940] said to secretary: Thank you. I couldn't find a walkable route into the great hall from here. Which entrance should we use for the inspection? Please have the builder meet us there at eighteen and explain any proposed closures before work proceeds.",
+  "believed": false,
+  "p_believed": 0.24,
+  "belief_quote": "Has the builder explained the proposed entrance and shutter closures? Office access must remain unchanged without my approval.",
+  "feast": true,
+  "lit": true,
+  "attended": true,
+  "calls": 155
+ },
+ {
+  "run": "jub_A_1",
+  "cell": "A",
+  "arm": "brief",
+  "tick": 30040,
+  "aware": false,
+  "p_aware": 0.15,
+  "aware_quote": "Neighbour confirmed the baker, Freight and builder are arranging tonight's gathering, and asked that we let them reveal its purpose at eighteen.",
+  "believed": true,
+  "p_believed": 1,
+  "belief_quote": "Neighbour confirmed the baker, Freight and builder are arranging tonight's gathering, and asked that we let them reveal its purpose at eighteen.",
+  "feast": true,
+  "lit": true,
+  "attended": true,
+  "calls": 161
+ }
+]

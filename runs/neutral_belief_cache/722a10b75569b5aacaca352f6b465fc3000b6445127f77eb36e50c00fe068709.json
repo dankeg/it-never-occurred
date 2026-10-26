@@ -1,0 +1,13 @@
+{
+ "key": "722a10b75569b5aacaca352f6b465fc3000b6445127f77eb36e50c00fe068709",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "baker",
+   "innkeeper"
+  ],
+  "quote": "I suspect preparations for a gathering, possibly connected to the great hall presentation, are being kept from me. ... The builder, baker, and innkeeper seem involved in the unusual arrangements; the secretary is handling the appointment and its written supplement."
+ }
+}

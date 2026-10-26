@@ -1,0 +1,12 @@
+{
+ "key": "b7a294bac3c1d2ba5d16ac9b752a11009a8b27dedd1db6f5cb68f0670a99551e",
+ "verdict": {
+  "believed": true,
+  "probability": 0.77,
+  "who": [
+   "the baker",
+   "the innkeeper"
+  ],
+  "quote": "These details could fit preparations for some gathering, perhaps involving bread from the bakery and the inn, but that is only a suspicion."
+ }
+}

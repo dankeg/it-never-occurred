@@ -1,0 +1,20 @@
+[project]
+name = "minecraftsim"
+version = "0.1.0"
+description = "A deterministic Minecraft society simulator: lockstep engine harness, grounded agents and counterfactual studies."
+requires-python = ">=3.11"
+dependencies = []  # the orchestrator and scripts use only the standard library
+
+[project.optional-dependencies]
+# The local agent model server (scripts/mlx_agent_server.py), installed in .venv-mlx (C2): the versions incidents
+# M1-M4 were fixed and measured on; later versions are untested.
+local-model = ["mlx-lm==0.31.3", "mlx==0.32.0", "transformers==5.15.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["scripts/tests"]  # gate scripts named scripts/test_*.py need a server and are never collected
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F"]

@@ -1,0 +1,32 @@
+{
+ "command": [
+  "python3.11",
+  "scripts/run_jubilee.py",
+  "--runs-dir",
+  "runs",
+  "--provider",
+  "chatgpt-plan",
+  "--model",
+  "gpt-6.1-sol",
+  "--reasoning-effort",
+  "low",
+  "--max-calls",
+  "3000",
+  "--name",
+  "jub_V2p_6",
+  "--condition",
+  "scenario/jubilee_conditions/V2p_plan.json",
+  "--checkpoint-every",
+  "4800",
+  "--port",
+  "{port}",
+  "--game-port",
+  "{port+1}",
+  "--heap",
+  "3G",
+  "--replay",
+  "--resume"
+ ],
+ "servers": 1,
+ "submitted": "2026-10-25T18:28:51-07:00"
+}

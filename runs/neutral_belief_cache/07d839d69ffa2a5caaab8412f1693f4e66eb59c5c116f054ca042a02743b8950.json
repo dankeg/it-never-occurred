@@ -1,0 +1,13 @@
+{
+ "key": "07d839d69ffa2a5caaab8412f1693f4e66eb59c5c116f054ca042a02743b8950",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "secretary",
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "Together these details suggest a possible friendly or celebratory gathering under cover of the inspection, perhaps something meant for me, but that is only a suspicion."
+ }
+}

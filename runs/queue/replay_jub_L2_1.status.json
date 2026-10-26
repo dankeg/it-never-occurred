@@ -1,0 +1,31 @@
+{
+ "state": "done",
+ "pid": 89824,
+ "ports": 26500,
+ "started": "2026-10-25T12:27:50-07:00",
+ "command": [
+  "python3.11",
+  "scripts/run_jubilee.py",
+  "--runs-dir",
+  "runs",
+  "--provider",
+  "chatgpt-plan",
+  "--model",
+  "gpt-6.1-sol",
+  "--max-calls",
+  "0",
+  "--name",
+  "jub_L2_1",
+  "--condition",
+  "scenario/jubilee_conditions/L2_plan.json",
+  "--port",
+  "26500",
+  "--game-port",
+  "26501",
+  "--heap",
+  "3G",
+  "--replay-only"
+ ],
+ "exit": 0,
+ "ended": "2026-10-25T12:31:12-07:00"
+}

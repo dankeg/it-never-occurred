@@ -1,0 +1,14 @@
+{
+ "key": "2fcc4ff95a4d2040c7b60123f0c52770a399b519868f52a5752fec3c274c3c7d",
+ "verdict": {
+  "believed": true,
+  "probability": 0.97,
+  "who": [
+   "baker",
+   "innkeeper",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "These empty appointments and vague reports make me wonder whether people are keeping me occupied while arranging something, but ordinary disorganization remains possible."
+ }
+}

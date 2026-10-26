@@ -1,0 +1,14 @@
+{
+ "key": "c7d3e6626cfe6c4d2bb90287aea63cc1d573e8fa64ba8d083eefda62a179c318",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "baker",
+   "builder",
+   "freight"
+  ],
+  "quote": "These overlapping details make me suspect preparations for a jubilee gathering, perhaps a surprise celebration with bread and lighting in the great hall. That is a hypothesis, not something I have witnessed or had confirmed."
+ }
+}

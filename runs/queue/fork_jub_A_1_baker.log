@@ -1,0 +1,96 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/jubilee_fork.py", line 161, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/jubilee_fork.py", line 153, in main
+    report = JubileeFork(fork_parser(__doc__).parse_args(argv)).run()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 367, in run
+    report["arms"]["control"] = self.control()
+                                ^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 314, in control
+    with session:
+  File "<repo>/scripts/village_session.py", line 118, in __enter__
+    server = self._server.__enter__()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/harness.py", line 326, in __enter__
+    return self.start()
+           ^^^^^^^^^^^^
+  File "<repo>/scripts/harness.py", line 210, in start
+    raise HarnessError(f"Only {free / 1e9:.1f} GB free; need {MIN_FREE_BYTES / 1e9:.0f} GB to start a server "
+harness.HarnessError: Only 10.0 GB free; need 10 GB to start a server (prune finished runs: scripts/prune_runs.py --all-finished)
+Traceback (most recent call last):
+  File "<repo>/scripts/jubilee_fork.py", line 161, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/jubilee_fork.py", line 153, in main
+    report = JubileeFork(fork_parser(__doc__).parse_args(argv)).run()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 367, in run
+    report["arms"]["control"] = self.control()
+                                ^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 298, in control
+    raise FileExistsError(f"{path} exists without a finished control arm; rename it to start over")
+FileExistsError: runs/fork_jub_A_1_innkeeper_3960_control exists without a finished control arm; rename it to start over
+{
+ "point": {
+  "run": "jub_A_1",
+  "agent": "innkeeper",
+  "game_time": 3960,
+  "swap": null,
+  "resample": [
+   "baker"
+  ],
+  "mute": [
+   [
+    "baker",
+    "innkeeper"
+   ]
+  ]
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 111,
+   "replayed": 111,
+   "mayor_unaware": true
+  },
+  "resample_1": {
+   "calls": 11,
+   "decisions": 40,
+   "replayed": 29,
+   "mayor_unaware": true
+  },
+  "resample_2": {
+   "calls": 8,
+   "decisions": 37,
+   "replayed": 29,
+   "mayor_unaware": true
+  },
+  "mute_1": {
+   "calls": 19,
+   "decisions": 42,
+   "replayed": 23,
+   "mayor_unaware": true
+  },
+  "mute_2": {
+   "calls": 18,
+   "decisions": 41,
+   "replayed": 23,
+   "mayor_unaware": true
+  },
+  "brief_1": {
+   "calls": 11,
+   "decisions": 40,
+   "replayed": 29,
+   "mayor_unaware": true
+  },
+  "brief_2": {
+   "calls": 14,
+   "decisions": 43,
+   "replayed": 29,
+   "mayor_unaware": true
+  }
+ }
+}

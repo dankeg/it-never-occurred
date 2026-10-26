@@ -1,0 +1,12 @@
+{
+ "key": "dd3b43d0441126f508dca49446a66b2faeca8ab289014e8f46d65d575d41c906",
+ "verdict": {
+  "believed": true,
+  "probability": 0.82,
+  "who": [
+   "the baker",
+   "freight"
+  ],
+  "quote": "The baker reports eighty contracted loaves delivered to the hall, with freight confirming delivery to him. These preparations suggest some planned hall use, but I have not learned its purpose, inspected the lights, or personally checked the bread delivery."
+ }
+}

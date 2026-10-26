@@ -1,0 +1,16 @@
+{
+ "key": "b17de754926700275568b442336cf647e428039a4c28aea79b582fefe1a2ee8a",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "neighbour",
+   "secretary",
+   "innkeeper",
+   "baker",
+   "freight"
+  ],
+  "quote": "Today's unusual activity looks more like preparations for a community event, possibly honouring my service, with details deliberately kept from me."
+ }
+}

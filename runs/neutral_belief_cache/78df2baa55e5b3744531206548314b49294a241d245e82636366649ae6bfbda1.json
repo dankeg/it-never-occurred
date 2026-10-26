@@ -1,0 +1,14 @@
+{
+ "key": "78df2baa55e5b3744531206548314b49294a241d245e82636366649ae6bfbda1",
+ "verdict": {
+  "believed": true,
+  "probability": 0.98,
+  "who": [
+   "innkeeper",
+   "baker",
+   "freight",
+   "builder"
+  ],
+  "quote": "My suspicion is that the lighting inspection may also be an occasion for some kind of celebration or hospitality gathering, perhaps a surprise they do not want to explain to me yet."
+ }
+}

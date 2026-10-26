@@ -1,0 +1,14 @@
+{
+ "key": "0ae0760851befa2ad8370c736d882a8bf2a065860c4aa628c7c0cbed940f34ef",
+ "verdict": {
+  "believed": true,
+  "probability": 0.65,
+  "who": [
+   "baker",
+   "builder",
+   "freight operator",
+   "innkeeper"
+  ],
+  "quote": "Several townspeople have repeated reports of a bridge or port change discussed at the bakery, supposedly involving the baker, builder, freight operator and innkeeper. ... Asking the builder or freight operator may clarify matters; the rumor's purpose and any actual proposed change remain unknown."
+ }
+}

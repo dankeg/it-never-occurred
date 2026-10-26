@@ -1,0 +1,41 @@
+[
+ {
+  "action": {"tool": "speak", "args": {"volume": "talk", "text": "Please bring timber to the bridge.",
+             "to": "visitor", "note": "The visitor can help with repairs."}},
+  "outcome": "started",
+  "skillId": "golden:1",
+  "before_next": {
+   "gameTime": 2040,
+   "skill": {"skillId": "golden:1", "skill": "speak", "state": "succeeded", "startedAt": 2000,
+             "progress": {"heardBy": ["visitor", "npc:adult_00"]}}
+  }
+ },
+ {
+  "action": {"tool": "open_container", "args": {"z": 0, "x": -10, "note": "Check the available timber.", "y": -60}},
+  "outcome": "done",
+  "read": "container at (-10, -60, 0): 8 oak_planks, 2 bread",
+  "before_next": {"gameTime": 2160}
+ },
+ {
+  "action": {"tool": "move_to", "args": {"z": 4, "note": "Try another route if the bridge is blocked.",
+             "y": -60, "x": 18}},
+  "outcome": "not possible: no_path",
+  "before_next": {"gameTime": 2280}
+ },
+ {
+  "action": {"tool": "wait", "args": {"ticks": 400, "note": "Wait for the timber delivery."}},
+  "outcome": "started",
+  "skillId": "golden:2",
+  "before_next": {
+   "gameTime": 2320,
+   "skill": {"skillId": "golden:2", "skill": "wait", "state": "running", "startedAt": 2280, "progress": {}},
+   "inventory": [
+    {"slot": 0, "item": "minecraft:written_book", "count": 1,
+     "doc": {"title": "Road ledger", "author": "Clerk", "pages": ["Timber is needed at the bridge."]}},
+    {"slot": 1, "item": "minecraft:emerald", "count": 1},
+    {"slot": 2, "item": "minecraft:oak_planks", "count": 5}
+   ],
+   "heard": [{"speaker": "visitor", "text": "Your timber has arrived.", "gameTime": 2300, "distance": 3.0}]
+  }
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "key": "782efd2cf2059d1be29889defee720dfb7bed97fa85038e607b1cb7aec16866c",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "baker",
+   "innkeeper",
+   "builder",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "I suspect people may be discussing a transport or trade project without bringing it to my office, but I have no evidence of its purpose, terms, or any deliberate effort to exclude me."
+ }
+}

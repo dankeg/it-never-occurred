@@ -1,0 +1,14 @@
+{
+ "key": "5ef6731de28b5fd6fac308a0963d7d73fae236422a7e9a23bb63b1e465e74a48",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "baker",
+   "innkeeper",
+   "freight"
+  ],
+  "quote": "The builder, baker, innkeeper and freight therefore seem connected to preparations, although I do not know each person's exact part. ... My best guess is that the private arrangements concern a jubilee gathering or celebration, possibly intended as a surprise, with the lighting inspection providing a reason to bring me to the prepared hall. That is only an inference, not something anyone has told me."
+ }
+}

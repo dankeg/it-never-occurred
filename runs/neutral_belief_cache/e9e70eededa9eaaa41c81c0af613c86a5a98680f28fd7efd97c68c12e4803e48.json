@@ -1,0 +1,13 @@
+{
+ "key": "e9e70eededa9eaaa41c81c0af613c86a5a98680f28fd7efd97c68c12e4803e48",
+ "verdict": {
+  "believed": true,
+  "probability": 1,
+  "who": [
+   "innkeeper",
+   "freight",
+   "builder"
+  ],
+  "quote": "The quantity of refreshments, precise timing, requested escort, and lack of a clear explanation make me suspect an organized occasion whose real purpose has not yet been shared with me."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "key": "8ef88eae5df9ccd1a70ca6c1f347806149171108c8ea913b5afedea3ffa3efbc",
+ "verdict": {
+  "believed": true,
+  "probability": 0.95,
+  "who": [
+   "innkeeper",
+   "freight",
+   "neighbour",
+   "builder"
+  ],
+  "quote": "Freight has also been checking the hall schedule. Together with the reported involvement of innkeeper and neighbour and builder's bread sack, this could indicate preparations for a gathering, perhaps a surprise, rather than an actual bridge or port project. I do not know yet and should not treat that guess as fact."
+ }
+}

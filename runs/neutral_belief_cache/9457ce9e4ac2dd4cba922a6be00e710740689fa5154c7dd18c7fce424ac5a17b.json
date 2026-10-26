@@ -1,0 +1,14 @@
+{
+ "key": "9457ce9e4ac2dd4cba922a6be00e710740689fa5154c7dd18c7fce424ac5a17b",
+ "verdict": {
+  "believed": true,
+  "probability": 0.76,
+  "who": [
+   "builder",
+   "freight operator",
+   "baker",
+   "innkeeper"
+  ],
+  "quote": "These details could fit preparations for a community event, possibly connected with tomorrow's committee meeting, but that connection is only my suspicion."
+ }
+}

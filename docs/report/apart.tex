@@ -1,0 +1,69 @@
+% The look of Apart Research's sprint report template (Google Docs), for pandoc + xelatex:
+% Old Standard throughout, the title between two rules, the authors centred with "With Apart Research" beneath,
+% a centred "Abstract" over an indented italic block, and bold unnumbered headings that carry their own numbers.
+% Included with `pandoc -H apart.tex`; the body size and margins are set in report.md's metadata.
+
+\usepackage{fontspec}
+\setmainfont{OldStandard}[Extension=.otf, UprightFont=*-Regular, ItalicFont=*-Italic, BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic]
+
+\usepackage{titlesec}
+\titleformat{\section}{\fontsize{13.5}{16}\selectfont\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{12pt plus 3pt minus 2pt}{4pt}
+\titleformat{\subsection}{\fontsize{11.5}{14}\selectfont\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{7pt plus 2pt minus 1pt}{2pt}
+
+\setlength{\parindent}{0pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\setlength{\parskip}{4pt plus 1.5pt minus 1pt}
+
+\usepackage{enumitem}
+\setlist{itemsep=1pt, topsep=3pt, parsep=0pt}
+
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf, labelsep=period, justification=justified, singlelinecheck=false,
+  skip=4pt}
+\setlength{\LTcapwidth}{\textwidth}
+
+\usepackage{tabularx}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\footnotesize}
+\usepackage{float}
+\floatplacement{figure}{tbp}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.7}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\usepackage{wrapfig}
+
+\setlength{\footnotesep}{8pt}
+\renewcommand{\footnoterule}{\vspace*{-3pt}\noindent\rule{0.3\columnwidth}{0.4pt}\vspace*{2.6pt}}
+
+\makeatletter
+\newcommand{\affiliation}[1]{\gdef\@affiliation{#1}}
+\newcommand{\sprintnote}[1]{\gdef\@sprintnote{#1}}
+\affiliation{}
+\sprintnote{}
+\renewcommand{\maketitle}{%
+  \thispagestyle{plain}%
+  \begingroup
+  \centering
+  \vspace*{-10pt}%
+  \rule{\textwidth}{1.2pt}\par\vspace{10pt}%
+  {\fontsize{17}{21.5}\selectfont\bfseries \@title\ifx\@sprintnote\@empty\else\footnotemark\fi\par}%
+  \vspace{9pt}\rule{\textwidth}{0.5pt}\par\vspace{10pt}%
+  \@author\par
+  \ifx\@affiliation\@empty\else\@affiliation\par\fi
+  \vspace{8pt}%
+  {\bfseries With}\par
+  Apart Research\par
+  \endgroup
+  \ifx\@sprintnote\@empty\else\footnotetext{\@sprintnote}\fi
+  \vspace{4pt}%
+}
+\renewenvironment{abstract}{%
+  \begin{center}\fontsize{13.5}{16}\selectfont\bfseries Abstract\end{center}\vspace{-6pt}%
+  \list{}{\leftmargin=0.55in \rightmargin=0.55in \listparindent=0pt \itemindent=0pt}\item\relax\itshape}%
+  {\endlist\vspace{2pt}}
+\makeatother

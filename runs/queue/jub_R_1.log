@@ -1,0 +1,18 @@
+{
+ "end": 14000,
+ "stopped": null,
+ "stats": {
+  "decisions": 445,
+  "model_calls": 445,
+  "replayed": 0,
+  "input_tokens": 1741406,
+  "output_tokens": 24858,
+  "cache_read_tokens": 1230208,
+  "cache_write_tokens": 0,
+  "model_errors": 0,
+  "model_seconds": 1893.3401570310816,
+  "model_retries": 0
+ },
+ "outcome": null
+}
+PASS replay of jub_R_1: 445 decisions reused, 0 model calls, 10 hashes

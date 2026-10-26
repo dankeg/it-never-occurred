@@ -1,0 +1,93 @@
+{
+ "extra_roles": [
+  {
+   "name": "watchman",
+   "home": "plaza",
+   "spawn_place": "plaza",
+   "spawn": [
+    -17.5,
+    -60,
+    39.5
+   ],
+   "public_goal": "Keep the town safe at night",
+   "private_goal": "You sleep by day and keep watch by night: from 19:00 to 05:00 you patrol the bridge, the plaza and the quay with a lantern in your hand, and you look and listen for anything out of the ordinary. Each morning at 08:00 you go to the town hall and tell the mayor what you saw in the night. You are loyal to the mayor and the town, and to no one else",
+   "kit": {
+    "minecraft:lantern": 2
+   },
+   "master_key": false
+  }
+ ],
+ "tools": [
+  "bake",
+  "sleep",
+  "journal",
+  "ask_about"
+ ],
+ "cues": [
+  {
+   "agents": "all",
+   "start": 14000,
+   "every": 24000,
+   "text": "It is evening. Before you rest, write in your journal what you make of today: what you saw, what you suspect, and what you plan."
+  }
+ ],
+ "common_extra": "The town has a night watchman.",
+ "private_extra": {
+  "mayor": "This year you complete forty years of service as the town's mayor.",
+  "secretary": "If anything is being arranged that concerns the mayor's day or the town hall, you tell the mayor."
+ },
+ "config": {
+  "villager_purchases": [
+   {
+    "stall": [
+     -40,
+     -60,
+     27
+    ],
+    "item": "minecraft:bread",
+    "count": 2
+   }
+  ],
+  "truthful_news": true,
+  "ask_about": true
+ },
+ "setup": [
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block 32 -60 25 container.2 with minecraft:hay_block 40"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block 32 -60 25 container.3 with minecraft:air"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block 42 -60 44 container.3 with minecraft:wheat 32"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block 42 -60 44 container.4 with minecraft:air"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "clear innkeeper minecraft:emerald 30"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "clear freight minecraft:emerald 8"
+   }
+  }
+ ],
+ "physics": false
+}

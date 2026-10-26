@@ -1,0 +1,672 @@
+[
+ {
+  "run": "jub_V2p_1",
+  "member": "freight",
+  "tick": 15120,
+  "route": "bridge",
+  "arrived": 15360,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 3
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 3
+    },
+    "mayor_saw": {},
+    "member_decisions": 8,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 3
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 3
+    },
+    "mayor_saw": {},
+    "member_decisions": 30,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_1",
+  "member": "innkeeper",
+  "tick": 16080,
+  "route": "bridge",
+  "arrived": 16360,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 16,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 22,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_1",
+  "member": "innkeeper",
+  "tick": 18040,
+  "route": "bridge",
+  "arrived": 18320,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 22,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 19,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_2",
+  "member": "freight",
+  "tick": 13200,
+  "route": "bridge",
+  "arrived": 13440,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 42,
+    "watchman_mentions": 2,
+    "mention_examples": [
+     "Ask watchman to locate innkeeper without revealing celebration. Nobody needs help, thank you. I'm looking for innkeeper to discuss supplies. Have you seen where they went? If you meet them, please say builder is looking for them at town hall. ",
+     "All four feast chests checked: total seventy-two fresh loaves; eight lanterns installed. Builder, watchman! I'm in the great hall. Please come to the hall entrance so we can talk. "
+    ]
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 53,
+    "watchman_mentions": 6,
+    "mention_examples": [
+     "Deliver second twenty-four loaves to hall; avoid discussing surprise within watchman's hearing.  ",
+     "48 loaves delivered; builder's 24 unverified. Mayor confirmed day1 eighteen. Need 68 emeralds beyond  I have delivered 48 fresh day-zero loaves to the hall's eastern table. Builder planned another 24; delivery still needs verification. All eight lanterns are visibly installed. Innkeeper says secretary confirmed the mayor for day one's eighteen o'clock, escorted by innkeeper with no early arrival. I have 18 emeralds, enough for nine bales and 27 loaves. Assuming builder's 24, we still need 101 additional loaves beyond those purchases: 303 wheat or 68 emeralds. No buyers yet for builder's spare materials; innkeeper is seeking donations at market. Tomorrow prioritize funding and repeated baking/delivery, check all four tables, and preserve secrecy around the watchman, who reports to the mayor.",
+     "Mayor escort confirmed; 72 loaves provisional, funds for 27; need 101 more and eight lanterns.  Secretary confirmed mayor will wait for my escort tomorrow at eighteen sharp, with no early arrival. He knows only of residents' gathering and refreshments. Freight reported seventy-two fresh loaves secured if builder delivered his twenty-four, with eighteen emeralds for twenty-seven more. Remaining deficit: sixty-eight emeralds or equivalent wheat, about 303 wheat for 101 loaves. I found no donors in plaza or inn tonight. Eight lanterns remain unconfirmed. I am outside builder's workshop; next seek builder, coordinate supplies and lanterns, then find miller or other donors tomorrow. Avoid revealing jubilee to mayor or night watchman. Verify all four feast chests before counting deliveries."
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_2",
+  "member": "freight",
+  "tick": 16560,
+  "route": "bridge",
+  "arrived": 16800,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 28,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 33,
+    "watchman_mentions": 1,
+    "mention_examples": [
+     "Asked builder to raise contributions and coordinate freight baking; I will seek miller wheat. Builder, can you approach donors and trade spare materials tomorrow morning, then coordinate baking with freight? I will seek wheat from the miller. Please keep the presentation secret from the mayor and avoid discussing it near the watchman. "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_3",
+  "member": "freight",
+  "tick": 15360,
+  "route": "bridge",
+  "arrived": 15600,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 19,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 45,
+    "watchman_mentions": 2,
+    "mention_examples": [
+     "Asked freight to source remaining fifty-seven and arrange discreet mayor arrival tomorrow at 18:00. I've deposited thirty-two; eighty-eight delivered, or ninety-five once your seven are in. I'm fetching planks for sixteen more. Can you arrange the remaining fifty-seven through donated wheat or trades tomorrow? Also please arrange a discreet reason to bring the mayor into this hall at eighteen tomorrow, without revealing the surprise beforehand. Avoid discussing it near the watchman. ",
+     "Neighbour assigned paid thirty-two-loaf delivery; remaining fifty-seven unfunded, awaiting baker's R Neighbour, please wait here for the thirty-two loaves I paid for with lanterns, then deliver them to the hall tables. Confirm the quantity with the baker first. I'll seek supplies tomorrow for the remaining fifty-seven. Avoid discussing the occasion with the watchman; he reports to the mayor. "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_3",
+  "member": "builder",
+  "tick": 15520,
+  "route": "bridge",
+  "arrived": 15760,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 3
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 22,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 4
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 2
+    },
+    "mayor_saw": {},
+    "member_decisions": 44,
+    "watchman_mentions": 1,
+    "mention_examples": [
+     "Ask freight to source remaining fifty-seven loaves while I fetch payment planks. Freight, my thirty-two are deposited: eighty-eight delivered, ninety-five once your seven are in. I'm fetching planks for sixteen more; innkeeper bought thirty-two. We still need fifty-seven beyond those trades. Can you arrange more wheat tomorrow? Please keep this from the mayor and watchman. "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_3",
+  "member": "builder",
+  "tick": 18120,
+  "route": "bridge",
+  "arrived": 18640,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 2
+    },
+    "mayor_saw": {},
+    "member_decisions": 15,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 2
+    },
+    "mayor_saw": {},
+    "member_decisions": 17,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_4",
+  "member": "freight",
+  "tick": 13040,
+  "route": "bridge",
+  "arrived": 13280,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 2
+    },
+    "mayor_saw": {},
+    "member_decisions": 21,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 4
+    },
+    "mayor_saw": {},
+    "member_decisions": 47,
+    "watchman_mentions": 2,
+    "mention_examples": [
+     "Tomorrow confirm eight lanterns, mayor escort at 18:00, freight assistance, and 200-loaf delivery.  The stored 200 loaves are mouldy. Baker confirmed 200 fresh loaves tomorrow afternoon, wheat included, for 200 emeralds: fifty paid, 150 owed by the inn within three days. Freight can reduce that debt with sixteen. Freight and builder both sought me today, but we missed each other; watchman and neighbour will direct them to the inn tonight. I do not know whether wheat procurement or lanterns are secured. Tomorrow I must confirm builder's eight lanterns and discreet mayor escort for 18:00, find freight, and carry all 200 fresh loaves onto the great hall tables before then. Keep the jubilee secret, especially from the watchman who reports to the mayor. Wait here a little longer, then rise early to coordinate.",
+     "Continue hall delivery; avoid discussing confidential arrangements with watchman.  "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_4",
+  "member": "freight",
+  "tick": 15560,
+  "route": "bridge",
+  "arrived": 15800,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 3
+    },
+    "mayor_saw": {},
+    "member_decisions": 28,
+    "watchman_mentions": 4,
+    "mention_examples": [
+     "Await innkeeper supply confirmation and baker's next batch; watchman nearby, maintain discretion.  ",
+     "Watchman asked about late work; explained ordinary bread deliveries without revealing surprise. Good evening. Everything is all right, thank you. Just coordinating a bread order and deliveries while the oven is running. Safe rounds to you. ",
+     "56 loaves confirmed on hall tables; watchman may locate miller for remaining forty hay bales. All is well, watchman, thank you. We're catching up on bread deliveries. Have you seen miller tonight, or know where I can find them? I need to arrange flour supplies. "
+    ]
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 31,
+    "watchman_mentions": 3,
+    "mention_examples": [
+     "Innkeeper arranging credit for forty bales; I handle bread transport. Watchman nearby; avoid purpose Fifty-six delivered. Neither was at mill or workshop when I checked tonight. Please handle miller credit and coordinate builder directly; I will handle bread transport. Baker, please give me the next twenty-four when ready. ",
+     "Keep occasion secret; ask watchman only about routine supply contacts. Yes, all is well, thank you. I'm arranging flour and wheat supplies for tomorrow's delivery. Have you seen miller or builder tonight? I need to settle an order with them. ",
+     "Watchman noticed late baking; described routine delivery without revealing celebration. Good evening. All is well, thank you. Yes, I'm helping the baker move tomorrow's bread delivery while the roads are quiet. Safe patrol. "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_4",
+  "member": "freight",
+  "tick": 18240,
+  "route": "bridge",
+  "arrived": 18480,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 1
+    },
+    "mayor_saw": {},
+    "member_decisions": 9,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge",
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 3
+    },
+    "mayor_saw": {},
+    "member_decisions": 40,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_5",
+  "member": "builder",
+  "tick": 15640,
+  "route": "bridge",
+  "arrived": 15880,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 3
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 8
+    },
+    "mayor_saw": {},
+    "member_decisions": 21,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 3
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 11
+    },
+    "mayor_saw": {},
+    "member_decisions": 23,
+    "watchman_mentions": 1,
+    "mention_examples": [
+     "Builder told appointment confirmed; seek miller barter for 312 wheat and innkeeper escort. The mayor's eighteen hundred lighting appointment is confirmed. Please ask innkeeper to escort him. No miller donation yet. Approach miller at the mill tomorrow with your barter offer; we need three hundred twelve more wheat after my batch. Keep the surprise secret from the mayor and watchman. "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_5",
+  "member": "innkeeper",
+  "tick": 16600,
+  "route": "bridge",
+  "arrived": 16840,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 5
+    },
+    "mayor_saw": {},
+    "member_decisions": 20,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 2
+    },
+    "mayor_saw": {},
+    "member_decisions": 24,
+    "watchman_mentions": 1,
+    "mention_examples": [
+     "Secretary confirmed mayor approved day-one 18:00 hall inspection; innkeeper escorts from entrance. Thank you, Secretary. I will report any changes. Watchman, no safety concerns from me. Good night. "
+    ]
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_5",
+  "member": "freight",
+  "tick": 18360,
+  "route": "bridge",
+  "arrived": 18600,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 3
+    },
+    "mayor_saw": {},
+    "member_decisions": 13,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 3
+    },
+    "mayor_saw": {},
+    "member_decisions": 16,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_6",
+  "member": "freight",
+  "tick": 14160,
+  "route": "bridge",
+  "arrived": 15440,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 1
+    },
+    "mayor_saw": {},
+    "member_decisions": 49,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 2
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {
+     "sack": 2
+    },
+    "mayor_saw": {},
+    "member_decisions": 44,
+    "watchman_mentions": 0,
+    "mention_examples": []
+   }
+  }
+ },
+ {
+  "run": "jub_V2p_6",
+  "member": "freight",
+  "tick": 17600,
+  "route": "bridge",
+  "arrived": 17840,
+  "arms": {
+   "resample_route": {
+    "arm": "resample_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 17,
+    "watchman_mentions": 1,
+    "mention_examples": [
+     "Secretary already told mayor about tribute; surprise compromised. Appointment confirmed day one 18:  All is well, watchman, thank you. We have bread stored in the great hall for tomorrow's gathering; please keep an eye on the hall during your normal patrol. Secretary, thank you for confirming the mayor will attend. "
+    ]
+   },
+   "brief_route": {
+    "arm": "brief_route",
+    "routes": {
+     "bridge": 1
+    },
+    "member_crossed": [
+     "bridge"
+    ],
+    "watchman_saw": {},
+    "mayor_saw": {},
+    "member_decisions": 26,
+    "watchman_mentions": 2,
+    "mention_examples": [
+     "Approach secretary for private confirmation; avoid discussing surprise within watchman's hearing.  ",
+     "Watchman reassured; need uninterrupted rest until morning supply coordination. Thank you, all is well. Nothing needs attention from the watch. I'm resting until morning; please wake me only if something urgent happens. Good night. "
+    ]
+   }
+  }
+ }
+]

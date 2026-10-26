@@ -1,0 +1,300 @@
+<title>Riverside Crisis Village</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a surveyor's field sheet. The map plate on the left, a tabbed ledger on the right, a status strip above. */
+:root {
+  --bg: #eef0ec; --panel: #f8f9f6; --ink: #1d2826; --muted: #5d6b67; --rule: #cfd5cf;
+  --accent: #1f6f8b; --accent-soft: #d6e7ec; --good: #2e7d4f; --warn: #b7791f; --bad: #b4413a;
+  --display: "Archivo Narrow", "Arial Narrow", sans-serif;
+  --body: "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #151b1a; --panel: #1c2322; --ink: #e3e9e6; --muted: #9aa8a4; --rule: #2f3a38;
+  --accent: #5fb3cf; --accent-soft: #1f3a42; --good: #5cb685; --warn: #d9a548; --bad: #e07a72; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #151b1a; --panel: #1c2322; --ink: #e3e9e6; --muted: #9aa8a4; --rule: #2f3a38;
+  --accent: #5fb3cf; --accent-soft: #1f3a42; --good: #5cb685; --warn: #d9a548; --bad: #e07a72; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--body); }
+.wrap { padding-inline: 20px; padding-block: 18px 32px; max-width: 1400px; margin: 0 auto; display: grid; gap: 16px; }
+header { display: grid; gap: 6px; }
+h1 { font: 700 clamp(26px, 4vw, 38px)/1.05 var(--display); letter-spacing: 0.01em; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); max-width: 72ch; margin: 0; }
+.strip { display: flex; flex-wrap: wrap; gap: 10px; }
+.stat { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 12px; display: grid; gap: 2px; min-width: 120px; }
+.stat .k { font: 600 11px/1 var(--display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.stat .v { font: 500 15px/1.3 var(--mono); font-variant-numeric: tabular-nums; }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font: 500 12px/1.6 var(--body); }
+.pill.good { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
+.pill.bad { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
+.pill.na { background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted); }
+main { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 900px) { main { grid-template-columns: minmax(0, 1fr); } }
+.plate { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 12px; display: grid; gap: 10px; min-width: 0; }
+.mapbox { position: relative; width: 100%; aspect-ratio: 1; max-width: 100%; }
+.mapbox canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+#terrain { image-rendering: pixelated; border-radius: 4px; }
+#marks { cursor: crosshair; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 12px/1.4 var(--body); padding: 6px 8px; border-radius: 5px; max-width: 240px; z-index: 2; }
+.controls { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--muted); }
+.controls label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.sw { width: 11px; height: 11px; border-radius: 2px; display: inline-block; border: 1px solid var(--rule); }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.ledger { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; display: grid; min-width: 0; }
+.tabs { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--rule); }
+.tabs button { font: 600 13px/1 var(--display); letter-spacing: 0.06em; text-transform: uppercase; background: none; border: 0; padding: 12px 14px; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; }
+.tabs button[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.tabs button:focus-visible, .agent:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.pane { padding: 14px; display: grid; gap: 12px; max-height: 760px; overflow-y: auto; min-width: 0; }
+.agent { border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; display: grid; gap: 6px; background: var(--bg); cursor: pointer; text-align: left; color: inherit; font: inherit; }
+.agent.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.agent h3 { margin: 0; font: 700 17px/1.2 var(--display); display: flex; align-items: center; gap: 8px; }
+.agent .meta { font: 12px/1.4 var(--mono); color: var(--muted); }
+.goal { font-size: 13px; margin: 0; }
+.goal b { font-weight: 600; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font: 12px/1.6 var(--mono); background: var(--accent-soft); border-radius: 4px; padding: 0 6px; }
+details { border-top: 1px dashed var(--rule); padding-top: 6px; }
+summary { cursor: pointer; font-size: 13px; color: var(--accent); }
+pre { font: 12px/1.45 var(--mono); white-space: pre-wrap; word-break: break-word; margin: 8px 0 0; background: var(--panel); border: 1px solid var(--rule); border-radius: 5px; padding: 10px; max-height: 360px; overflow: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font: 600 11px/1.2 var(--display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+td.t { font: 12px/1.4 var(--mono); color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tablewrap { overflow-x: auto; }
+.note { font-size: 12px; color: var(--muted); margin: 0; }
+h2 { font: 700 15px/1.2 var(--display); letter-spacing: 0.05em; text-transform: uppercase; margin: 4px 0 0; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Riverside Crisis Village</h1>
+    <p class="sub" id="sub"></p>
+    <div class="strip" id="strip"></div>
+  </header>
+  <main>
+    <section class="plate" aria-label="Map">
+      <div class="mapbox">
+        <canvas id="terrain" width="256" height="256"></canvas>
+        <canvas id="marks"></canvas>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <div class="controls">
+        <label><input type="checkbox" id="showNpcs" checked> Villagers</label>
+        <label><input type="checkbox" id="showAgents" checked> Agents</label>
+        <label><input type="checkbox" id="showPlaces" checked> Place names</label>
+        <label><input type="checkbox" id="showRoutes"> Villager destinations</label>
+      </div>
+      <div class="legend" id="legend"></div>
+    </section>
+    <section class="ledger" aria-label="Details">
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tab-agents" aria-selected="true">Agents</button>
+        <button role="tab" id="tab-villagers" aria-selected="false">Villagers</button>
+        <button role="tab" id="tab-timeline" aria-selected="false">Timeline</button>
+        <button role="tab" id="tab-outcomes" aria-selected="false">Outcomes</button>
+      </div>
+      <div class="pane" id="pane-agents"></div>
+      <div class="pane" id="pane-villagers" hidden></div>
+      <div class="pane" id="pane-timeline" hidden></div>
+      <div class="pane" id="pane-outcomes" hidden></div>
+    </section>
+  </main>
+</div>
+
+<script id="data" type="application/json">__SNAPSHOT__</script>
+<script>
+(() => {
+  const S = JSON.parse(document.getElementById('data').textContent);
+  const DAY = 24000;
+  const clock = t => { const d = Math.floor(t / DAY), m = Math.floor((t % DAY) * 1440 / DAY + 360) % 1440;
+    return `day ${d}, ${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`; };
+  const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const short = id => id.replace('minecraft:', '');
+
+  // Block colours: the world's own materials, as seen from above.
+  const BLOCK = { grass_block: '#7aa35a', gravel: '#a39d95', water: '#3d74c2', dirt_path: '#c09a5e',
+    cobblestone_wall: '#7e7e7c', oak_slab: '#a07a4c', oak_leaves: '#3c6a2e', oak_planks: '#c9a46c', stone: '#8d8d8b',
+    white_wool: '#ecebe6', stone_bricks: '#6c6d6b', oak_log: '#6a4b28', oak_sign: '#d8b77d', oak_wall_sign: '#d8b77d',
+    chest: '#a8742c', bell: '#e8b830', lantern: '#ffd85a', air: '#2a2d2c' };
+  const AGENT = { mayor: '#7b3fa0', builder: '#d0602a', freight: '#167a8c', security: '#2a4fb0', envoy: '#b8233a', investigator: '#2f8a3e' };
+  const ACT = a => a.startsWith('travel') ? '#f08c1c' : a === 'work' ? '#2563eb' : a === 'school' ? '#9333ea' : a === 'market' ? '#16a34a' : '#6b7280';
+
+  const { origin, size, palette, grid } = S.map;
+  const toPx = (x, z) => [(x - origin) / size, (z - origin) / size];
+
+  // Status strip
+  const yes = v => v === true ? '<span class="pill good">yes</span>' : v === false ? '<span class="pill bad">no</span>' : '<span class="pill na">pending</span>';
+  const ft = S.report.first_true || {};
+  const welfare = Object.entries(S.report.welfare || {}).map(([d, w]) => `day ${d}: ${(+w).toFixed(2)}`).join(' · ') || '—';
+  document.getElementById('sub').textContent =
+    `The ${S.variant} variant of the crisis: the main bridge collapsed on day 0 and the fair is due on day 5. ` +
+    `This snapshot is the world at ${clock(S.gameTime)}, captured from a replayable engine run. ` +
+    `The six role agents here follow a scripted policy (no language model yet); villagers run their schedules and gossip.`;
+  const stats = [
+    ['Game time', clock(S.gameTime)],
+    ['Bridge rebuilt', ft.bridge_complete != null ? clock(ft.bridge_complete) : '<span class="pill bad">not yet</span>'],
+    ['Fair opened', ft.fair_open != null ? clock(ft.fair_open) : '<span class="pill bad">not yet</span>'],
+    ['Villager welfare', welfare],
+    ['Agent decisions', String((S.report.stats || {}).decisions ?? '—')],
+    ['Things said aloud', String(S.speech.length)],
+  ];
+  document.getElementById('strip').innerHTML = stats.map(([k, v]) => `<div class="stat"><span class="k">${k}</span><span class="v">${v}</span></div>`).join('');
+
+  // Terrain
+  const terrain = document.getElementById('terrain').getContext('2d');
+  const img = terrain.createImageData(size, size);
+  const rgb = palette.map(name => { const hex = BLOCK[short(name)] || '#b0a8a0'; return [1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16)); });
+  grid.forEach((index, i) => { const [r, g, b] = rgb[index]; img.data.set([r, g, b, 255], i * 4); });
+  terrain.putImageData(img, 0, 0);
+  const used = [...new Set(grid)].map(i => short(palette[i])).filter(n => BLOCK[n]);
+  const legendBlocks = ['water', 'grass_block', 'dirt_path', 'gravel', 'oak_slab', 'oak_planks', 'oak_leaves', 'cobblestone_wall'].filter(n => used.includes(n));
+  document.getElementById('legend').innerHTML =
+    legendBlocks.map(n => `<span><i class="sw" style="background:${BLOCK[n]}"></i>${n.replace(/_/g, ' ').replace('oak slab', 'roofs').replace('cobblestone wall', 'walls')}</span>`).join('') +
+    [['travelling', '#f08c1c'], ['at work', '#2563eb'], ['at school', '#9333ea']].map(([n, c]) => `<span><i class="dot" style="background:${c}"></i>${n}</span>`).join('');
+
+  // Markers
+  const marks = document.getElementById('marks');
+  const ctx = marks.getContext('2d');
+  let selected = 'builder';
+  const placeLabels = { west_bridge: 'bridge', east_bridge: '', west_ford: 'ford', east_ford: '', fairgrounds: 'fairgrounds',
+    market: 'market', school: 'school', town_hall: 'town hall', workshop_1: 'workshop', workshop_2: 'workshop', port: 'port',
+    forest: 'forest', quarry: 'quarry' };
+  function draw() {
+    const box = marks.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+    marks.width = Math.round(box.width * dpr); marks.height = Math.round(box.height * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const W = box.width, H = box.height;
+    ctx.clearRect(0, 0, W, H);
+    const P = (x, z) => { const [u, v] = toPx(x, z); return [u * W, v * H]; };
+    ctx.font = `600 ${Math.max(10, W / 60)}px "Archivo Narrow", sans-serif`;
+    if (document.getElementById('showPlaces').checked) {
+      ctx.textAlign = 'center';
+      for (const p of S.places) {
+        const label = placeLabels[p.name];
+        if (!label) continue;
+        const [x, y] = P(p.pos[0] + 0.5, p.pos[2] + 0.5);
+        ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(255,255,255,0.85)'; ctx.strokeText(label, x, y - 6);
+        ctx.fillStyle = '#1d2826'; ctx.fillText(label, x, y - 6);
+      }
+    }
+    if (document.getElementById('showRoutes').checked) {
+      ctx.strokeStyle = 'rgba(240,140,28,0.55)'; ctx.lineWidth = 1.2; ctx.setLineDash([3, 3]);
+      for (const n of S.npcs) {
+        const dest = S.places.find(p => p.name === n.to);
+        if (!dest || !n.activity.startsWith('travel')) continue;
+        const [a, b] = P(n.pos[0], n.pos[2]), [c, d] = P(dest.pos[0] + 0.5, dest.pos[2] + 0.5);
+        ctx.beginPath(); ctx.moveTo(a, b); ctx.lineTo(c, d); ctx.stroke();
+      }
+      ctx.setLineDash([]);
+    }
+    if (document.getElementById('showNpcs').checked) {
+      for (const n of S.npcs) {
+        const [x, y] = P(n.pos[0], n.pos[2]);
+        ctx.beginPath(); ctx.arc(x, y, Math.max(3, W / 160), 0, Math.PI * 2);
+        ctx.fillStyle = ACT(n.activity); ctx.fill(); ctx.lineWidth = 1; ctx.strokeStyle = '#ffffff'; ctx.stroke();
+      }
+    }
+    if (document.getElementById('showAgents').checked) {
+      ctx.textAlign = 'left';
+      for (const a of S.agents) {
+        const [x, y] = P(a.pos[0], a.pos[2]), r = Math.max(5, W / 90);
+        ctx.beginPath(); ctx.moveTo(x, y - r); ctx.lineTo(x + r, y); ctx.lineTo(x, y + r); ctx.lineTo(x - r, y); ctx.closePath();
+        ctx.fillStyle = AGENT[a.name]; ctx.fill(); ctx.lineWidth = a.name === selected ? 3 : 1.5; ctx.strokeStyle = '#ffffff'; ctx.stroke();
+        ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(255,255,255,0.9)'; ctx.strokeText(a.name, x + r + 3, y + 4);
+        ctx.fillStyle = AGENT[a.name]; ctx.fillText(a.name, x + r + 3, y + 4);
+      }
+    }
+  }
+  const tip = document.getElementById('tip');
+  function nearest(ev) {
+    const box = marks.getBoundingClientRect();
+    const x = origin + (ev.clientX - box.left) / box.width * size, z = origin + (ev.clientY - box.top) / box.height * size;
+    let best = null, bestD = 4;
+    if (document.getElementById('showAgents').checked) for (const a of S.agents) {
+      const d = Math.hypot(a.pos[0] - x, a.pos[2] - z); if (d < bestD) { bestD = d; best = { kind: 'agent', v: a }; } }
+    if (document.getElementById('showNpcs').checked) for (const n of S.npcs) {
+      const d = Math.hypot(n.pos[0] - x, n.pos[2] - z); if (d < bestD) { bestD = d; best = { kind: 'npc', v: n }; } }
+    return { best, x, z, box };
+  }
+  marks.addEventListener('mousemove', ev => {
+    const { best, x, z, box } = nearest(ev);
+    const col = Math.floor(x) - origin, row = Math.floor(z) - origin;
+    const block = (col >= 0 && row >= 0 && col < size && row < size) ? short(palette[grid[row * size + col]]).replace(/_/g, ' ') : '';
+    let html = `<b>(${Math.floor(x)}, ${Math.floor(z)})</b> ${block}`;
+    if (best?.kind === 'agent') html = `<b>${best.v.name}</b> · ${best.v.skill.name || 'idle'} ${best.v.skill.state || ''}<br>${html}`;
+    if (best?.kind === 'npc') html = `<b>${best.v.name}</b> (${best.v.role}) · ${best.v.activity.replace('_', ' ')}${best.v.to ? ' → ' + best.v.to.replace('_', ' ') : ''}<br>knows ${best.v.news.length} piece(s) of news<br>${html}`;
+    tip.innerHTML = html; tip.hidden = false;
+    const left = Math.min(ev.clientX - box.left + 14, box.width - 250), top = Math.min(ev.clientY - box.top + 14, box.height - 70);
+    tip.style.left = `${Math.max(0, left)}px`; tip.style.top = `${Math.max(0, top)}px`;
+  });
+  marks.addEventListener('mouseleave', () => { tip.hidden = true; });
+  marks.addEventListener('click', ev => { const { best } = nearest(ev); if (best?.kind === 'agent') select(best.v.name); });
+  ['showNpcs', 'showAgents', 'showPlaces', 'showRoutes'].forEach(id => document.getElementById(id).addEventListener('change', draw));
+  new ResizeObserver(draw).observe(marks);
+
+  // Agents pane
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const actions = name => (S.decisions[name] || []).filter(d => d.tool !== 'wait');
+  function renderAgents() {
+    document.getElementById('pane-agents').innerHTML = S.agents.map(a => {
+      const acts = actions(a.name), waits = (S.decisions[a.name] || []).length - acts.length;
+      const rows = acts.slice(-12).map(d => `<tr><td class="t">${clock(d.t)}</td><td>${esc(d.tool)} <span class="note">${esc(JSON.stringify(d.args))}</span></td><td>${esc(d.outcome)}</td></tr>`).join('');
+      const prompt = S.latestPrompt[a.name];
+      return `<button class="agent${a.name === selected ? ' sel' : ''}" data-agent="${a.name}">
+        <h3><span class="dot" style="background:${AGENT[a.name]};width:12px;height:12px"></span>${a.name}</h3>
+        <span class="meta">at (${a.pos.map(v => Math.floor(v)).join(', ')}) · now: ${esc(a.skill.name || 'idle')} ${esc(a.skill.state || '')}</span>
+        <p class="goal"><b>Public:</b> ${esc(a.public_goal)} · <b>Private:</b> ${esc(a.private_goal)}</p>
+        <div class="chips">${a.inventory.map(i => `<span class="chip">${i.count} ${esc(i.item.replace(/_/g, ' '))}</span>`).join('') || '<span class="note">empty inventory</span>'}</div>
+        ${acts.length ? `<div class="tablewrap"><table><tr><th>When</th><th>Action</th><th>Result</th></tr>${rows}</table></div>` : ''}
+        <p class="note">${acts.length} actions and ${waits} waits over the run.</p>
+        ${prompt ? `<details><summary>What ${a.name} saw at its last decision (${clock(prompt.t)})</summary><pre>${esc(prompt.prompt)}</pre></details>` : ''}
+      </button>`; }).join('');
+    document.querySelectorAll('.agent').forEach(el => el.addEventListener('click', ev => {
+      if (ev.target.closest('details')) return; select(el.dataset.agent); }));
+  }
+  function select(name) { selected = name; renderAgents(); draw(); }
+  renderAgents();
+
+  // Villagers pane
+  const byAct = {};
+  S.npcs.forEach(n => (byAct[n.activity] ||= []).push(n));
+  document.getElementById('pane-villagers').innerHTML =
+    `<p class="note">Rule-based villagers follow daily schedules on the road network. They tell each other news while they dwell at home, work, market or school; each news item keeps who it came from.</p>` +
+    Object.entries(byAct).map(([act, list]) => `<h2>${act.replace('_', ' ')} (${list.length})</h2>
+      <div class="tablewrap"><table><tr><th>Name</th><th>Role</th><th>Heading to</th><th>News they know</th></tr>
+      ${list.map(n => `<tr><td>${esc(n.name)}</td><td>${n.role}</td><td>${esc((n.to || '').replace('_', ' '))}</td>
+      <td>${n.news.map(x => `${esc(x.kind.replace(/_/g, ' '))} (${x.firsthand ? 'saw it' : 'via ' + esc(x.chain.join(' → '))})`).join('<br>') || '—'}</td></tr>`).join('')}</table></div>`).join('');
+
+  // Timeline pane
+  const events = [];
+  Object.entries(S.decisions).forEach(([name, list]) => list.filter(d => d.tool !== 'wait').forEach(d =>
+    events.push({ t: d.t, who: name, what: `${d.tool} ${JSON.stringify(d.args)}`, kind: 'agent', result: d.outcome })));
+  S.speech.forEach(s => events.push({ t: s.t, who: s.speaker, what: `“${s.text}”`, kind: 'speech', result: `heard by ${s.heardBy}` }));
+  S.transfers.forEach(x => events.push({ t: x.t, who: x.buyer || x.from, what: `${x.type}: ${x.count || ''} ${short(x.item || '')}`, kind: 'trade', result: x.to || '' }));
+  events.sort((a, b) => a.t - b.t);
+  document.getElementById('pane-timeline').innerHTML =
+    `<p class="note">${events.length} events: agents' actions (waits left out), villagers' gossip, and trades. Times are game clock.</p>
+     <div class="tablewrap"><table><tr><th>When</th><th>Who</th><th>What</th><th>Result</th></tr>
+     ${events.map(e => `<tr><td class="t">${clock(e.t)}</td><td>${esc(e.who)}</td><td>${esc(e.what)}</td><td>${esc(e.result)}</td></tr>`).join('')}</table></div>`;
+
+  // Outcomes pane
+  const outcomes = S.report.outcomes || {};
+  const changes = Object.entries(S.blockChangesByActor).map(([k, v]) => `${k}: ${v}`).join(' · ');
+  document.getElementById('pane-outcomes').innerHTML =
+    `<p class="note">Each role's success is a query on the world: blocks, inventories, logged transfers, villager welfare, and filed reports. "Pending" means the deadline hasn't passed or nothing was filed yet.</p>
+     <div class="tablewrap"><table><tr><th>Role</th><th>Success so far</th></tr>
+     ${S.agents.map(a => `<tr><td>${a.name}</td><td>${yes(outcomes[a.name])}</td></tr>`).join('')}</table></div>
+     <h2>Block changes by who caused them</h2><p class="note">${esc(changes)}</p>`;
+
+  // Tabs
+  const tabs = ['agents', 'villagers', 'timeline', 'outcomes'];
+  tabs.forEach(t => document.getElementById(`tab-${t}`).addEventListener('click', () => tabs.forEach(u => {
+    document.getElementById(`tab-${u}`).setAttribute('aria-selected', String(u === t));
+    document.getElementById(`pane-${u}`).hidden = u !== t; })));
+})();
+</script>

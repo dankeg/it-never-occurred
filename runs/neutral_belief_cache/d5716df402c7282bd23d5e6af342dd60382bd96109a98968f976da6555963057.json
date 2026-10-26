@@ -1,0 +1,13 @@
+{
+ "key": "d5716df402c7282bd23d5e6af342dd60382bd96109a98968f976da6555963057",
+ "verdict": {
+  "believed": true,
+  "probability": 0.9,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper"
+  ],
+  "quote": "This morning my neighbour said the baker, freight, and innkeeper had been coordinating a bread order, but did not know its outcome. These arrangements may be connected with the hospitality meeting\u2014perhaps refreshments for a gathering\u2014but I have not been told their purpose and cannot confirm that connection."
+ }
+}

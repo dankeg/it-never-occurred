@@ -1,0 +1,16 @@
+{
+ "key": "11ce1ffe8ff025a258463fbc22073e2729098ccdb1519f9c6b662fef2244583f",
+ "verdict": {
+  "believed": true,
+  "probability": 1,
+  "who": [
+   "builder",
+   "baker",
+   "freight",
+   "neighbour",
+   "secretary",
+   "innkeeper"
+  ],
+  "quote": "Taken together, this could be preparation for a gathering or surprise involving food, with the lighting inspection serving as the reason to bring me into the hall. That is only my suspicion; nobody has told me there is a celebration or other concealed event."
+ }
+}

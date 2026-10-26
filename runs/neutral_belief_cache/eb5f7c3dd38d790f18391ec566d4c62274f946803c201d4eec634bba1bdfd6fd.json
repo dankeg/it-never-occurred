@@ -1,0 +1,15 @@
+{
+ "key": "eb5f7c3dd38d790f18391ec566d4c62274f946803c201d4eec634bba1bdfd6fd",
+ "verdict": {
+  "believed": true,
+  "probability": 0.9,
+  "who": [
+   "innkeeper",
+   "builder",
+   "Freight",
+   "possibly the miller",
+   "possibly the baker"
+  ],
+  "quote": "These observations suggest some coordination of bread, supplies, and perhaps preparations for a gathering, involving the innkeeper, builder, Freight, and possibly the miller and baker. A celebration is a possibility, not something I know."
+ }
+}

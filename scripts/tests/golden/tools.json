@@ -1,0 +1,603 @@
+[
+ {
+  "name": "move_to",
+  "description": "Walk to a block position (pathfinding). Takes real time.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "mine",
+  "description": "Break the block at a position within reach. Takes time depending on the block and your tool.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "collect",
+  "description": "Pick up visible dropped items nearby.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "craft",
+  "description": "Craft an item from materials in your inventory (some recipes need a crafting table in reach).",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "item": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "item"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "place",
+  "description": "Place a block item from your inventory at a position within reach.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "item": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z",
+    "item"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "build_section",
+  "description": "Build a named construction section (e.g. a bridge span) at an origin, using materials from your inventory. Takes time; you must hold the full material bill.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "schematic": {
+     "type": "string"
+    },
+    "origin": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     },
+     "minItems": 3,
+     "maxItems": 3
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "schematic",
+    "origin"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "chest_put",
+  "description": "Put items into a container within reach.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "item": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z",
+    "item",
+    "count"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "chest_take",
+  "description": "Take items from a container within reach (if you have access).",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "item": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z",
+    "item",
+    "count"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "buy",
+  "description": "Buy goods from a market stall chest within reach, paying its posted price in emeralds.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "item": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z",
+    "item",
+    "count"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "ferry",
+  "description": "Ride the port's boat across the river to a landing (stand at the landing where the boat is). Takes time; the boat stays where it lands.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "to": {
+     "type": "string",
+     "enum": [
+      "east",
+      "west"
+     ],
+     "description": "The landing to cross to."
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "to"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "give",
+  "description": "Hand items to a person standing next to you.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "target": {
+     "type": "string"
+    },
+    "item": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "target",
+    "item",
+    "count"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "use",
+  "description": "Use the block at a position within reach: open or close a door, trapdoor or gate, ring a bell, flip a lever or press a button.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "drop",
+  "description": "Drop items from your inventory on the ground at your feet. Anyone can pick them up (you take back your own only with collect); items left on the ground vanish after about five minutes.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "item": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "item",
+    "count"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "hold",
+  "description": "Hold an item from your inventory in your hand, where others can see it.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "item": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "item"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "speak",
+  "description": "Say something out loud (about 3 words per second). Whispering carries 3 blocks at the same rate as talk, with no shout cooldown; people beyond 3 but within 8 blocks who can see you notice talking without hearing the words. Talking carries 8 blocks; shouting carries 24 blocks, takes longer, is noticed from farther away, and can only be done once every 30 seconds. People only catch your words if they are in range for the whole time you speak.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "text": {
+     "type": "string",
+     "maxLength": 600,
+     "description": "At most about 100 words."
+    },
+    "volume": {
+     "type": "string",
+     "enum": [
+      "whisper",
+      "talk",
+      "shout"
+     ]
+    },
+    "to": {
+     "type": "string",
+     "description": "Optional: the person you are addressing (others may overhear)."
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "text"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "ask",
+  "description": "Ask a villager within 8 blocks what news they have; they answer aloud with what they know.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "npc": {
+     "type": "string",
+     "description": "The villager's id (e.g. adult_07)."
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "npc"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "open_container",
+  "description": "Look inside a container within reach (if you have access).",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "read_book",
+  "description": "Read a written book in your inventory slot.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "slot": {
+     "type": "integer"
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "slot"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "write_book",
+  "description": "Write and sign a book using a writable book in your inventory slot.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "slot": {
+     "type": "integer"
+    },
+    "title": {
+     "type": "string"
+    },
+    "pages": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "slot",
+    "title",
+    "pages"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "write_sign",
+  "description": "Write text on a sign within reach (4 short lines).",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "x": {
+     "type": "integer"
+    },
+    "y": {
+     "type": "integer"
+    },
+    "z": {
+     "type": "integer"
+    },
+    "lines": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "maxItems": 4
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "x",
+    "y",
+    "z",
+    "lines"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "wait",
+  "description": "Do nothing for a while (ticks; 20 ticks = 1 second).",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "ticks": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 1200
+    },
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [
+    "ticks"
+   ],
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "keep_going",
+  "description": "Carry on with your current activity (if you have none, pause briefly).",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "note": {
+     "type": "string",
+     "maxLength": 100
+    }
+   },
+   "required": [],
+   "additionalProperties": false
+  }
+ }
+]

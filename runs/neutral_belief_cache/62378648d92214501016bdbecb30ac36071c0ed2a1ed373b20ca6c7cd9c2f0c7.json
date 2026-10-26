@@ -1,0 +1,15 @@
+{
+ "key": "62378648d92214501016bdbecb30ac36071c0ed2a1ed373b20ca6c7cd9c2f0c7",
+ "verdict": {
+  "believed": true,
+  "probability": 0.83,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper",
+   "neighbour",
+   "builder"
+  ],
+  "quote": "The innkeeper has an appointment with me in the great hall at eighteen hundred, explicitly asking me not to arrive early. Its purpose has not been explained. That is unusual and may connect to the people named in the bakery report, though it could be an innocent gathering or surprise."
+ }
+}

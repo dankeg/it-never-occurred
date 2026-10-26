@@ -1,0 +1,12 @@
+{
+ "key": "ebf90bd4eea384f23b230db7dad8f39e398a443ba6ccc2cf23c86f3dd69e3215",
+ "verdict": {
+  "believed": true,
+  "probability": 0.83,
+  "who": [
+   "Freight",
+   "Others involved in the great hall preparations (not identified)"
+  ],
+  "quote": "At 07:38 I heard Freight say both entrances were closed, ask for an open shutter at (-46, -59, 31) to be checked, and say they would keep everything quiet until eighteen. ... The preparations could be for that inspection, but the insistence on quiet and closed entrances makes me curious. I do not know their actual purpose."
+ }
+}

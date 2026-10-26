@@ -1,0 +1,14 @@
+{
+ "key": "55f0281dadc41dbd2f8560438db851da27b973f2ebc85e8e059a6cfde72ff624",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "secretary",
+   "Freight",
+   "builder"
+  ],
+  "quote": "That insistence, together with the somewhat vague original description, makes me suspect a surprise gathering, possibly intended for me."
+ }
+}

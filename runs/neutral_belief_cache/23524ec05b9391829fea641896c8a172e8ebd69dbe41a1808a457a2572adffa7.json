@@ -1,0 +1,14 @@
+{
+ "key": "23524ec05b9391829fea641896c8a172e8ebd69dbe41a1808a457a2572adffa7",
+ "verdict": {
+  "believed": true,
+  "probability": 0.84,
+  "who": [
+   "innkeeper",
+   "secretary",
+   "builder",
+   "baker"
+  ],
+  "quote": "The hall preparations, bread arrangements, and builder meeting suggest an organized gathering or event. They might be connected, but I have not seen proof of its purpose or of any connection to the bridge-or-port talk. I should clarify the added appointment and ask directly what is being prepared rather than treat repetition or secrecy as evidence of wrongdoing."
+ }
+}

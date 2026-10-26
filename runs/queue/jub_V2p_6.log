@@ -1,0 +1,18 @@
+{
+ "end": 16000,
+ "stopped": "Provider usage limit reached: Responses API: {'type': 'invalid_request_error', 'code': 'subscription_sharing_usage_limit_exceeded', 'message': 'The ChatGPT user has reached their Subscription Sharing usage limit. Ask the user to try again after their usage limit resets or use an API key instead.', 'param': None}",
+ "stats": {
+  "decisions": 529,
+  "model_calls": 529,
+  "replayed": 0,
+  "input_tokens": 1850797,
+  "output_tokens": 31216,
+  "cache_read_tokens": 1690368,
+  "cache_write_tokens": 0,
+  "model_errors": 0,
+  "model_seconds": 2196.0017577519175,
+  "model_retries": 0
+ },
+ "outcome": null
+}
+PASS replay of jub_V2p_6: 529 decisions reused, 0 model calls, 12 hashes

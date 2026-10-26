@@ -1,0 +1,4 @@
+matplotlib==3.10.9
+pillow==12.1.1
+pytest
+duckdb==1.5.2

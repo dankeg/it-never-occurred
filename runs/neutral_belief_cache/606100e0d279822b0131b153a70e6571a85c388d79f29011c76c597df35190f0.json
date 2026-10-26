@@ -1,0 +1,14 @@
+{
+ "key": "606100e0d279822b0131b153a70e6571a85c388d79f29011c76c597df35190f0",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "baker",
+   "innkeeper",
+   "freight",
+   "secretary"
+  ],
+  "quote": "My suspicion is that the lighting inspection is a pretext for a jubilee celebration or surprise gathering, possibly involving me, but nobody has told me whose jubilee it is. I cannot yet establish its real purpose."
+ }
+}

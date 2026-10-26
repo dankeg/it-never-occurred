@@ -1,0 +1,13 @@
+{
+ "key": "536fdae735c397e46ea5b43755cf9699dcb543f57459d1f9eadcbc79ff60dc13",
+ "verdict": {
+  "believed": true,
+  "probability": 0.7,
+  "who": [
+   "builder",
+   "innkeeper",
+   "freight operator"
+  ],
+  "quote": "My feeling that something may be happening without me remains only a suspicion."
+ }
+}

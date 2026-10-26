@@ -1,0 +1,15 @@
+{
+ "key": "eb12563d2d419ce85c350a605dc4dca045e7fa7020b52e175df52c24f1ce0707",
+ "verdict": {
+  "believed": true,
+  "probability": 0.86,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper",
+   "neighbour",
+   "builder"
+  ],
+  "quote": "Taken together, a large bread order involving freight, possible innkeeper payment, neighbour involvement, and preparations in the great hall could be arrangements for a gathering or some private occasion. That is only a possibility: I have no direct evidence of its purpose or that these matters are connected."
+ }
+}

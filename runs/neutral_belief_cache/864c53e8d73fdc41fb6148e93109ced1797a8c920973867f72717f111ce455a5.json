@@ -1,0 +1,16 @@
+{
+ "key": "864c53e8d73fdc41fb6148e93109ced1797a8c920973867f72717f111ce455a5",
+ "verdict": {
+  "believed": true,
+  "probability": 0.98,
+  "who": [
+   "baker",
+   "innkeeper",
+   "secretary",
+   "builder",
+   "neighbour",
+   "someone called freight"
+  ],
+  "quote": "My tentative suspicion is that the bakery activity, bread movement, and carefully timed great-hall visit could be preparations for a gathering, perhaps a surprise."
+ }
+}

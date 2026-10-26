@@ -1,0 +1,13 @@
+{
+ "key": "3945cc5c425eb59bc3f10bc8cfa3bfab2ec79a1cd4dde38a0a1d4ac0030050bf",
+ "verdict": {
+  "believed": true,
+  "probability": 0.66,
+  "who": [
+   "baker",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "Combined with freight's involvement and the mention of bridge or port changes, the bakery discussion may concern transport or bread and grain distribution. That is only a working hypothesis. It could be private business rather than town policy."
+ }
+}

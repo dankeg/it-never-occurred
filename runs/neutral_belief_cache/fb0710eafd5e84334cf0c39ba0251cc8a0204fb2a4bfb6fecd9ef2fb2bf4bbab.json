@@ -1,0 +1,12 @@
+{
+ "key": "fb0710eafd5e84334cf0c39ba0251cc8a0204fb2a4bfb6fecd9ef2fb2bf4bbab",
+ "verdict": {
+  "believed": true,
+  "probability": 0.93,
+  "who": [
+   "Freight",
+   "the people assisting Freight at the great hall"
+  ],
+  "quote": "For now I suspect the hall activity concerns preparations for that appointment, possibly something intended to remain private until then, but its actual purpose remains unknown."
+ }
+}

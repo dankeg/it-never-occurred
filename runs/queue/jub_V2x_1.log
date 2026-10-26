@@ -1,0 +1,38 @@
+{
+ "end": 37000,
+ "stopped": null,
+ "stats": {
+  "decisions": 1055,
+  "model_calls": 1055,
+  "replayed": 0,
+  "input_tokens": 5100550,
+  "output_tokens": 60346,
+  "cache_read_tokens": 2229760,
+  "cache_write_tokens": 0,
+  "model_errors": 0,
+  "model_seconds": 4262.055490463739,
+  "model_retries": 0
+ },
+ "outcome": {
+  "hall": {
+   "game_time": 36000,
+   "fresh_bread": 200,
+   "mouldy_bread": 0,
+   "lights": 8
+  },
+  "mayor_in_hall": [
+   36760,
+   36800,
+   36840,
+   36880,
+   36920,
+   36960
+  ],
+  "bread_needed": 200,
+  "lights_needed": 8,
+  "feast": true,
+  "lit": true,
+  "attended": true
+ }
+}
+PASS replay of jub_V2x_1: 1055 decisions reused, 0 model calls, 29 hashes

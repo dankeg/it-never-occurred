@@ -1,0 +1,70 @@
+{
+ "point": {
+  "run": "jub_V2t_2",
+  "agent": "freight",
+  "game_time": 7120,
+  "swap": null,
+  "resample": [
+   "freight"
+  ],
+  "mute": [
+   [
+    "freight",
+    "mayor"
+   ]
+  ]
+ },
+ "stopped": "Provider usage limit reached: Responses API: {'type': 'invalid_request_error', 'code': 'subscription_sharing_usage_limit_exceeded', 'message': 'The ChatGPT user has reached their Subscription Sharing usage limit. Ask the user to try again after their usage limit resets or use an API key instead.', 'param': None}",
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 178,
+   "replayed": 178,
+   "mayor_unaware": false
+  },
+  "resample_sighting": {
+   "calls": 61,
+   "decisions": 80,
+   "replayed": 19,
+   "mayor_unaware": false
+  }
+ }
+}
+{
+ "point": {
+  "run": "jub_V2t_2",
+  "agent": "freight",
+  "game_time": 7120,
+  "swap": null,
+  "resample": [
+   "freight"
+  ],
+  "mute": [
+   [
+    "freight",
+    "mayor"
+   ]
+  ]
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 178,
+   "replayed": 178,
+   "mayor_unaware": false
+  },
+  "resample_sighting": {
+   "calls": 61,
+   "decisions": 80,
+   "replayed": 19,
+   "mayor_unaware": false
+  },
+  "mute_sighting": {
+   "calls": 67,
+   "decisions": 84,
+   "replayed": 17,
+   "mayor_unaware": false
+  }
+ }
+}

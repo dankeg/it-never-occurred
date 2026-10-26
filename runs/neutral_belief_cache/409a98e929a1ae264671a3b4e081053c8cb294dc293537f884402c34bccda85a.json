@@ -1,0 +1,15 @@
+{
+ "key": "409a98e929a1ae264671a3b4e081053c8cb294dc293537f884402c34bccda85a",
+ "verdict": {
+  "believed": true,
+  "probability": 0.94,
+  "who": [
+   "Freight",
+   "miller",
+   "builder",
+   "baker",
+   "innkeeper"
+  ],
+  "quote": "Something seems to be being organized through informal conversations, and I still have only fragments. ... My current guess is that the bread, warehouse supplies, and conversations among Freight, the miller, builder, baker, and innkeeper may concern a community meal or related gathering."
+ }
+}

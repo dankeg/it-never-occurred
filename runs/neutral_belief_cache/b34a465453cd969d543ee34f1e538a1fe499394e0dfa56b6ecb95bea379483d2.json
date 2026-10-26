@@ -1,0 +1,15 @@
+{
+ "key": "b34a465453cd969d543ee34f1e538a1fe499394e0dfa56b6ecb95bea379483d2",
+ "verdict": {
+  "believed": true,
+  "probability": 0.96,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "miller",
+   "baker"
+  ],
+  "quote": "I suspect some coordination in town that I do not yet understand. ... These could be ordinary supplies and baking business, or preparations for some gathering, but I have no firm evidence of an event or its purpose."
+ }
+}

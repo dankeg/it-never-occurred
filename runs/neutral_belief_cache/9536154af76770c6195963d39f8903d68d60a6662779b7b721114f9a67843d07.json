@@ -1,0 +1,14 @@
+{
+ "key": "9536154af76770c6195963d39f8903d68d60a6662779b7b721114f9a67843d07",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "baker"
+  ],
+  "quote": "Innkeeper has arranged to meet me in the great hall tomorrow at eighteen hundred and specifically requested that I not arrive early, without stating the purpose. Together with the food, materials, lighting, and several people's cooperation, that makes me suspect preparations for a gathering, perhaps a surprise celebration involving me."
+ }
+}

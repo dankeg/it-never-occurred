@@ -1,0 +1,222 @@
+{
+ "point": {
+  "run": "jub_V2p_3",
+  "agent": "builder",
+  "game_time": 3520,
+  "swap": null,
+  "resample": [
+   "builder"
+  ],
+  "mute": [
+   [
+    "builder",
+    "watchman"
+   ]
+  ]
+ },
+ "horizon": 2400,
+ "arms": {
+  "control": {
+   "arm": "control",
+   "point": {
+    "run": "jub_V2p_3",
+    "agent": "builder",
+    "game_time": 3520,
+    "swap": null,
+    "resample": [
+     "builder"
+    ],
+    "mute": [
+     [
+      "builder",
+      "watchman"
+     ]
+    ]
+   },
+   "end": 5920,
+   "hall": {
+    "game_time": 5920,
+    "fresh_bread": 0,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {},
+    "secretary": {
+     "doc_write": 1
+    },
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 32
+    },
+    "neighbour": {},
+    "innkeeper": {
+     "purchase": 1
+    },
+    "freight": {},
+    "builder": {
+     "block_change": 8
+    },
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 32,
+    "secretary": 0,
+    "baker": 8,
+    "neighbour": 0,
+    "innkeeper": 26,
+    "freight": 16,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {
+    "neighbour": {
+     "first": {
+      "t": 5760,
+      "agent": "neighbour",
+      "channel": "hall_change",
+      "source": "minecraft:lantern",
+      "detail": "at [-56, -60, 34]"
+     },
+     "channels": {
+      "hall_change": 1
+     }
+    }
+   },
+   "mayor_unaware": true,
+   "calls": 0,
+   "decisions": 177,
+   "replayed": 177,
+   "override_applied": false,
+   "held_rejected": []
+  },
+  "resample_sighting": {
+   "arm": "resample_sighting",
+   "point": {
+    "run": "jub_V2p_3",
+    "agent": "builder",
+    "game_time": 3520,
+    "swap": null,
+    "resample": [
+     "builder"
+    ],
+    "mute": [
+     [
+      "builder",
+      "watchman"
+     ]
+    ]
+   },
+   "end": 5920,
+   "hall": {
+    "game_time": 5920,
+    "fresh_bread": 0,
+    "mouldy_bread": 0,
+    "lights": 5
+   },
+   "acts": {
+    "mayor": {
+     "purchase": 1
+    },
+    "secretary": {},
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 32
+    },
+    "neighbour": {},
+    "innkeeper": {
+     "purchase": 1
+    },
+    "freight": {},
+    "builder": {
+     "block_change": 5
+    },
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 30,
+    "secretary": 0,
+    "baker": 8,
+    "neighbour": 0,
+    "innkeeper": 26,
+    "freight": 16,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {},
+   "mayor_unaware": true,
+   "calls": 77,
+   "decisions": 102,
+   "replayed": 25,
+   "override_applied": true,
+   "held_rejected": []
+  },
+  "mute_sighting": {
+   "arm": "mute_sighting",
+   "point": {
+    "run": "jub_V2p_3",
+    "agent": "builder",
+    "game_time": 3520,
+    "swap": null,
+    "resample": [
+     "builder"
+    ],
+    "mute": [
+     [
+      "builder",
+      "watchman"
+     ]
+    ]
+   },
+   "end": 5920,
+   "hall": {
+    "game_time": 5920,
+    "fresh_bread": 0,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {
+     "purchase": 1
+    },
+    "secretary": {
+     "doc_write": 1
+    },
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 32
+    },
+    "neighbour": {},
+    "innkeeper": {
+     "purchase": 1
+    },
+    "freight": {},
+    "builder": {
+     "block_change": 8
+    },
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 30,
+    "secretary": 0,
+    "baker": 10,
+    "neighbour": 0,
+    "innkeeper": 26,
+    "freight": 16,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {},
+   "mayor_unaware": true,
+   "calls": 99,
+   "decisions": 119,
+   "replayed": 20,
+   "override_applied": true,
+   "held_rejected": []
+  }
+ },
+ "stopped": null
+}

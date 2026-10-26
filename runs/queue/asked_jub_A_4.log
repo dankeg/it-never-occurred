@@ -1,0 +1,33 @@
+{
+ "point": {
+  "run": "jub_A_4",
+  "agent": "mayor",
+  "game_time": 30000,
+  "swap": null,
+  "resample": [
+   "mayor"
+  ],
+  "mute": []
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 175,
+   "replayed": 175,
+   "mayor_unaware": false
+  },
+  "resample": {
+   "calls": 104,
+   "decisions": 139,
+   "replayed": 35,
+   "mayor_unaware": true
+  },
+  "brief": {
+   "calls": 139,
+   "decisions": 152,
+   "replayed": 13,
+   "mayor_unaware": false
+  }
+ }
+}

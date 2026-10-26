@@ -1,0 +1,62 @@
+{
+ "point": {
+  "run": "jub_A_2",
+  "agent": "innkeeper",
+  "game_time": 5520,
+  "swap": null,
+  "resample": [
+   "baker"
+  ],
+  "mute": [
+   [
+    "baker",
+    "innkeeper"
+   ]
+  ]
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 73,
+   "replayed": 73,
+   "mayor_unaware": true
+  },
+  "resample_1": {
+   "calls": 31,
+   "decisions": 40,
+   "replayed": 9,
+   "mayor_unaware": true
+  },
+  "resample_2": {
+   "calls": 35,
+   "decisions": 41,
+   "replayed": 6,
+   "mayor_unaware": true
+  },
+  "mute_1": {
+   "calls": 26,
+   "decisions": 35,
+   "replayed": 9,
+   "mayor_unaware": true
+  },
+  "mute_2": {
+   "calls": 26,
+   "decisions": 35,
+   "replayed": 9,
+   "mayor_unaware": true
+  },
+  "brief_1": {
+   "calls": 34,
+   "decisions": 43,
+   "replayed": 9,
+   "mayor_unaware": true
+  },
+  "brief_2": {
+   "calls": 29,
+   "decisions": 38,
+   "replayed": 9,
+   "mayor_unaware": true
+  }
+ }
+}

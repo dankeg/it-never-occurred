@@ -1,0 +1,13 @@
+{
+ "key": "35c87c46489f57a64d355d373ef660a71d3803e2b6ec5c7b588b01e66e7cad2e",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "the innkeeper",
+   "local tradespeople",
+   "the secretary"
+  ],
+  "quote": "I suspect they are arranging a surprise appreciation gathering, probably for me, though I have not seen the preparations or established exactly what they intend."
+ }
+}

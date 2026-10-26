@@ -1,0 +1,15 @@
+{
+ "key": "952129b6d68bbd2b22d9dd959a15de2b94c847c9425ac8facc63216d4d383ee6",
+ "verdict": {
+  "believed": true,
+  "probability": 0.72,
+  "who": [
+   "baker",
+   "innkeeper",
+   "builder",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "I do not yet know whether there is an actual proposal, a private arrangement, or merely circulating gossip. If real, it might concern river crossings or freight movements, but I have no evidence of its purpose or any wrongdoing."
+ }
+}

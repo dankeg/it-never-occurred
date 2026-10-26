@@ -1,0 +1,14 @@
+{
+ "key": "e0975276559838a03fd5a5e41005cf7e7bbf88f139d02037fa352fcda8837711",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "baker",
+   "builder",
+   "secretary"
+  ],
+  "quote": "Both the secretary and innkeeper emphasized that preparations finish at 18:00 and I should not arrive earlier. That makes me suspect a surprise is being arranged, rather than ordinary office business."
+ }
+}

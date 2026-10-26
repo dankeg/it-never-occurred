@@ -1,0 +1,13 @@
+{
+ "key": "0082cce6b29545b80e7e85a9b23ae580512b9ee0ffda3e004e73ded757435a01",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "baker",
+   "freight"
+  ],
+  "quote": "The repeated reminders, hall preparations, bread and timing make me suspect some gathering or jubilee-related celebration is being arranged, possibly as a surprise for me, with the inspection serving as the occasion to bring me there."
+ }
+}

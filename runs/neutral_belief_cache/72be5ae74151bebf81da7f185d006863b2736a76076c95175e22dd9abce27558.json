@@ -1,0 +1,13 @@
+{
+ "key": "72be5ae74151bebf81da7f185d006863b2736a76076c95175e22dd9abce27558",
+ "verdict": {
+  "believed": true,
+  "probability": 0.74,
+  "who": [
+   "the baker",
+   "the innkeeper",
+   "someone called freight"
+  ],
+  "quote": "Townsfolk mentioned the baker, innkeeper, and someone called freight in connection with it. ... I cannot yet tell whether the reported change concerns access, deliveries, or something else, nor what it is for."
+ }
+}

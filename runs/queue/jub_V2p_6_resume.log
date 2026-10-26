@@ -1,0 +1,70 @@
+{
+ "end": 37000,
+ "stopped": null,
+ "stats": {
+  "decisions": 670,
+  "model_calls": 612,
+  "replayed": 58,
+  "input_tokens": 2737889,
+  "output_tokens": 36796,
+  "cache_read_tokens": 2014208,
+  "cache_write_tokens": 0,
+  "model_errors": 0,
+  "model_seconds": 3709.373581877211,
+  "model_retries": 0
+ },
+ "outcome": {
+  "hall": {
+   "game_time": 36000,
+   "fresh_bread": 130,
+   "mouldy_bread": 0,
+   "lights": 8
+  },
+  "mayor_in_hall": [
+   36040,
+   36080,
+   36120,
+   36160,
+   36200,
+   36240,
+   36280,
+   36320,
+   36360,
+   36400,
+   36440,
+   36480,
+   36520,
+   36560,
+   36600,
+   36640,
+   36680,
+   36720,
+   36760,
+   36800,
+   36840,
+   36880,
+   36920,
+   36960
+  ],
+  "bread_needed": 200,
+  "lights_needed": 8,
+  "feast": false,
+  "lit": true,
+  "attended": true
+ }
+}
+Traceback (most recent call last):
+  File "<repo>/scripts/run_jubilee.py", line 171, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/run_jubilee.py", line 149, in main
+    return replay_and_compare(experiment, args, runtime.log, runtime.hashes, report["end"], resume_from)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/run_jubilee.py", line 156, in replay_and_compare
+    replay, _ = experiment.run_once(f"{args.name}_replay", None, log, epoch_turns=args.epoch_turns,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/run_jubilee.py", line 62, in run_once
+    session.clone()
+  File "<repo>/scripts/village_session.py", line 105, in clone
+    raise FileExistsError(f"Refusing to overwrite {self.directory}")
+FileExistsError: Refusing to overwrite runs/jub_V2p_6_replay

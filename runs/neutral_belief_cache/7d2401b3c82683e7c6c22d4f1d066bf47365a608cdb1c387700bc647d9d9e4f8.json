@@ -1,0 +1,13 @@
+{
+ "key": "7d2401b3c82683e7c6c22d4f1d066bf47365a608cdb1c387700bc647d9d9e4f8",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "innkeeper",
+   "baker"
+  ],
+  "quote": "I suspect a friendly surprise celebration, possibly for me, though I have no confirmation of its purpose. The builder, innkeeper and baker are involved in the arrangements; the secretary has been checking on them without learning the occasion."
+ }
+}

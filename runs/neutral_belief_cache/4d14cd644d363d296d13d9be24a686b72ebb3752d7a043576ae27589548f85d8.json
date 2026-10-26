@@ -1,0 +1,13 @@
+{
+ "key": "4d14cd644d363d296d13d9be24a686b72ebb3752d7a043576ae27589548f85d8",
+ "verdict": {
+  "believed": true,
+  "probability": 0.88,
+  "who": [
+   "innkeeper",
+   "freight operator",
+   "builder"
+  ],
+  "quote": "I suspect the three have a joint proposal or discussion prepared, possibly connected to their work, but I have not heard their explanation and cannot say whether it concerns the crossing rumors."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "key": "5bd31f4428e7cfcbdd12d9a1473ab6b3b2c2e50d396bc308c3232cc5e94254f0",
+ "verdict": {
+  "believed": true,
+  "probability": 0.96,
+  "who": [
+   "builder",
+   "freight",
+   "neighbour",
+   "Townsfolk Two"
+  ],
+  "quote": "These could be routine work, but the combination of hall preparations and reported bakery lighting makes me suspect an upcoming gathering or celebration that I have not been told about."
+ }
+}

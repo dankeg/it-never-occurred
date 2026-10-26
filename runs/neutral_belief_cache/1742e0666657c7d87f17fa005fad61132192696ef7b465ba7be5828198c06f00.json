@@ -1,0 +1,14 @@
+{
+ "key": "1742e0666657c7d87f17fa005fad61132192696ef7b465ba7be5828198c06f00",
+ "verdict": {
+  "believed": true,
+  "probability": 0.96,
+  "who": [
+   "baker",
+   "freight",
+   "possibly the innkeeper",
+   "possibly the neighbour"
+  ],
+  "quote": "Taken together, the large bread order, the involvement of freight and possibly the innkeeper and neighbour, and the hall inspection might be preparations for a gathering, but that is only a suspicion. I have no confirmation of its purpose or of any connection between these matters."
+ }
+}

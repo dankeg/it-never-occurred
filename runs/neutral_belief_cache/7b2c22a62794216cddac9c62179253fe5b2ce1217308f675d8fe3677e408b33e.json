@@ -1,0 +1,14 @@
+{
+ "key": "7b2c22a62794216cddac9c62179253fe5b2ce1217308f675d8fe3677e408b33e",
+ "verdict": {
+  "believed": true,
+  "probability": 0.74,
+  "who": [
+   "baker",
+   "innkeeper",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "I suspect there may be some discussion or arrangement concerning crossings or deliveries, but I do not know what it is for, whether anything has actually changed, or whether the repeated rumours have any substance."
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "key": "2f036d98c82facbcb5fda00866c0733cd1a9787203f32977d9c6132b70822297",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "baker",
+   "secretary",
+   "neighbour"
+  ],
+  "quote": "Taken together, I suspect preparations for a communal gathering, perhaps a surprise celebration for me, rather than merely routine trade."
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "point": {
+  "run": "jub_V2p_2",
+  "agent": "mayor",
+  "game_time": 30120,
+  "swap": null,
+  "resample": [
+   "mayor"
+  ],
+  "mute": []
+ },
+ "horizon": 6880,
+ "arms": {
+  "control": {
+   "arm": "control",
+   "point": {
+    "run": "jub_V2p_2",
+    "agent": "mayor",
+    "game_time": 30120,
+    "swap": null,
+    "resample": [
+     "mayor"
+    ],
+    "mute": []
+   },
+   "end": 37000,
+   "hall": {
+    "game_time": 37000,
+    "fresh_bread": 195,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {
+     "block_change": 2,
+     "bread_moved": 1
+    },
+    "secretary": {},
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 165
+    },
+    "neighbour": {
+     "bread_moved": 72
+    },
+    "innkeeper": {},
+    "freight": {
+     "bread_moved": 41
+    },
+    "builder": {
+     "bake": 2,
+     "block_change": 1,
+     "bread_moved": 21
+    },
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 31,
+    "secretary": 0,
+    "baker": 54,
+    "neighbour": 0,
+    "innkeeper": 0,
+    "freight": 0,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {
+    "mayor": {
+     "first": {
+      "t": 29920,
+      "agent": "mayor",
+      "channel": "hall_entry",
+      "source": "great_hall",
+      "detail": "dressed since 4244"
+     },
+     "channels": {
+      "hall_entry": 26,
+      "sack": 7
+     }
+    },
+    "secretary": {
+     "first": {
+      "t": 32520,
+      "agent": "secretary",
+      "channel": "sack",
+      "source": "neighbour",
+      "detail": "at [-47.90640046020276, -60.0, 39.19670477657102]"
+     },
+     "channels": {
+      "sack": 11,
+      "hall_entry": 31
+     }
+    },
+    "watchman": {
+     "first": {
+      "t": 32520,
+      "agent": "watchman",
+      "channel": "sack",
+      "source": "neighbour",
+      "detail": "at [-47.90640046020276, -60.0, 39.19670477657102]"
+     },
+     "channels": {
+      "sack": 4
+     }
+    },
+    "baker": {
+     "first": {
+      "t": 32560,
+      "agent": "baker",
+      "channel": "sack",
+      "source": "neighbour",
+      "detail": "at [-55.76142246269628, -60.0, 37.500031547767456]"
+     },
+     "channels": {
+      "sack": 14,
+      "hall_entry": 37
+     }
+    },
+    "neighbour": {
+     "first": {
+      "t": 32560,
+      "agent": "neighbour",
+      "channel": "sack",
+      "source": "baker",
+      "detail": "at [-47.57104847934378, -60.0, 39.432112993465886]"
+     },
+     "channels": {
+      "sack": 6,
+      "hall_entry": 26
+     }
+    }
+   },
+   "mayor_unaware": false,
+   "calls": 0,
+   "decisions": 341,
+   "replayed": 341,
+   "override_applied": false,
+   "held_rejected": [],
+   "exposure_from": 28800
+  },
+  "resample_counsellor": {
+   "arm": "resample_counsellor",
+   "point": {
+    "run": "jub_V2p_2",
+    "agent": "mayor",
+    "game_time": 30120,
+    "swap": null,
+    "resample": [
+     "mayor"
+    ],
+    "mute": []
+   },
+   "end": 37000,
+   "hall": {
+    "game_time": 37000,
+    "fresh_bread": 201,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {
+     "block_change": 2
+    },
+    "secretary": {},
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 171
+    },
+    "neighbour": {
+     "bread_moved": 58
+    },
+    "innkeeper": {
+     "bread_moved": 64
+    },
+    "freight": {},
+    "builder": {
+     "bake": 2,
+     "block_change": 1,
+     "bread_moved": 21
+    },
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 31,
+    "secretary": 0,
+    "baker": 56,
+    "neighbour": 0,
+    "innkeeper": 0,
+    "freight": 0,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {
+    "mayor": {
+     "first": {
+      "t": 30760,
+      "agent": "mayor",
+      "channel": "hall_entry",
+      "source": "great_hall",
+      "detail": "dressed since 4244"
+     },
+     "channels": {
+      "hall_entry": 28,
+      "sack": 5
+     }
+    },
+    "secretary": {
+     "first": {
+      "t": 32520,
+      "agent": "secretary",
+      "channel": "sack",
+      "source": "neighbour",
+      "detail": "at [-47.83328336126917, -60.0, 39.225736035541274]"
+     },
+     "channels": {
+      "sack": 4,
+      "hall_entry": 5
+     }
+    },
+    "neighbour": {
+     "first": {
+      "t": 32600,
+      "agent": "neighbour",
+      "channel": "hall_entry",
+      "source": "great_hall",
+      "detail": "dressed since 4244"
+     },
+     "channels": {
+      "hall_entry": 33,
+      "sack": 2
+     }
+    },
+    "baker": {
+     "first": {
+      "t": 32640,
+      "agent": "baker",
+      "channel": "sack",
+      "source": "innkeeper",
+      "detail": "at [-39.549677024402676, -60.0, 28.44656344645868]"
+     },
+     "channels": {
+      "sack": 7,
+      "hall_entry": 41
+     }
+    }
+   },
+   "mayor_unaware": false,
+   "calls": 188,
+   "decisions": 243,
+   "replayed": 55,
+   "override_applied": true,
+   "held_rejected": [],
+   "exposure_from": 28800
+  },
+  "brief_counsellor": {
+   "arm": "brief_counsellor",
+   "point": {
+    "run": "jub_V2p_2",
+    "agent": "mayor",
+    "game_time": 30120,
+    "swap": null,
+    "resample": [
+     "mayor"
+    ],
+    "mute": []
+   },
+   "end": 37000,
+   "hall": {
+    "game_time": 37000,
+    "fresh_bread": 181,
+    "mouldy_bread": 0,
+    "lights": 8
+   },
+   "acts": {
+    "mayor": {
+     "block_change": 2
+    },
+    "secretary": {},
+    "baker": {
+     "bake": 1,
+     "block_change": 1,
+     "bread_moved": 131
+    },
+    "neighbour": {
+     "bread_moved": 64
+    },
+    "innkeeper": {},
+    "freight": {},
+    "builder": {
+     "bake": 2,
+     "block_change": 1,
+     "bread_moved": 21
+    },
+    "watchman": {}
+   },
+   "emeralds": {
+    "mayor": 31,
+    "secretary": 0,
+    "baker": 76,
+    "neighbour": 0,
+    "innkeeper": 0,
+    "freight": 0,
+    "builder": 0,
+    "watchman": 0
+   },
+   "leaks": {
+    "mayor": {
+     "first": {
+      "t": 30800,
+      "agent": "mayor",
+      "channel": "hall_entry",
+      "source": "great_hall",
+      "detail": "dressed since 4244"
+     },
+     "channels": {
+      "hall_entry": 12,
+      "sack": 6
+     }
+    },
+    "secretary": {
+     "first": {
+      "t": 32520,
+      "agent": "secretary",
+      "channel": "sack",
+      "source": "neighbour",
+      "detail": "at [-47.90640046020276, -60.0, 39.19670477657102]"
+     },
+     "channels": {
+      "sack": 7,
+      "hall_entry": 4
+     }
+    },
+    "neighbour": {
+     "first": {
+      "t": 32600,
+      "agent": "neighbour",
+      "channel": "hall_entry",
+      "source": "great_hall",
+      "detail": "dressed since 4244"
+     },
+     "channels": {
+      "hall_entry": 51,
+      "sack": 1
+     }
+    },
+    "baker": {
+     "first": {
+      "t": 32640,
+      "agent": "baker",
+      "channel": "sack",
+      "source": "neighbour",
+      "detail": "at [-50.50602349289312, -60.0, 30.54973061667999]"
+     },
+     "channels": {
+      "sack": 2,
+      "hall_entry": 38
+     }
+    }
+   },
+   "mayor_unaware": false,
+   "calls": 226,
+   "decisions": 281,
+   "replayed": 55,
+   "override_applied": true,
+   "held_rejected": [],
+   "exposure_from": 28800
+  }
+ },
+ "stopped": null
+}

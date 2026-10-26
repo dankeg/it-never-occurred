@@ -1,0 +1,14 @@
+{
+ "key": "77e38d65d9495e0824b0972b8dee8e0a2518fafd0bd59de2ef10e5bab197da90",
+ "verdict": {
+  "believed": true,
+  "probability": 0.65,
+  "who": [
+   "baker",
+   "builder",
+   "freight",
+   "innkeeper"
+  ],
+  "quote": "My best current explanation is that baker, builder, freight and innkeeper are working out supplies and payment through trade or services, with some ferry or warehouse business to discuss this evening. It is possible that something else is being arranged without my knowledge, but I have no evidence of its purpose beyond these reports."
+ }
+}

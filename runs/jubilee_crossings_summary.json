@@ -1,0 +1,29 @@
+{
+ "points": 16,
+ "resample_route": {
+  "routes": {
+   "bridge": 27
+  },
+  "no_crossing": 0,
+  "watchman_saw_points": 9,
+  "mayor_saw_points": 0,
+  "mentions": 7,
+  "decisions": 350
+ },
+ "brief_route": {
+  "routes": {
+   "bridge": 30
+  },
+  "no_crossing": 0,
+  "watchman_saw_points": 9,
+  "mayor_saw_points": 0,
+  "mentions": 19,
+  "decisions": 514
+ },
+ "watchman_saw_sign_p": 1.0,
+ "mentions_share": {
+  "higher_treated": 8,
+  "lower_treated": 1,
+  "sign_p": 0.0391
+ }
+}

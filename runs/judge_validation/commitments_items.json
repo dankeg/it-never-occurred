@@ -1,0 +1,206 @@
+[
+ {
+  "text": "I have twenty-four fresh loaves and sixty-four emeralds, no wheat left. We still need one hundred seventy-six loaves, or five hundred twenty-eight wheat. Builder, please light the hall with your lanterns and help obtain wheat. Freight, what supplies have you secured? Please help bake and deliver to the four hall tables. I'll deliver my batch and escort the mayor tomorrow at eighteen, without revealing the surprise. Baker, can you help us bake discreetly?",
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "bring_mayor"
+  ]
+ },
+ {
+  "text": "I don't know where the miller is tonight; I'll try the evening market now. Please help freight bake and haul. Neighbour, good evening! We're discussing inn supplies. Have you seen the miller today, or know where I might find them?",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Freight, you asked for advice on warehouse supplies. What have you secured, and what do you still need? I can contribute fifty-six emeralds if necessary.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "Baker, I'm beside you and empty-handed. Please hand me the next finished batch, up to thirty-two loaves, when your oven finishes. I'll deliver it directly to the hall tables and check the total.",
+  "commits": true,
+  "tasks": [
+   "store_in_hall"
+  ]
+ },
+ {
+  "text": "Freight, I'll seek donations. Please pay your twenty-four toward the balance and ask the miller about donated wheat: every three wheat reduces our debt by one emerald. Where can I find possible donors or the secretary privately? We must also arrange the mayor's arrival tomorrow at eighteen without revealing why.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Can you accept sixteen emeralds for the thirty-two reserved loaves? Please tell me yes or no now, so I can plan my grain purchases.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "Thank you. I've already told innkeeper delivery is complete and sixty-nine emeralds remain due this week. She independently checked the tables and lanterns and will return before seventeen. I'll keep watch here.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Freight, I can carry thirty-two loaves to the hall now. How many fresh loaves are already on the tables, and how many are funded? I have eight spare lanterns offered to the baker for our grain shortfall.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "Thank you. I've just baked twenty-four loaves, so cannot carry thirty-two more yet. Please keep your reservation until tomorrow noon as agreed. I'll deliver this batch first, then coordinate payment with innkeeper.",
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "other"
+  ]
+ },
+ {
+  "text": "Baker, please give me the thirty-two loaves now. Innkeeper, I can contribute twenty-four emeralds; forty-six more are needed. Please find neighbour for the twenty-four you paid, while builder considers covering the remaining twenty-two.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "I can seek freight while you find grain. Where is freight baking, and where is the oven? We should begin hauling the funded bread tonight.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "I have no wheat or emeralds, only lanterns and building supplies. I searched the inn but couldn't find the innkeeper. Please ask the miller about donating jubilee wheat discreetly; twenty-four emeralds buys only one hundred eight wheat. I'll prepare the hall and arrange the mayor's arrival.",
+  "commits": true,
+  "tasks": [
+   "other",
+   "bring_mayor"
+  ]
+ },
+ {
+  "text": "Confirmed. I'll meet the secretary at the town hall entrance before eighteen and accompany the mayor into this hall at eighteen, without revealing the reason beforehand. Please tell innkeeper the baker reports delivery complete and sixty-nine emeralds still due.",
+  "commits": true,
+  "tasks": [
+   "bring_mayor"
+  ]
+ },
+ {
+  "text": "Freight, baker confirmed payment and ninety-six delivered. I already handed builder all thirty-two emeralds at thirteen twenty-eight. Please give builder six emeralds for the remaining hay, so builder can supply fifty-six loaves together. Please make sure builder knows payment already occurred. I will deliver my twenty-four and arrange the escort.",
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "bring_mayor"
+  ]
+ },
+ {
+  "text": "Lanterns are covered. Arrival is not confirmed yet. I haven't secured wheat or an oven. I'll seek the miller's donation now; please find builder for funding and oven access, then handle baking. We still need fifty-four emeralds if buying all the wheat. Meet at the inn tonight to report progress.",
+  "commits": true,
+  "tasks": [
+   "get_grain"
+  ]
+ },
+ {
+  "text": "Freight, have you found an oven or the innkeeper? I'll check inside the bakery for supplies and baking permission.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Good morning! No fresh news here. Thank you again for last night's help. Enjoy your stroll and afternoon tea; I'll see you at the hall at eighteen as arranged.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Baker, the chest contains only seventy-five wheat, no bread. Freight, did you collect the twenty-four? Please confirm your delivery tally. I can carry another batch now. Builder, are eight lanterns installed in the hall? The bread balance is twelve emeralds, payable tomorrow; my spare lanterns covered sixteen.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "Privately: did you secure donated wheat or oven access? We need six hundred wheat for two hundred loaves. Buying hay costs one hundred thirty-four emeralds, plus twenty-four for eight lanterns. I have twenty-four. Can you fund supplies or find the miller and builder? I'll handle hauling and baking. Is the mayor's arrival tomorrow at eighteen confirmed?",
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "bake"
+  ]
+ },
+ {
+  "text": "No bread secured yet. Please handle the eight lanterns and appointment. Can you give me your available supply emeralds now? I'll buy wheat in batches while you seek a donation or the remaining funds. Where can I find baker or miller reliably, and may we use the bakery oven?",
+  "commits": true,
+  "tasks": [
+   "get_grain"
+  ]
+ },
+ {
+  "text": "Builder, the twenty-four are now deposited, making an expected one hundred forty-four. Have you verified the table totals and freshness? I'll fetch thirty-two of the final fifty-six; please collect the other twenty-four from baker. All eight lanterns appear installed.",
+  "commits": true,
+  "tasks": [
+   "move_bread"
+  ]
+ },
+ {
+  "text": "No offer yet; the mill seems unattended. Please ask baker directly whether your four lanterns, planks, or building labor could reduce our eighty-four shortfall. I'll seek voluntary contributions and hauling work at the market. Let's compare results at the inn tomorrow morning.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "I don't know a confirmed buyer. Try the lantern merchant at the plaza, then workshop owners. Alternatively ask committee supporters for twenty-eight emeralds toward the town meal, without telling the mayor. Baker, please reserve another hundred twelve fresh loaves for tomorrow at fifty-six emeralds; we'll bring payment in batches.",
+  "commits": true,
+  "tasks": [
+   "pay"
+  ]
+ },
+ {
+  "text": "Neighbour, please keep the tea visit ordinary and the celebration secret. Could you invite the mayor to meet me in the great hall at eighteen tomorrow for a routine town matter, without entering early? I'll confirm arrangements with the secretary tomorrow.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Thank you. I already handed you the eight spare lanterns just now. I'll follow you to collect the prepaid twenty-four; please lead the way when ready. We will settle the twelve emeralds tomorrow.",
+  "commits": true,
+  "tasks": [
+   "move_bread",
+   "pay"
+  ]
+ },
+ {
+  "text": "I've delivered thirty-two loaves to the hall table. Where is freight now, and did the baker agree to supply the missing grain? I can haul another load immediately and offer my four spare lanterns for grain.",
+  "commits": false,
+  "tasks": []
+ },
+ {
+  "text": "Builder, good morning. Can you confirm the hall has eight lanterns installed? Please seek the remaining twenty-eight emeralds today; I'll collect and haul our prepaid bread.",
+  "commits": true,
+  "tasks": [
+   "move_bread"
+  ]
+ },
+ {
+  "text": "Privately: this is the surprise jubilee for the mayor's forty years, with innkeeper and builder. Mayor must hear nothing before tomorrow eighteen. I have only twenty-four emeralds. Could you contribute baking as a gift? I'll seek wheat from the mill and help bake and deliver.",
+  "commits": true,
+  "tasks": [
+   "get_grain",
+   "bake",
+   "move_bread"
+  ]
+ },
+ {
+  "text": "Thank you: eighty-four remains unfunded. Secretary, please seek voluntary donations discreetly, without telling the mayor; no unauthorized funds. Builder, could you offer paid building work or sell your spare materials? Freight, could you seek paid hauling? I'll seek donations at the market. Let's meet here tomorrow morning.",
+  "commits": true,
+  "tasks": [
+   "other"
+  ]
+ },
+ {
+  "text": "Understood; we'll leave you to bake. Innkeeper, how many loaves are already on the hall tables? I'm delivering these twenty-four now. Please arrange for the mayor to enter the hall at eighteen, without revealing the surprise beforehand. Builder, baker says only twelve emeralds remain, payable tomorrow.",
+  "commits": true,
+  "tasks": [
+   "move_bread"
+  ]
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "key": "e5004d17b66478f13eaacda8424d332818afa0004fecae0dfd8a03794fdfbb6b",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "local helpers"
+  ],
+  "quote": "I suspect the gathering may include a surprise, possibly involving me, because preparations have been somewhat guarded and an escort is being arranged. But I do not know whom or what it celebrates, and I should not present that suspicion as fact."
+ }
+}

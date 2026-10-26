@@ -1,0 +1,13 @@
+{
+ "key": "47c7e5afadad3494dde7d6da13f039c88fd3cd75af145e04e0b8fceea6a42069",
+ "verdict": {
+  "believed": true,
+  "probability": 0.98,
+  "who": [
+   "innkeeper",
+   "baker",
+   "freight"
+  ],
+  "quote": "Freight asked that their arrangements stay private until today at eighteen. That timing matches the lighting inspection, and the bread and mention of a jubilee make me suspect preparations for a gathering or celebration, possibly involving the hall. This is only a suspicion; I have not seen the arrangements or confirmed that these matters are connected."
+ }
+}

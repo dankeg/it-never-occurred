@@ -1,0 +1,144 @@
+{
+ "source": "Kev repository at 1f04cfa (files read, never executed): space/presets.py PRESETS[0] 'Support triage' and its reference answers in runs/space-republish-2ea5660.json ('reference': Kev-4B, fp32 CPU, raw probabilities, T = 1, 253 input tokens); README.md's example request and response (Kev-4B, bf16 on an Apple M5, calibrated T = 2.41, probabilities rounded to 2 decimals). Questions converted as kev/api.py to_record does: a choice's options are 'name: description' (the name alone without one), a yes/no question's options are 'no' and 'yes' (reported: p(yes)), a score's options are its levels.",
+ "cases": [
+  {
+   "name": "support_triage_fp32_raw",
+   "temperature": 1.0,
+   "input_tokens": 253,
+   "tolerance": 0.03,
+   "state": "Shoes arrived two weeks late and in the wrong size. Also I see two charges on my card. What are you going to do about this?",
+   "questions": [
+    {
+     "instruction": "Which team should handle this?",
+     "options": [
+      "returns: Exchanges, refunds, wrong or damaged items",
+      "shipping: Delivery status, delays, lost packages",
+      "billing: Charges, invoices, payment problems"
+     ],
+     "reference": [
+      0.7086,
+      0.2447,
+      0.0467
+     ]
+    },
+    {
+     "instruction": "If the customer wants to return something, why?",
+     "options": [
+      "wrong_size: The item doesn't fit",
+      "wrong_item: A different product was delivered",
+      "damaged: The item arrived broken or faulty",
+      "changed_mind: The item is fine, the customer no longer wants it",
+      "other: A return reason that fits none of the above"
+     ],
+     "reference": [
+      0.9867,
+      0.0008,
+      0.0,
+      0.0002,
+      0.0123
+     ]
+    },
+    {
+     "instruction": "What does the customer want to happen?",
+     "options": [
+      "exchange: Swap the item for a different one",
+      "refund: Money back",
+      "replacement: The same item sent again",
+      "information: Just an answer, no action needed"
+     ],
+     "reference": [
+      0.0991,
+      0.4001,
+      0.2949,
+      0.2059
+     ]
+    },
+    {
+     "instruction": "What is the customer's tone?",
+     "options": [
+      "calm",
+      "frustrated",
+      "angry"
+     ],
+     "reference": [
+      0.0041,
+      0.6988,
+      0.2971
+     ]
+    },
+    {
+     "instruction": "Does this message require urgent human attention?",
+     "options": [
+      "no",
+      "yes"
+     ],
+     "reference": [
+      0.0698,
+      0.9302
+     ]
+    },
+    {
+     "instruction": "How frustrated is the customer?",
+     "options": [
+      "Calm",
+      "Frustrated",
+      "Very angry"
+     ],
+     "reference": [
+      0.0015,
+      0.7217,
+      0.2768
+     ]
+    }
+   ]
+  },
+  {
+   "name": "readme_example_bf16_calibrated",
+   "temperature": 2.406050072164233,
+   "input_tokens": 101,
+   "tolerance": 0.06,
+   "state": "Shoes arrived two weeks late and in the wrong size. Also I see two charges on my card.",
+   "questions": [
+    {
+     "instruction": "Which team should handle this?",
+     "options": [
+      "returns: Exchanges, refunds, wrong or damaged items",
+      "shipping: Delivery status, delays, lost packages",
+      "billing: Charges, invoices, payment problems"
+     ],
+     "reference": [
+      0.47,
+      0.28,
+      0.25
+     ]
+    },
+    {
+     "instruction": "Does this need urgent human attention?",
+     "options": [
+      "no",
+      "yes"
+     ],
+     "reference": [
+      0.07,
+      0.93
+     ]
+    },
+    {
+     "instruction": "How frustrated is the customer?",
+     "options": [
+      "Calm",
+      "Frustrated",
+      "Very angry"
+     ],
+     "reference": [
+      0.0,
+      0.56,
+      0.44
+     ]
+    }
+   ],
+   "informational": true,
+   "note": "Measured 2026-10-18: token count exact and the same most likely options, but probabilities up to 0.21 away (no temperature reproduces them), while the dated fp32 reference of Kev 1.0's weights matches within 0.014; the README example most likely predates those weights. Reported, not gated."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "key": "fc26f162a6c32a4d6c677b1964804e6f22f3f8b95cc9d20488a971ed7ecef2a2",
+ "verdict": {
+  "believed": true,
+  "probability": 0.88,
+  "who": [
+   "builder",
+   "neighbour",
+   "innkeeper",
+   "baker",
+   "freight"
+  ],
+  "quote": "These details suggest preparations for a supper and perhaps an acknowledgement of my service, with the lighting inspection providing the occasion or possibly a pretext. I do not yet know that for certain, nor who originated the plan."
+ }
+}

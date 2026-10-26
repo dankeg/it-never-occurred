@@ -1,0 +1,13 @@
+{
+ "key": "67a514c531683087b1a1a3d11231bfaa26fa59311cf1fe7e923900e723675f58",
+ "verdict": {
+  "believed": true,
+  "probability": 0.76,
+  "who": [
+   "the builder",
+   "the innkeeper",
+   "the freight operator"
+  ],
+  "quote": "I do not yet know what the builder wants from them. Ordinary work or freight arrangements are possible, but that is only a guess. ... My feeling that something is happening without me remains a suspicion, not a discovery."
+ }
+}

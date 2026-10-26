@@ -1,0 +1,15 @@
+{
+ "key": "1aa12f295e6b0dc25f844eb5c86cc706646e946889797cb09bed5ae8079e4848",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "neighbour",
+   "innkeeper",
+   "baker",
+   "freight"
+  ],
+  "quote": "Taken together, I suspect a surprise acknowledgement of my service, perhaps with a supper in the great hall, using the inspection as the reason to bring me there. That is an inference, not something anyone has confirmed to me."
+ }
+}

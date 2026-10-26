@@ -1,0 +1,15 @@
+{
+ "key": "cebac85bcf5dc430afb9870c84712b378ae3caaa612a57267422baf9107c8fc9",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "freight",
+   "innkeeper",
+   "neighbour",
+   "secretary"
+  ],
+  "quote": "I suspect the lighting inspection is also an occasion for a community supper and a deliberately undisclosed tribute or thank-you."
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "key": "89a23ea2596ad66d5d1161195bb763aea5edc5fb72cc3400d90e325ea2bb169b",
+ "verdict": {
+  "believed": true,
+  "probability": 0.86,
+  "who": [
+   "the innkeeper",
+   "the builder",
+   "Freight",
+   "the miller",
+   "the baker"
+  ],
+  "quote": "These could be ordinary business, but together they suggest possible preparations involving bread, grain, building supplies, or a gathering. I do not know whether the reports are connected, and have no evidence of danger or wrongdoing."
+ }
+}

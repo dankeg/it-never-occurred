@@ -1,0 +1,15 @@
+{
+ "key": "be160b064a7d9ecc28ebd00d55d968402412e01b8a6e024fc24d931de43a882c",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "neighbour",
+   "innkeeper",
+   "secretary",
+   "freight"
+  ],
+  "quote": "My suspicion is that the inspection is a pretext for a surprise gathering, perhaps an acknowledgement of my own service with a communal meal. That is not confirmed: nobody has identified the honouree or explicitly explained the connection between supper and inspection."
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "innkeeper_extra": "The committee's batch of 200 loaves in the inn's storeroom is fresh, baked this morning",
+ "setup": [
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block -36 -60 8 container.2 with minecraft:bread[minecraft:custom_data={simharness_baked_day:0}] 64"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block -36 -60 8 container.3 with minecraft:bread[minecraft:custom_data={simharness_baked_day:0}] 64"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block -36 -60 8 container.4 with minecraft:bread[minecraft:custom_data={simharness_baked_day:0}] 64"
+   }
+  },
+  {
+   "request": "command",
+   "args": {
+    "command": "item replace block -36 -60 8 container.5 with minecraft:bread[minecraft:custom_data={simharness_baked_day:0}] 8"
+   }
+  }
+ ]
+}

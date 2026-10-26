@@ -1,0 +1,15 @@
+{
+ "key": "870d1932f896f3391d1daf68d5bb10980978c7d4fd30de47b215634fc31f21c9",
+ "verdict": {
+  "believed": true,
+  "probability": 0.95,
+  "who": [
+   "innkeeper",
+   "baker",
+   "builder",
+   "freight",
+   "secretary"
+  ],
+  "quote": "That suggests a shared undertaking, perhaps preparations for a gathering. ... A surprise gathering for me is a plausible explanation, with bread being prepared and others helping, but it remains a guess."
+ }
+}

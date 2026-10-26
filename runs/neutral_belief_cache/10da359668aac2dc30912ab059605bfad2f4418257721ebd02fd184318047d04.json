@@ -1,0 +1,14 @@
+{
+ "key": "10da359668aac2dc30912ab059605bfad2f4418257721ebd02fd184318047d04",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "baker"
+  ],
+  "quote": "Several people seem to be preparing something together. ... These details could fit preparations for a gathering, perhaps a surprise celebration involving me, especially given the instruction not to arrive early. That is a suspicion, not something anyone has confirmed."
+ }
+}

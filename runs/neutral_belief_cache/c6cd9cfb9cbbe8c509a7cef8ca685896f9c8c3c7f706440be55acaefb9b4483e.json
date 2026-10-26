@@ -1,0 +1,13 @@
+{
+ "key": "c6cd9cfb9cbbe8c509a7cef8ca685896f9c8c3c7f706440be55acaefb9b4483e",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "neighbour",
+   "innkeeper"
+  ],
+  "quote": "Builder, neighbour and innkeeper therefore seem involved in some coordinated gathering, perhaps a surprise acknowledgement of my service accompanied by a supper. I do not yet know that for certain, nor whether the supper and acknowledgement are the same event."
+ }
+}

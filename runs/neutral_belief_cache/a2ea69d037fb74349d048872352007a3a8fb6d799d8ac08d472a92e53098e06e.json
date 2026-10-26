@@ -1,0 +1,15 @@
+{
+ "key": "a2ea69d037fb74349d048872352007a3a8fb6d799d8ac08d472a92e53098e06e",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "neighbour",
+   "hospitality committee"
+  ],
+  "quote": "The quantity of bread and insistence that I not arrive early suggest preparation they wish to keep out of my view, but I do not know the occasion and have no evidence of wrongdoing."
+ }
+}

@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "simharness",
+	"version": "${version}",
+	"name": "SimHarness",
+	"description": "Deterministic, lockstep, forkable harness for grounded multi-agent simulation.",
+	"authors": ["dankeg"],
+	"license": "LicenseRef-TBD",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["org.minecraftsim.harness.SimHarness"]
+	},
+	"mixins": ["simharness.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

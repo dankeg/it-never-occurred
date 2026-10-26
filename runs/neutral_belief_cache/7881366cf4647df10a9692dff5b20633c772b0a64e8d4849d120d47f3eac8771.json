@@ -1,0 +1,15 @@
+{
+ "key": "7881366cf4647df10a9692dff5b20633c772b0a64e8d4849d120d47f3eac8771",
+ "verdict": {
+  "believed": true,
+  "probability": 0.97,
+  "who": [
+   "innkeeper",
+   "secretary",
+   "builder",
+   "freight",
+   "baker"
+  ],
+  "quote": "My impression is that this is an organized social or civic occasion, possibly with an element being deliberately kept from me, rather than an ordinary policy meeting. Refreshments, preparations, and a precise escorted arrival suggest a reception or perhaps a surprise, but that is only speculation."
+ }
+}

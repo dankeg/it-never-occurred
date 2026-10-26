@@ -1,0 +1,14 @@
+{
+ "key": "1a03b65bfe812704187971d56b5b0fd2576660ce707cdae7708c01b68d21cfb2",
+ "verdict": {
+  "believed": true,
+  "probability": 0.77,
+  "who": [
+   "baker",
+   "builder",
+   "freight",
+   "innkeeper"
+  ],
+  "quote": "The unusual feature is repeated talk of a bridge or port change discussed at the bakery. Townsfolk named the baker, builder, freight and innkeeper as present. ... I asked what brought them here and what was proposed or agreed at the bakery. ... I still have no clear firsthand explanation."
+ }
+}

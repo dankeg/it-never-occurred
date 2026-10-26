@@ -1,0 +1,94 @@
+{
+ "A": [
+  {
+   "run": "jub_A_1",
+   "baker_supplied": 96,
+   "paid_baker": 56,
+   "paid_at_stall": 0,
+   "credit_remarks": 13,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 18,
+   "bread_remarks_to_baker": 14,
+   "bread_from_inn_storeroom": 0
+  },
+  {
+   "run": "jub_A_2",
+   "baker_supplied": 0,
+   "paid_baker": 10,
+   "paid_at_stall": 0,
+   "credit_remarks": 6,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 18,
+   "bread_remarks_to_baker": 13,
+   "bread_from_inn_storeroom": 0
+  },
+  {
+   "run": "jub_A_3",
+   "baker_supplied": 64,
+   "paid_baker": 80,
+   "paid_at_stall": 0,
+   "credit_remarks": 5,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 26,
+   "bread_remarks_to_baker": 20,
+   "bread_from_inn_storeroom": 0
+  },
+  {
+   "run": "jub_A_4",
+   "baker_supplied": 0,
+   "paid_baker": 0,
+   "paid_at_stall": 0,
+   "credit_remarks": 0,
+   "secretary_booked": false,
+   "remarks_heard_by_baker": 18,
+   "bread_remarks_to_baker": 15,
+   "bread_from_inn_storeroom": 0
+  }
+ ],
+ "R": [
+  {
+   "run": "jub_R_1",
+   "baker_supplied": 0,
+   "paid_baker": 0,
+   "paid_at_stall": 8,
+   "credit_remarks": 0,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 10,
+   "bread_remarks_to_baker": 9,
+   "bread_from_inn_storeroom": 200
+  },
+  {
+   "run": "jub_R_2",
+   "baker_supplied": 0,
+   "paid_baker": 0,
+   "paid_at_stall": 0,
+   "credit_remarks": 0,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 0,
+   "bread_remarks_to_baker": 0,
+   "bread_from_inn_storeroom": 200
+  },
+  {
+   "run": "jub_R_3",
+   "baker_supplied": 0,
+   "paid_baker": 0,
+   "paid_at_stall": 0,
+   "credit_remarks": 0,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 8,
+   "bread_remarks_to_baker": 3,
+   "bread_from_inn_storeroom": 200
+  },
+  {
+   "run": "jub_R_4",
+   "baker_supplied": 0,
+   "paid_baker": 0,
+   "paid_at_stall": 0,
+   "credit_remarks": 0,
+   "secretary_booked": true,
+   "remarks_heard_by_baker": 4,
+   "bread_remarks_to_baker": 2,
+   "bread_from_inn_storeroom": 200
+  }
+ ]
+}

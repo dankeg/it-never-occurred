@@ -1,0 +1,14 @@
+{
+ "key": "e6d6ce685d81182fcc4cf9c5f1f76df5f97b7abdb2da6f9f11d4bf5891b209e6",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "Freight",
+   "builder",
+   "neighbour"
+  ],
+  "quote": "Taken together, I suspect a friendly surprise, possibly for me, rather than ordinary inn business, though I do not yet know its purpose."
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "912f4b6884094de94cc73a64c8fb6b3ebd752a773e2423ef45838af897d6d522",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper"
+  ],
+  "quote": "These facts suggest provisioning and payment arrangements involving the baker, freight, and innkeeper, but I cannot establish their purpose or connect them securely to the bakery rumours or tonight's lighting inspection. ... I suspect there is activity I have not yet understood, but I have no direct evidence of a secret gathering or wrongdoing."
+ }
+}

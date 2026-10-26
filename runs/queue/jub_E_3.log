@@ -1,0 +1,75 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/run_jubilee.py", line 154, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/run_jubilee.py", line 133, in main
+    runtime, report = experiment.run_once(args.name, model_client(args), source, max_model_calls=args.max_calls,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/run_jubilee.py", line 68, in run_once
+    with session:
+  File "<repo>/scripts/village_session.py", line 118, in __enter__
+    server = self._server.__enter__()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/harness.py", line 326, in __enter__
+    return self.start()
+           ^^^^^^^^^^^^
+  File "<repo>/scripts/harness.py", line 210, in start
+    raise HarnessError(f"Only {free / 1e9:.1f} GB free; need {MIN_FREE_BYTES / 1e9:.0f} GB to start a server "
+harness.HarnessError: Only 10.0 GB free; need 10 GB to start a server (prune finished runs: scripts/prune_runs.py --all-finished)
+{
+ "end": 37000,
+ "stopped": null,
+ "stats": {
+  "decisions": 813,
+  "model_calls": 813,
+  "replayed": 0,
+  "input_tokens": 4373777,
+  "output_tokens": 47610,
+  "cache_read_tokens": 1212160,
+  "cache_write_tokens": 0,
+  "model_errors": 0,
+  "model_seconds": 3450.4024267715868,
+  "model_retries": 0
+ },
+ "outcome": {
+  "hall": {
+   "game_time": 36000,
+   "fresh_bread": 200,
+   "mouldy_bread": 0,
+   "lights": 8
+  },
+  "mayor_in_hall": [
+   36000,
+   36040,
+   36080,
+   36120,
+   36160,
+   36200,
+   36240,
+   36280,
+   36320,
+   36360,
+   36400,
+   36440,
+   36480,
+   36520,
+   36560,
+   36600,
+   36640,
+   36680,
+   36720,
+   36760,
+   36800,
+   36840,
+   36880,
+   36920,
+   36960
+  ],
+  "bread_needed": 200,
+  "lights_needed": 8,
+  "feast": true,
+  "lit": true,
+  "attended": true
+ }
+}
+PASS replay of jub_E_3: 813 decisions reused, 0 model calls, 29 hashes

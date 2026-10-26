@@ -1,0 +1,14 @@
+{
+ "key": "b283e314d430fc466e17a908aca70be3d142021a4fd949dafe18a7005f848bac",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "secretary"
+  ],
+  "quote": "I suspect a sizeable planned gathering, perhaps a celebration or surprise being kept from me, but I have no evidence yet of its actual purpose or any wrongdoing."
+ }
+}

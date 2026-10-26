@@ -1,0 +1,14 @@
+{
+ "key": "53e5db5f6c531fabf999b7c004adac5a4b20f872cba1cc5a82eb071c3927139d",
+ "verdict": {
+  "believed": true,
+  "probability": 0.86,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper",
+   "neighbour"
+  ],
+  "quote": "For now, I suspect there may be some transport or supply arrangement being discussed, but its nature and purpose remain unknown."
+ }
+}

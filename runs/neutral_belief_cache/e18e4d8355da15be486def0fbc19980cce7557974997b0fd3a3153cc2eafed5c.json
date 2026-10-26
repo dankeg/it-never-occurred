@@ -1,0 +1,12 @@
+{
+ "key": "e18e4d8355da15be486def0fbc19980cce7557974997b0fd3a3153cc2eafed5c",
+ "verdict": {
+  "believed": true,
+  "probability": 0.94,
+  "who": [
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "The bread and lighting suggest preparations for an evening gathering or celebration, possibly involving several townspeople, but that is only my suspicion; I do not know the occasion or whether it concerns me."
+ }
+}

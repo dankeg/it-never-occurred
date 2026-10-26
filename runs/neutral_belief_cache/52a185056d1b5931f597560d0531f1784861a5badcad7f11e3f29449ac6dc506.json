@@ -1,0 +1,13 @@
+{
+ "key": "52a185056d1b5931f597560d0531f1784861a5badcad7f11e3f29449ac6dc506",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "secretary",
+   "builder"
+  ],
+  "quote": "This could simply be coordination for the inspection, but the innkeeper's involvement and insistence on assembling beforehand make me wonder whether there is some additional gathering or arrangement I have not been told about. I have no direct evidence of its purpose beyond the stated inspection."
+ }
+}

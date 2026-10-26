@@ -1,0 +1,14 @@
+{
+ "key": "3a5b1bae0e697402115816a34a2e67a67fa3a3cf993fb639a70a00acf964fd5c",
+ "verdict": {
+  "believed": true,
+  "probability": 0.94,
+  "who": [
+   "innkeeper",
+   "builder",
+   "baker",
+   "perhaps freight"
+  ],
+  "quote": "My best guess is that the innkeeper, builder, baker, and perhaps freight are arranging refreshments and decorations for today's presentation, possibly keeping some of it a surprise for me."
+ }
+}

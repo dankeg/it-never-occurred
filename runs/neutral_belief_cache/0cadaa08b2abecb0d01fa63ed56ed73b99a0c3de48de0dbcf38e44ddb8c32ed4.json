@@ -1,0 +1,13 @@
+{
+ "key": "0cadaa08b2abecb0d01fa63ed56ed73b99a0c3de48de0dbcf38e44ddb8c32ed4",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "baker",
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "My best tentative guess is either routine inn supply arrangements or preparations for some pleasant occasion, possibly involving the bakery, builder, and innkeeper. A secret celebration is only a possibility, not a discovery."
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "3106af1f3949e2470a861dd33e4de803eac9dbe38f387c800ff7e54f2f259d39",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "the baker",
+   "the freight contact who told the baker about the hall inspection",
+   "unidentified hall activity arrangers"
+  ],
+  "quote": "That quantity and the lighting visit suggest preparations for some hall activity, but I do not know its purpose or who arranged it."
+ }
+}

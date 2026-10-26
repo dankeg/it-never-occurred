@@ -1,0 +1,13 @@
+{
+ "key": "9b72b2620453f7e25167c5cdb964182398bf87b69415fc9575159ae5f54691e0",
+ "verdict": {
+  "believed": true,
+  "probability": 0.82,
+  "who": [
+   "the innkeeper",
+   "the baker",
+   "local tradespeople"
+  ],
+  "quote": "I have a feeling people have been arranging something without me, but no evidence yet that it is improper."
+ }
+}

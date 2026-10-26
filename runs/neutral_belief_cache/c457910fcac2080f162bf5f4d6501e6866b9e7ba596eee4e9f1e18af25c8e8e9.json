@@ -1,0 +1,15 @@
+{
+ "key": "c457910fcac2080f162bf5f4d6501e6866b9e7ba596eee4e9f1e18af25c8e8e9",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "builder",
+   "innkeeper",
+   "neighbour",
+   "secretary",
+   "freight"
+  ],
+  "quote": "My suspicion is that the lighting inspection provides an occasion for a community supper and some sort of planned acknowledgement, perhaps a surprise thanking me for my service. The escort, closed hall, preparations and reluctance to explain would fit that."
+ }
+}

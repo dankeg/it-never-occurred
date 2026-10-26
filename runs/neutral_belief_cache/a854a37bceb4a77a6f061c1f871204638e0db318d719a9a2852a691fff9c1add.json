@@ -1,0 +1,14 @@
+{
+ "key": "a854a37bceb4a77a6f061c1f871204638e0db318d719a9a2852a691fff9c1add",
+ "verdict": {
+  "believed": true,
+  "probability": 0.96,
+  "who": [
+   "innkeeper",
+   "freight",
+   "builder",
+   "baker"
+  ],
+  "quote": "The quantity of refreshments and the missing agenda make me suspect that tonight may involve a larger community occasion or some announcement beyond an ordinary short civic appointment. I do not yet know its real purpose, and cannot conclude that anyone is acting improperly. Innkeeper, freight, builder, and baker appear involved in organizing or supplying it; secretary is helping me establish the facts."
+ }
+}

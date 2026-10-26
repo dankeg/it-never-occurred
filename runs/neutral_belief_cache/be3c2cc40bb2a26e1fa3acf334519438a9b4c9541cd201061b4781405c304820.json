@@ -1,0 +1,14 @@
+{
+ "key": "be3c2cc40bb2a26e1fa3acf334519438a9b4c9541cd201061b4781405c304820",
+ "verdict": {
+  "believed": true,
+  "probability": 0.88,
+  "who": [
+   "innkeeper",
+   "baker",
+   "builder",
+   "perhaps freight"
+  ],
+  "quote": "Taken together, these could indicate preparations for a gathering involving the innkeeper, baker, builder, and perhaps freight, but I do not know whether these activities are connected or what the gathering is for."
+ }
+}

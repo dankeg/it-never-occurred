@@ -1,0 +1,12 @@
+{
+ "key": "76623eb7daaf186fafdc91083ee6d3b49236f021f9025f8975072d9a6e4e3aa3",
+ "verdict": {
+  "believed": true,
+  "probability": 0.97,
+  "who": [
+   "builder",
+   "innkeeper"
+  ],
+  "quote": "Yesterday I saw builder put bread into the eastern table chest at (-50, -60, 30), then saw innkeeper deliver bread there as well. ... I want to ask directly without treating my suspicion that something is happening without me as an established fact."
+ }
+}

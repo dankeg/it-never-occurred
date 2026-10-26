@@ -1,0 +1,38 @@
+{
+ "point": {
+  "run": "jub_V2p_1",
+  "agent": "builder",
+  "game_time": 29400,
+  "swap": null,
+  "resample": [
+   "builder"
+  ],
+  "mute": [
+   [
+    "builder",
+    "mayor"
+   ]
+  ]
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 117,
+   "replayed": 117,
+   "mayor_unaware": false
+  },
+  "resample_sighting": {
+   "calls": 73,
+   "decisions": 81,
+   "replayed": 8,
+   "mayor_unaware": false
+  },
+  "mute_sighting": {
+   "calls": 68,
+   "decisions": 76,
+   "replayed": 8,
+   "mayor_unaware": false
+  }
+ }
+}

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="An offline-ready replay desk for Riverside Crisis Village runs.">
+  <title>Riverside · Run viewer</title>
+  <link rel="stylesheet" href="viewer.css">
+  <script type="module" src="viewer.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#timeline">Skip to replay controls</a>
+  <div class="workspace">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">Riverside Crisis Village / observation desk</p>
+        <h1>A village, in time<span aria-hidden="true">.</span></h1>
+        <p class="subtitle">Follow the people. Trace the decisions. Replay what changed.</p>
+      </div>
+      <div class="run-controls">
+        <label class="field run-field" for="run-picker">Run
+          <select id="run-picker" disabled><option>Loading runs…</option></select>
+        </label>
+        <label class="field" for="variant-picker">Scenario
+          <select id="variant-picker">
+            <option value="">Auto-detect</option>
+            <option value="sabotage">Sabotage</option>
+            <option value="accident">Accident</option>
+          </select>
+        </label>
+        <button id="refresh" class="quiet-button" type="button" title="Refresh runs and the selected run">Refresh</button>
+      </div>
+    </header>
+
+    <div class="connection-strip">
+      <p id="status" role="status" aria-live="polite">Connecting to the local viewer server…</p>
+      <span id="run-badge" class="badge">No run selected</span>
+    </div>
+    <p id="index-error" class="notice error" role="status" hidden></p>
+    <details id="warnings" class="notice" hidden>
+      <summary id="warning-summary">Run warnings</summary>
+      <ul id="warning-list"></ul>
+    </details>
+
+    <section id="timeline" class="timeline panel" aria-label="Replay controls" tabindex="-1">
+      <div class="time-heading">
+        <div><span class="eyebrow">Observation time</span><output id="clock" role="timer" aria-live="off">day 0, 06:00</output></div>
+        <div class="time-meta"><span id="tick">tick 0</span><span id="run-range">Choose a run to begin</span></div>
+      </div>
+      <label class="sr-only" for="time-slider">Game time in ticks</label>
+      <input id="time-slider" type="range" min="0" max="1" value="0" step="1" disabled>
+      <div class="timeline-bottom">
+        <div class="transport" role="group" aria-label="Playback">
+          <button id="jump-start" type="button" aria-label="Jump to run start" title="Run start" disabled>↤</button>
+          <button id="step-back" type="button" aria-label="Back 40 ticks" title="Back one poll (40 ticks)" disabled>−40</button>
+          <button id="play" type="button" class="play-button" aria-label="Play replay" aria-pressed="false" disabled>Play</button>
+          <button id="step-forward" type="button" aria-label="Forward 40 ticks" title="Forward one poll (40 ticks)" disabled>+40</button>
+          <button id="jump-end" type="button" aria-label="Jump to latest tick" title="Latest tick" disabled>↦</button>
+        </div>
+        <label class="speed-label" for="speed">Speed <select id="speed"><option value="1">1×</option><option value="10" selected>10×</option><option value="60">60×</option></select></label>
+        <label class="follow-label"><input id="follow-live" type="checkbox"> Follow live <span class="muted">/ 5 s</span></label>
+        <p class="keyboard-hint"><kbd>Space</kbd> play · <kbd>←</kbd> <kbd>→</kbd> 40 ticks · <kbd>Shift</kbd> 1,200</p>
+      </div>
+    </section>
+
+    <main class="main-grid">
+      <section class="map-panel panel" aria-labelledby="map-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Spatial record</p><h2 id="map-title">The village</h2></div>
+          <div class="map-tools" role="group" aria-label="Map zoom">
+            <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+            <output id="zoom-label" aria-label="Map zoom level">100%</output>
+            <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+            <button id="map-fit" type="button">Fit</button>
+          </div>
+        </div>
+        <div id="map-viewport" class="map-viewport">
+          <canvas id="map-canvas" tabindex="0" aria-label="Village map. Drag to pan, scroll or use plus and minus to zoom. Use W A S D to pan with the keyboard." aria-describedby="map-help">The map requires canvas support. All people and events are also available in the detail tabs.</canvas>
+          <div id="map-empty" class="map-empty">Choose a run to explore its map.</div>
+          <div class="map-compass" aria-hidden="true">−Z ↑<br>+X →</div>
+          <div id="map-tooltip" class="map-tooltip" role="tooltip" hidden></div>
+        </div>
+        <p id="map-help" class="map-help">Scroll to zoom · drag to pan · click an agent to inspect. Positions hold at the latest observation, never a future sample.</p>
+        <fieldset class="overlays">
+          <legend>Map layers</legend>
+          <label><input type="checkbox" data-overlay="npcs" checked> Villagers</label>
+          <label><input type="checkbox" data-overlay="agents" checked> Agents &amp; trails</label>
+          <label><input type="checkbox" data-overlay="speech" checked> Speech</label>
+          <label><input type="checkbox" data-overlay="changes" checked> Agent changes</label>
+          <label><input type="checkbox" data-overlay="places" checked> Places</label>
+          <label><input type="checkbox" data-overlay="routes"> Destinations</label>
+        </fieldset>
+        <div id="map-legend" class="legend" aria-label="Map colour legend"></div>
+        <p class="map-help">Trails: 600 ticks · speech &amp; highlights: 200 ticks · talk radius: 8 blocks · shout: 24</p>
+      </section>
+
+      <section class="ledger panel" aria-label="Run details">
+        <div class="tabs" role="tablist" aria-label="Detail panels">
+          <button id="tab-agents" type="button" role="tab" aria-selected="true" aria-controls="pane-agents">Agents</button>
+          <button id="tab-villagers" type="button" role="tab" aria-selected="false" aria-controls="pane-villagers" tabindex="-1">Villagers</button>
+          <button id="tab-events" type="button" role="tab" aria-selected="false" aria-controls="pane-events" tabindex="-1">Events</button>
+          <button id="tab-outcomes" type="button" role="tab" aria-selected="false" aria-controls="pane-outcomes" tabindex="-1">Outcomes</button>
+        </div>
+        <section id="pane-agents" class="pane" role="tabpanel" aria-labelledby="tab-agents" tabindex="0">
+          <div id="agent-list" class="agent-list" role="group" aria-label="Choose an agent"></div>
+          <div id="agent-detail" class="empty-state">Choose a run to inspect its agents.</div>
+          <details id="prompt-details" class="prompt-box" hidden>
+            <summary>What it saw <span id="prompt-time" class="muted"></span></summary>
+            <div id="prompt-content"><p class="muted">Open to load this decision’s prompt.</p></div>
+          </details>
+        </section>
+        <section id="pane-villagers" class="pane" role="tabpanel" aria-labelledby="tab-villagers" tabindex="0" hidden></section>
+        <section id="pane-events" class="pane" role="tabpanel" aria-labelledby="tab-events" tabindex="0" hidden>
+          <div class="event-controls"><label class="field" for="event-type">Event type<select id="event-type"><option value="">All types</option></select></label><p class="muted">Within ±1,200 ticks.<br>Select an event to jump there.</p></div>
+          <div id="event-list" class="empty-state">Choose a run to explore events.</div>
+        </section>
+        <section id="pane-outcomes" class="pane" role="tabpanel" aria-labelledby="tab-outcomes" tabindex="0" hidden></section>
+      </section>
+    </main>
+    <footer><span>Riverside / local run viewer</span><span>No external assets. No future-position interpolation.</span></footer>
+  </div>
+  <noscript><p class="notice">Enable JavaScript to load local runs and replay their observations.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+ "speech": {
+  "participants": {
+   "precision": 0.75,
+   "recall": 1.0,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "episodes": 1
+  }
+ },
+ "actions": {
+  "participants": {
+   "precision": 0.5,
+   "recall": 0.333,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "episodes": 1
+  }
+ },
+ "both": {
+  "participants": {
+   "precision": 0.75,
+   "recall": 1.0,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": 0.25,
+   "recall": 0.333,
+   "episodes": 1
+  }
+ },
+ "vantage:mayor": {
+  "participants": {
+   "precision": 0.5,
+   "recall": 0.333,
+   "episodes": 1
+  },
+  "helpers": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "episodes": 1
+  }
+ }
+}

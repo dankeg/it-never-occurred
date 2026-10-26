@@ -1,0 +1,14 @@
+{
+ "key": "588e49151471d7cfac967ecc9bf3aefde421e4362705f2f568e3ab1b1ed2e778",
+ "verdict": {
+  "believed": true,
+  "probability": 0.72,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper",
+   "neighbour"
+  ],
+  "quote": "My tentative understanding is that some discussion involving river access or trade has occurred at the bakery among baker, freight, innkeeper and neighbour. Its purpose remains unknown; I should not mistake repeated vague reports for a verified plan."
+ }
+}

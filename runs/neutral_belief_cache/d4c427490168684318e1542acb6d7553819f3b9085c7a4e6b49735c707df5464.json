@@ -1,0 +1,14 @@
+{
+ "key": "d4c427490168684318e1542acb6d7553819f3b9085c7a4e6b49735c707df5464",
+ "verdict": {
+  "believed": true,
+  "probability": 1,
+  "who": [
+   "builder",
+   "innkeeper",
+   "neighbour",
+   "baker (apparently contributing to provisioning)"
+  ],
+  "quote": "I think this is a planned communal feast or celebration, with its exact purpose intentionally kept as a surprise for me."
+ }
+}

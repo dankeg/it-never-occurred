@@ -1,0 +1,121 @@
+{
+ "point": {
+  "run": "jub_N3_2",
+  "agent": "mayor",
+  "game_time": 30400,
+  "swap": null,
+  "resample": [
+   "mayor"
+  ],
+  "mute": []
+ },
+ "horizon": 6600,
+ "arms": {
+  "control": {
+   "arm": "control",
+   "point": {
+    "run": "jub_N3_2",
+    "agent": "mayor",
+    "game_time": 30400,
+    "swap": null,
+    "resample": [
+     "mayor"
+    ],
+    "mute": []
+   },
+   "end": 37000,
+   "hall": {
+    "game_time": 37000,
+    "fresh_bread": 0,
+    "mouldy_bread": 0,
+    "lights": 0
+   },
+   "acts": {
+    "mayor": {},
+    "secretary": {
+     "doc_write": 1,
+     "purchase": 1
+    },
+    "baker": {
+     "bread_moved": 64
+    },
+    "neighbour": {},
+    "innkeeper": {
+     "block_change": 6
+    },
+    "freight": {},
+    "builder": {}
+   },
+   "emeralds": {
+    "mayor": 30,
+    "secretary": 0,
+    "baker": 30,
+    "neighbour": 0,
+    "innkeeper": 71,
+    "freight": 24,
+    "builder": 0
+   },
+   "leaks": {},
+   "mayor_unaware": true,
+   "calls": 0,
+   "decisions": 842,
+   "replayed": 842,
+   "override_applied": false,
+   "held_rejected": []
+  },
+  "brief_duty": {
+   "arm": "brief_duty",
+   "point": {
+    "run": "jub_N3_2",
+    "agent": "mayor",
+    "game_time": 30400,
+    "swap": null,
+    "resample": [
+     "mayor"
+    ],
+    "mute": []
+   },
+   "end": 37000,
+   "hall": {
+    "game_time": 37000,
+    "fresh_bread": 0,
+    "mouldy_bread": 0,
+    "lights": 0
+   },
+   "acts": {
+    "mayor": {},
+    "secretary": {
+     "doc_write": 1,
+     "purchase": 1
+    },
+    "baker": {
+     "bread_moved": 64
+    },
+    "neighbour": {},
+    "innkeeper": {
+     "block_change": 6,
+     "bread_moved": 8
+    },
+    "freight": {},
+    "builder": {}
+   },
+   "emeralds": {
+    "mayor": 30,
+    "secretary": 0,
+    "baker": 0,
+    "neighbour": 0,
+    "innkeeper": 71,
+    "freight": 24,
+    "builder": 0
+   },
+   "leaks": {},
+   "mayor_unaware": true,
+   "calls": 167,
+   "decisions": 191,
+   "replayed": 24,
+   "override_applied": true,
+   "held_rejected": []
+  }
+ },
+ "stopped": null
+}

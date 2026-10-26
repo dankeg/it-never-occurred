@@ -1,0 +1,12 @@
+{
+ "key": "c88fe154bb69b94b72cb650f78eee8e69c5800997e57734555ff18a92e3141af",
+ "verdict": {
+  "believed": true,
+  "probability": 0.85,
+  "who": [
+   "builder",
+   "secretary"
+  ],
+  "quote": "Perhaps some preparations are being coordinated without my involvement, though I cannot yet say that these events are connected or that anything beyond ordinary trade and maintenance is happening."
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "key": "61b9a1ff5b4be475cd8e40cd96e8ebc13caf8a6cf980b4bd72eb39df4ab7fb24",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "baker",
+   "innkeeper",
+   "builder",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "I suspect the talk concerns transport or river-crossing arrangements, but I do not know what change is proposed or why."
+ }
+}

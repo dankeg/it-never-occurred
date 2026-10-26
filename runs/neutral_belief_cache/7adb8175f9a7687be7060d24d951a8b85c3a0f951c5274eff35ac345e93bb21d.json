@@ -1,0 +1,15 @@
+{
+ "key": "7adb8175f9a7687be7060d24d951a8b85c3a0f951c5274eff35ac345e93bb21d",
+ "verdict": {
+  "believed": true,
+  "probability": 0.78,
+  "who": [
+   "builder",
+   "miller",
+   "baker",
+   "innkeeper",
+   "freight"
+  ],
+  "quote": "Today\u2019s unusual business seems to concern grain and bread supplies, although I do not yet know its extent or purpose. ... These might be efforts to arrange supplies, but I have no direct confirmation of a shortage."
+ }
+}

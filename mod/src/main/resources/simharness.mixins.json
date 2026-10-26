@@ -1,0 +1,30 @@
+{
+	"required": true,
+	"package": "org.minecraftsim.harness.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MinecraftServerMixin",
+		"ConnectionAccessor",
+		"LivingEntityAccessor",
+		"GameListenerAccessor",
+		"LevelRandomAccessor",
+		"EntityRandomAccessor",
+		"ServerRandomAccessor",
+		"EntityCreationRandomMixin",
+		"EntityCreationTickMixin",
+		"ServerLevelEntityAccessor",
+		"EntityCanonMixin",
+		"EntityTickListMixin",
+		"ServerConnectionListenerMixin",
+		"LevelSetBlockMixin",
+		"VillagerMixin",
+		"FerryBoatMixin",
+		"NpcCollisionMixin",
+		"ChunkSpawnOrderMixin",
+		"FoodDataMixin",
+		"ItemEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

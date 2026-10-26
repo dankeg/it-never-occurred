@@ -1,0 +1,33 @@
+{
+ "point": {
+  "run": "jub_V2p_5",
+  "agent": "innkeeper",
+  "game_time": 16600,
+  "swap": null,
+  "resample": [
+   "innkeeper"
+  ],
+  "mute": []
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 97,
+   "replayed": 97,
+   "mayor_unaware": true
+  },
+  "resample_route": {
+   "calls": 35,
+   "decisions": 45,
+   "replayed": 10,
+   "mayor_unaware": true
+  },
+  "brief_route": {
+   "calls": 39,
+   "decisions": 42,
+   "replayed": 3,
+   "mayor_unaware": true
+  }
+ }
+}

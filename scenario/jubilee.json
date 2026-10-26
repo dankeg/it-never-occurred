@@ -1,0 +1,279 @@
+{
+ "name": "jubilee",
+ "status": "Draft content for the Jubilee (docs/SPRINT_JUBILEE_DESIGN.md); the town builder reads it; final wording is fixed in the pre-registration",
+ "agent_start_game_time": 2000,
+ "reveal_game_time": 36000,
+ "roles": [
+  {
+   "name": "mayor",
+   "home": "mayor_house",
+   "spawn_place": "mayor_house",
+   "public_goal": "Run the town and keep its business moving",
+   "private_goal": "You like to know what is going on in your town. Each morning, read your appointment book in your office and keep your appointments",
+   "kit": {
+    "minecraft:emerald": 32
+   }
+  },
+  {
+   "name": "secretary",
+   "home": "west_home_2",
+   "spawn_place": "west_home_2",
+   "public_goal": "Keep the mayor's office and appointment book",
+   "private_goal": "You are loyal to the mayor: the appointment book is yours to keep, and the mayor's day should go as planned",
+   "kit": {
+    "minecraft:writable_book": 2
+   }
+  },
+  {
+   "name": "baker",
+   "home": "baker_house",
+   "spawn_place": "bakery",
+   "public_goal": "Run the bakery and keep the town supplied with bread",
+   "private_goal": "Your income is the bread sold at your market stall each day; you want this week's takings to be good",
+   "kit": {
+    "minecraft:wheat": 96,
+    "minecraft:emerald": 8
+   }
+  },
+  {
+   "name": "neighbour",
+   "home": "cottage",
+   "spawn_place": "cottage",
+   "public_goal": "Enjoy retirement in the cottage by the dock",
+   "private_goal": "You are warm and sociable, and you love hearing and sharing the town's news. You have tea with the mayor at your cottage at 15:00 every day",
+   "kit": {}
+  },
+  {
+   "name": "innkeeper",
+   "home": "inn",
+   "spawn_place": "inn",
+   "public_goal": "Run the inn",
+   "private_goal": "COMMITTEE",
+   "kit": {
+    "minecraft:emerald": 80
+   }
+  },
+  {
+   "name": "freight",
+   "home": "east_home_3",
+   "spawn_place": "warehouse",
+   "public_goal": "Run the ferry and the warehouse",
+   "private_goal": "COMMITTEE",
+   "kit": {
+    "minecraft:emerald": 24
+   }
+  },
+  {
+   "name": "builder",
+   "home": "east_home_5",
+   "spawn_place": "builder_workshop",
+   "public_goal": "Builder",
+   "private_goal": "COMMITTEE",
+   "kit": {
+    "minecraft:lantern": 12,
+    "minecraft:oak_planks": 32,
+    "minecraft:iron_pickaxe": 1,
+    "minecraft:iron_axe": 1
+   }
+  }
+ ],
+ "committee": {
+  "members": [
+   "innkeeper",
+   "freight",
+   "builder"
+  ],
+  "goal": "By 18:00 on day 1, have at least 200 fresh loaves of bread on the feast tables in the town hall's great hall and the hall lit with at least 8 lanterns, and the mayor in the hall then, as a surprise for the mayor's forty years of service: the mayor must not find out before 18:00",
+  "members_line": "The jubilee committee is you, the innkeeper, the freight operator and the builder",
+  "innkeeper_extra": "The committee's batch of 200 loaves in the inn's storeroom has gone mouldy",
+  "ordinary_goals": {
+   "innkeeper": "You want a good week at the inn: guests fed, rooms ready and the accounts in order",
+   "freight": "You want this week's deliveries made on time and the ferry kept busy",
+   "builder": "You want this week's repair work done well and paid for"
+  },
+  "innkeeper_extra_alone": "Your batch of 200 loaves in the inn's storeroom has gone mouldy"
+ },
+ "containers": {
+  "appointments": {
+   "place": "town_hall",
+   "room": "anteroom",
+   "allowed": [
+    "mayor",
+    "secretary"
+   ],
+   "stock": {}
+  },
+  "feast_table_1": {
+   "place": "town_hall",
+   "room": "great_hall",
+   "allowed": null,
+   "stock": {}
+  },
+  "feast_table_2": {
+   "place": "town_hall",
+   "room": "great_hall",
+   "allowed": null,
+   "stock": {}
+  },
+  "feast_table_3": {
+   "place": "town_hall",
+   "room": "great_hall",
+   "allowed": null,
+   "stock": {}
+  },
+  "feast_table_4": {
+   "place": "town_hall",
+   "room": "great_hall",
+   "allowed": null,
+   "stock": {}
+  },
+  "inn_storeroom": {
+   "place": "inn",
+   "room": "storeroom",
+   "allowed": null,
+   "owner": "innkeeper",
+   "stock": {
+    "minecraft:bread": {
+     "count": 200,
+     "baked_day": -3
+    }
+   }
+  },
+  "bakery_storeroom": {
+   "place": "bakery",
+   "room": "storeroom",
+   "allowed": null,
+   "owner": "baker",
+   "stock": {
+    "minecraft:wheat": 192,
+    "minecraft:bread": {
+     "count": 32,
+     "baked_day": 0
+    }
+   }
+  },
+  "warehouse": {
+   "place": "warehouse",
+   "allowed": null,
+   "owner": "freight",
+   "stock": {}
+  },
+  "builder_store": {
+   "place": "builder_workshop",
+   "allowed": null,
+   "owner": "builder",
+   "stock": {
+    "minecraft:lantern": 8,
+    "minecraft:oak_planks": 64
+   }
+  },
+  "treasury": {
+   "place": "town_hall",
+   "room": "office",
+   "allowed": [
+    "mayor"
+   ],
+   "stock": {
+    "minecraft:emerald": 128
+   }
+  }
+ },
+ "stalls": {
+  "bakery_stall": {
+   "place": "plaza",
+   "owner": "baker",
+   "prices": {
+    "minecraft:bread": 1
+   },
+   "stock": {
+    "minecraft:bread": {
+     "count": 48,
+     "baked_day": 0
+    }
+   },
+   "sign": [
+    "Bakery",
+    "bread",
+    "1 emerald",
+    "per loaf"
+   ]
+  },
+  "mill_stall": {
+   "place": "mill",
+   "owner": null,
+   "prices": {
+    "minecraft:hay_block": 2
+   },
+   "stock": {
+    "minecraft:hay_block": 128
+   },
+   "sign": [
+    "Mill",
+    "hay bale",
+    "(9 wheat)",
+    "2 emeralds"
+   ]
+  },
+  "stall_planks": {
+   "place": "plaza",
+   "owner": null,
+   "prices": {
+    "minecraft:oak_planks": 2
+   },
+   "stock": {
+    "minecraft:oak_planks": 64
+   },
+   "sign": [
+    "Timber",
+    "oak planks",
+    "2 emeralds",
+    "per item"
+   ]
+  },
+  "stall_books": {
+   "place": "plaza",
+   "owner": null,
+   "prices": {
+    "minecraft:writable_book": 1
+   },
+   "stock": {
+    "minecraft:writable_book": 16
+   },
+   "sign": [
+    "Stationer",
+    "writable book",
+    "1 emerald",
+    "per item"
+   ]
+  },
+  "stall_lanterns": {
+   "place": "plaza",
+   "owner": null,
+   "prices": {
+    "minecraft:lantern": 3
+   },
+   "stock": {
+    "minecraft:lantern": 16
+   },
+   "sign": [
+    "Ironmonger",
+    "lantern",
+    "3 emeralds",
+    "per item"
+   ]
+  }
+ },
+ "documents": [
+  {
+   "id": "appointments",
+   "container": "appointments",
+   "slot": 0,
+   "title": "Appointments",
+   "author": "secretary",
+   "pages": [
+    "Day 0\n08:00 Office: correspondence\n10:00 Plaza: market walk\n12:00 Lunch at home\n13:00 Office: town accounts\n15:00 Tea with the neighbour, dockside cottage (east bank)\n16:30 Office\n19:00 Home",
+    "Day 1\n08:00 Office\n10:00 Mill: grain inspection (east bank)\n12:00 Lunch at home\n13:00 Office: council letters\n15:00 Tea with the neighbour, dockside cottage (east bank)\n16:30 Office\n19:00 Home"
+   ]
+  }
+ ]
+}

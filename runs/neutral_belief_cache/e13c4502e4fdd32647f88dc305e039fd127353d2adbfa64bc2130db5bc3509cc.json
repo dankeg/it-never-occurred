@@ -1,0 +1,16 @@
+{
+ "key": "e13c4502e4fdd32647f88dc305e039fd127353d2adbfa64bc2130db5bc3509cc",
+ "verdict": {
+  "believed": true,
+  "probability": 0.96,
+  "who": [
+   "innkeeper",
+   "local tradespeople",
+   "baker",
+   "builder",
+   "freight",
+   "neighbour"
+  ],
+  "quote": "That makes me suspect the quiet gatherings, bread orders, and perhaps the supplies are preparations for a surprise appreciation event, rather than evidence of an actual bridge or port scheme."
+ }
+}

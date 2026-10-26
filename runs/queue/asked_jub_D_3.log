@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/jubilee_fork.py", line 161, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/jubilee_fork.py", line 153, in main
+    report = JubileeFork(fork_parser(__doc__).parse_args(argv)).run()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/fork_decision.py", line 214, in __init__
+    self._checkpoint = (Checkpoints.latest(args.runs_dir / args.run, args.tick)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/village_session.py", line 80, in latest
+    raise ValueError(f"No checkpoint in {directory}{limit}")
+ValueError: No checkpoint in runs/jub_D_3 at or before tick 30400
+{
+ "point": {
+  "run": "jub_D_3",
+  "agent": "mayor",
+  "game_time": 30400,
+  "swap": null,
+  "resample": [
+   "mayor"
+  ],
+  "mute": []
+ },
+ "stopped": null,
+ "arms": {
+  "control": {
+   "calls": 0,
+   "decisions": 928,
+   "replayed": 928,
+   "mayor_unaware": true
+  },
+  "resample": {
+   "calls": 147,
+   "decisions": 192,
+   "replayed": 45,
+   "mayor_unaware": true
+  },
+  "brief": {
+   "calls": 141,
+   "decisions": 185,
+   "replayed": 44,
+   "mayor_unaware": true
+  }
+ }
+}

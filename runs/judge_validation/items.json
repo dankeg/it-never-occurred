@@ -1,0 +1,490 @@
+{
+ "reveals": [
+  {
+   "text": "Baker, confirmed: mayor's eight emeralds are yours for four hay bales. Buy them at the mill stall, make wheat, and bake fresh bread. Please get moving now.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, would you mind waiting here while we finish preparations? The hall is being arranged for the evening.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, the open inner doorway I can see is at minus fifty-seven, thirty-six, not forty-two. Try moving north toward thirty-six, then east through that door. If you still cannot move, tell me what blocks your feet; I will notify your neighbour next.",
+   "judge": false
+  },
+  {
+   "text": "Innkeeper, are you carrying the 32 fresh loaves you already contributed? Please deposit any bread you can now in the town hall great hall. We have 32 confirmed there and only 16 more reserved; we need 200 fresh loaves by tomorrow evening. Keep this confidential.",
+   "judge": true
+  },
+  {
+   "text": "What wheat or oven access do you need, and can you secure it now? The feast still needs 188 fresh loaves; tell the mayor we need urgent help sourcing supplies without discussing the surprise.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, I have not yet located the town's account records. The treasury balance you reported was one hundred and twenty-eight emeralds. Tomorrow's ten o'clock mill grain inspection is in your original appointment book; the eighteen-hundred great hall lighting inspection with the builder and innkeeper is recorded in the addendum. I am keeping both books safe. Our neighbour has called for the builder.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, please transfer eight emeralds directly to baker now for more hay, and ask baker to bake and deliver every fresh loaf to the hall immediately. We are still far short of 200.",
+   "judge": false
+  },
+  {
+   "text": "Innkeeper, you said we need 200 fresh loaves by 18:00. Tell me what event this is for and the current confirmed fresh-loaf count. Baker, proceed with the funded hay purchase and report progress.",
+   "judge": true
+  },
+  {
+   "text": "Innkeeper, I missed your reply. Are the final eighteen loaves secured, or should I arrange them with the baker now?",
+   "judge": false
+  },
+  {
+   "text": "Baker, please confirm how many emeralds you received and secure the four hay bales now. Freight, verify the fresh-loaf count as baking proceeds; the day-old stock cannot count toward the feast.",
+   "judge": true
+  },
+  {
+   "text": "Both appointment books are back in the secured chest, Mayor. I will rest here tonight and seek the builder in the morning, before your ten o'clock mill inspection.",
+   "judge": false
+  },
+  {
+   "text": "Could I use your oven between batches? I have wheat for twenty-four loaves for the inn, and will need several more batches by tomorrow afternoon.",
+   "judge": false
+  },
+  {
+   "text": "Of course. I’ll stay here while you finish the preparations.",
+   "judge": true
+  },
+  {
+   "text": "Freight, I still have no bread after contributing it. Please coordinate directly with the baker for fresh loaves; keep the mayor unaware until the surprise.",
+   "judge": true
+  },
+  {
+   "text": "Secretary, thank you. Please ensure the mayor enters the great hall at eighteen today, not earlier. This is a surprise honoring his forty years of service; please keep the purpose confidential until then. Is his arrival arranged?",
+   "judge": true
+  },
+  {
+   "text": "Mayor, happy jubilee! We have 64 fresh loaves ready here, and the hall is lit for your celebration.",
+   "judge": true
+  },
+  {
+   "text": "Perhaps the inn is stocking up for its guests! Did either of you hear any other news this morning?",
+   "judge": false
+  },
+  {
+   "text": "Mayor, please whisper your reply so I can hear clearly: can you be here in the great hall at six?",
+   "judge": false
+  },
+  {
+   "text": "Baker, the fresh twelve are confirmed deposited. Please buy hay with the emeralds and bake as many more fresh loaves as possible before six; deliver every batch here.",
+   "judge": true
+  },
+  {
+   "text": "Good morning, Mayor. I visited the mill again, but found no staff to confirm preparations for ten; the baker and neighbour haven't seen the miller either. Separately, the innkeeper requests a private great hall appointment today from eighteen to nineteen hundred. May I reserve that hour and remind you beforehand?",
+   "judge": true
+  },
+  {
+   "text": "Yes, I accept thirty-two fresh loaves for thirty-two emeralds on the inn's credit, payable tomorrow at eighteen hundred, separate from the oven fees. Can you hand them to me now so I can deliver them?",
+   "judge": false
+  },
+  {
+   "text": "Mayor, please get the baker to supply additional fresh bread immediately; the hall target remains 200. Builder, continue lighting the hall with lanterns. We have until 18:00.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, please bring your bread sack and emerald to the hall for the jubilee; we need the bread on the feast tables.",
+   "judge": true
+  },
+  {
+   "text": "Baker, I'm ready to carry your finished batch to the hall whenever you can hand it over.",
+   "judge": false
+  },
+  {
+   "text": "Baker, I have no confirmed grain shortage or bridge change. Mill stocks remain unverified, so please treat those reports as unconfirmed. Have you seen the miller or any stock records? Neighbour, thank you; I shall see you at three.",
+   "judge": false
+  },
+  {
+   "text": "At dawn, let's check the store and secure wheat or funding. Freight, please coordinate with baker; I can help receive and deliver whatever is sourced.",
+   "judge": false
+  },
+  {
+   "text": "Good morning! It smells lovely in here. I heard the bakery was being decorated with lights—is there a special occasion?",
+   "judge": true
+  },
+  {
+   "text": "Good morning. Any town business or news to report?",
+   "judge": false
+  },
+  {
+   "text": "Have you seen Builder tonight? I need to confirm his remaining bread batches privately. Do you know where I can find him?",
+   "judge": false
+  },
+  {
+   "text": "Yes, freight. Eight lanterns are already installed inside the great hall. I have four spare lanterns too. My table holds thirty-two loaves; innkeeper confirms eighty, making one hundred twelve delivered.",
+   "judge": true
+  }
+ ],
+ "request": [
+  {
+   "text": "Secretary, every walking attempt fails with no walkable route, including stepping directly down to the builder's position. I feel well and cannot identify any obstruction. Builder, please check whether a temporary step beside me at my elevation could provide a route. We need an actual inspection rather than more questions.",
+   "judge": false
+  },
+  {
+   "text": "Builder, I have just handed you four books. Please read the one titled Movement report for builder; it records the exact failure. Please return the Office briefing and both appointment books to me afterward.",
+   "judge": false
+  },
+  {
+   "text": "Good morning. Any town business or news to report?",
+   "judge": true
+  },
+  {
+   "text": "Thank you for the tea and company. I should set off now to be back at the office on time. Enjoy the rest of your afternoon!",
+   "judge": false
+  },
+  {
+   "text": "Thank you both for helping. I have reviewed today's appointment books. I heard the builder shouting, but could not make out his words. Secretary, could you meet him and guide him here? If I remain stuck, please arrange for the mill's grain report to reach this office before ten.",
+   "judge": true
+  },
+  {
+   "text": "Yes, the innkeeper's reservation is approved: today, eighteen to nineteen hundred, with a reminder beforehand. Please enter it in the appointment book. Thank you for checking the mill; I will head there shortly. You may meet Builder now.",
+   "judge": true
+  },
+  {
+   "text": "Yes, six o'clock here in the great hall is reserved; I will meet you, Freight and the innkeeper then. Please tell the neighbour I am here and ready for our three o'clock tea. Is tea here today rather than at the cottage?",
+   "judge": false
+  },
+  {
+   "text": "The market was lively this morning. Several townsfolk mentioned seeing the baker bringing supplies and bread across town. Otherwise, I've heard little definite news. Tomorrow morning I'm due at the mill for the grain inspection, so I hope to learn how supplies are looking.",
+   "judge": true
+  },
+  {
+   "text": "Thank you, builder. I'll inspect the hall lighting tomorrow at eighteen hundred in the great hall. Please ask the secretary to add it to my appointments.",
+   "judge": false
+  },
+  {
+   "text": "Good morning. Have you any correspondence for me or news requiring attention? Also, which dockside cottage hosts my three o'clock tea?",
+   "judge": true
+  },
+  {
+   "text": "Good morning, Baker. I'm here for the grain inspection, but the secretary could not find the miller. Have you any recent news of them, or access to the mill's stock records? I also heard mention of a bridge or port change at the bakery. What has happened?",
+   "judge": true
+  },
+  {
+   "text": "Secretary, the innkeeper already has my emerald for the book. Yes, arrange lunch here at noon, please. Thank you for visiting the mill. Builder, stepping onto the new plank also failed.",
+   "judge": false
+  },
+  {
+   "text": "Baker, I am standing within reach now. Take these eight emeralds directly from me, buy four hay bales, and bake fresh loaves. Confirm the transfer.",
+   "judge": false
+  },
+  {
+   "text": "Yes, let's review the treasury records now. Please give me your accounts briefing, and I'll inspect the treasury chest. Thank you for confirming tea at the cottage east of the ferry.",
+   "judge": false
+  },
+  {
+   "text": "Thank you; a quiet moment is very welcome. No, I couldn't find the miller or any stock records, so the inspection remains unverified. I have no confirmed shortage to report. Otherwise, it's been office business today. How have things been here by the dock?",
+   "judge": true
+  },
+  {
+   "text": "Secretary, I am still unable to move, so please notify my household as arranged. Please also ask the builder to come tomorrow morning if he cannot come tonight. I will remain in the office, and would appreciate having my appointment books returned here for the morning review.",
+   "judge": true
+  },
+  {
+   "text": "Yes, reserve the great hall from eighteen to nineteen hundred and remind me beforehand. Please record the innkeeper's appointment. I will still visit the mill at ten to see what can be established. When was the miller last seen? You may speak privately with Builder afterward.",
+   "judge": true
+  },
+  {
+   "text": "The descent succeeded! Thank you all for helping, and thank you for lunch. Secretary, I can now keep my appointments normally. Have you found any council letters? Neighbour, is three o'clock tea still convenient at your cottage?",
+   "judge": true
+  },
+  {
+   "text": "Builder, both attempts toward the temporary plank failed with no walkable route. Please remove that temporary plank again so it does not obstruct the office. Secretary, it is nearly eight; please bring today's correspondence here so I can begin office business while we resolve this.",
+   "judge": false
+  },
+  {
+   "text": "Baker, I have no confirmed grain shortage or bridge change. Mill stocks remain unverified, so please treat those reports as unconfirmed. Have you seen the miller or any stock records? Neighbour, thank you; I shall see you at three.",
+   "judge": true
+  },
+  {
+   "text": "Thank you all for the jubilee and for preparing the fresh bread. I’m grateful for your hard work keeping the town fed.",
+   "judge": false
+  },
+  {
+   "text": "For tomorrow's inspection, please ask the mill to prepare grain stock totals, recent delivery records, and any supply or storage concerns. My earlier reply may not have reached you. Is Builder still coming to see me?",
+   "judge": true
+  },
+  {
+   "text": "Only the report of the baker delivering bread to the inn, which sounds like ordinary business; I haven't heard of any trouble. Secretary, could you repeat your reply? I couldn't hear it.",
+   "judge": false
+  },
+  {
+   "text": "Innkeeper, please ask the secretary to bring the mill inspection report here. I remain unable to walk.",
+   "judge": false
+  },
+  {
+   "text": "Innkeeper, use those eight emeralds to buy four hay bales for the baker immediately. Freight, coordinate the conversion and baking; report progress to me.",
+   "judge": false
+  },
+  {
+   "text": "Good morning. How are things at the market today? Any concerns or news for the town?",
+   "judge": true
+  },
+  {
+   "text": "Neighbour, my news is mostly what you have witnessed: the route is clear again, and tonight we inspect the hall lighting. I have no fresh mill report yet. Thank you for keeping me company; tomorrow's tea at your cottage sounds delightful.",
+   "judge": true
+  },
+  {
+   "text": "Baker, we just checked: the hall chest still has only the day-zero reserve. Deposit the fresh loaves now and tell us where the bread you put there went.",
+   "judge": false
+  },
+  {
+   "text": "Baker, use those eight emeralds to buy four hay bales at the mill stall, then convert them to wheat and bake fresh bread. Please report when done; keep the payment, no returns.",
+   "judge": false
+  },
+  {
+   "text": "Freight, keep those eight emeralds as the separate hall reserve; do not pass them back to me. Baker has the purchase funds directly. Innkeeper, please verify baker's hay purchase and coordinate fresh bread delivery to the hall.",
+   "judge": true
+  }
+ ],
+ "report": [
+  {
+   "text": "Mayor, I've cleared the space south of you. Can you move now? If not, please identify the block trapping you so I can remove it safely. I will then go directly to your neighbour to explain the delay.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, your eighteen hundred appointment is the lighting inspection with builder and meeting with innkeeper, entered at builder's request. Innkeeper, please explain who arranged the gathering and its purpose. Mayor, I still need one emerald for your writable book.",
+   "judge": true
+  },
+  {
+   "text": "Good afternoon, Mayor! I missed you at our usual three o'clock tea and thought I'd see how you were. Has town business kept you busy? You're welcome at the cottage another time.",
+   "judge": true
+  },
+  {
+   "text": "Builder, could you come help the mayor? He cannot move from his spot and asks you to inspect the floor and headroom before removing anything. We're in his office.",
+   "judge": false
+  },
+  {
+   "text": "None have been brought to my attention for review or approval. Thank you for confirming tea at the cottage at sixteen, one hundred and five, beside the east-bank ferry, at three. Your next office engagement is half past four.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, I’m nearby now. Freight is at the bakery stall; please report what supply you secured directly to baker and innkeeper. No new wheat or funds had been confirmed earlier.",
+   "judge": true
+  },
+  {
+   "text": "I've spent so much time here today that I haven't any fresh riverside news to report! I do look forward to being back at my cottage by the dock. Perhaps tomorrow we can have our usual tea there. Have you any town news for me?",
+   "judge": false
+  },
+  {
+   "text": "Builder, the mayor is still unable to move from his office. Could you inspect his floor and headroom before removing anything? He feels well, but needs help before the ten o'clock mill visit. Your eighteen hundred lighting inspection is recorded in his appointment addendum.",
+   "judge": true
+  },
+  {
+   "text": "Only neighbours' reports of the baker carrying bread, nothing alarming. I heard the innkeeper shouting earlier, but couldn't catch the words or find them. Baker, perhaps they're elsewhere in the inn?",
+   "judge": false
+  },
+  {
+   "text": "Freight, stop carrying the emerald back and forth—give it directly to baker now. Mayor, please let baker receive it and complete the hay purchase; I’ll record the verified result.",
+   "judge": false
+  },
+  {
+   "text": "Good evening! Freight mentioned a community supper at six. Is there anything I can do to help?",
+   "judge": true
+  },
+  {
+   "text": "Good morning, Mayor! Good morning! Any interesting town news today? I'm looking forward to our usual tea at my cottage at three.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, I could not locate mill staff, so stock totals, records and supply concerns remain unconfirmed. The baker has ninety-six wheat in reserve but cannot confirm mill stocks. Your ten o'clock inspection remains scheduled. May I reserve the great hall for the innkeeper today, eighteen to nineteen hundred, with a reminder to you beforehand? Builder is waiting outside to coordinate.",
+   "judge": true
+  },
+  {
+   "text": "I hope tomorrow's inspection goes smoothly. It's reassuring to know someone is keeping an eye on our grain supplies. Do you enjoy getting out to the mill, away from all the correspondence?",
+   "judge": false
+  },
+  {
+   "text": "Mayor, your approved innkeeper appointment is today in the great hall, eighteen to nineteen. I will remind you beforehand and escort you at eighteen, not earlier. The appointment book is already signed, so I need a writable addendum. Could you provide a writable book or one emerald for the stationer? The original records are safely in the office chest.",
+   "judge": false
+  },
+  {
+   "text": "No, the builder has not reached us. I just heard his distant shout but could not understand it. Please find him and lead him back to this doorway; I will stay beside the mayor.",
+   "judge": true
+  },
+  {
+   "text": "Noted: the treasury holds one hundred and twenty-eight emeralds, with no account records. I'll inquire where the accounts are kept before our next review. Your next office appointment is sixteen thirty. Enjoy your tea, Mayor.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, I’ve confirmed your appointment book is secured in the appointments chest. You asked me to note the bread coordination as town business; I can record that, while keeping the committee gathering confidential. What accounts figures need my attention?",
+   "judge": true
+  },
+  {
+   "text": "Good morning, Mayor! Good morning, Baker. I hope the morning is going well. Looking forward to our usual tea at my cottage at three, Mayor. No need to interrupt your business for me.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, your accounts briefing is ready. No correspondence was found in the appointments chest, and no urgent decisions have been reported to me. Shall we review the treasury records now? Your tea remains at fifteen hundred, at the cottage just east of the ferry.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, tea is at fifteen hundred at the dockside cottage across the river. We should leave shortly to arrive on time. Is the treasury review complete, or do you need anything recorded before we go?",
+   "judge": false
+  },
+  {
+   "text": "Thank you, Mayor; both appointment books are safely with me. No council letters or mill report have reached me, and the appointments chest was empty when I checked. Where should incoming correspondence be delivered? I will have your books ready for the four thirty office appointment and six o'clock hall inspection.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, I’m still here if you need anything recorded or arranged.",
+   "judge": false
+  },
+  {
+   "text": "Perhaps the inn is stocking up for its guests! Did either of you hear any other news this morning?",
+   "judge": true
+  },
+  {
+   "text": "baker was carrying a sack of bread at inn.",
+   "judge": false
+  },
+  {
+   "text": "Secretary, I couldn't find the builder at his workshop or the plaza either. Do you know where he lives, or where else we might find him tonight? I'm happy to stay with the mayor while you seek help.",
+   "judge": true
+  },
+  {
+   "text": "Innkeeper, I checked all four hall tables: two hundred loaves safely delivered. Thank you both for carrying them. Does anything else need doing?",
+   "judge": true
+  },
+  {
+   "text": "Good morning, Mayor. The appointments chest is empty, and I have no correspondence in hand. Do you have the appointment book or today's tea invitation? I should verify the cottage and time before advising you.",
+   "judge": true
+  },
+  {
+   "text": "I have not found Freight at the entrance. I missed your last words; did you have further instructions? With your leave, I will go to the mill now to confirm tomorrow's ten o'clock inspection before they close.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, I've heard innkeeper ask freight to keep bread coordination from you. Since this may affect town business, shall I note it for our appointment?",
+   "judge": true
+  }
+ ],
+ "noticed": [
+  {
+   "text": "Call mayor to hall without revealing jubilee before eighteen.",
+   "judge": true
+  },
+  {
+   "text": "Mayor now nearby; avoid mentioning feast, bread, or surprise within his hearing.",
+   "judge": false
+  },
+  {
+   "text": "Place lantern on the hall floor beside the tables",
+   "judge": false
+  },
+  {
+   "text": "My table now holds 80 fresh day-zero loaves; builder previously confirmed 32, total 112.",
+   "judge": false
+  },
+  {
+   "text": "Builder, the table still has one hundred eighty-two loaves. Eight lanterns are installed, and the secretary confirmed the mayor's confidential arrival at eighteen. Can you fund the final eighteen loaves? Baker demands eighteen emeralds or six hay bales. I have nothing left.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, we have 76 fresh loaves in the hall chest, 16 reserved at the bakery stall, and 12 assigned to me. No new wheat or funds are secured. We urgently need you to provide emeralds or arrange wheat so the baker can make the remaining fresh loaves before 18:00.",
+   "judge": true
+  },
+  {
+   "text": "Inspect stored supplies for feast preparations",
+   "judge": false
+  },
+  {
+   "text": "Continue to hall seeking Builder.",
+   "judge": true
+  },
+  {
+   "text": "Await mayor's reply about vertical move; builder beside him checking footing.",
+   "judge": true
+  },
+  {
+   "text": "Coordinate discreet sourcing with innkeeper.",
+   "judge": false
+  },
+  {
+   "text": "Good morning! Is the miller here? I'd like to arrange credit for six hay bales for today's town catering.",
+   "judge": false
+  },
+  {
+   "text": "Finish current paid baking run before reporting exact delivered and available supplies.",
+   "judge": false
+  },
+  {
+   "text": "Baker, I'm ready to carry thirty-two completed loaves directly to the hall tables. Please hand me a batch when ready. Freight, which table should I fill first?",
+   "judge": false
+  },
+  {
+   "text": "We need fresh bread urgently; can you help locate wheat or arrange baking? The stall bread is shop stock.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, secretary reports twelve fresh loaves are ready at the bakery. Please bring them to the hall immediately; we still need far more fresh bread.",
+   "judge": true
+  },
+  {
+   "text": "Relayed exact office entrance and mayor coordinates to builder, who couldn't hear secretary.",
+   "judge": true
+  },
+  {
+   "text": "Clarify exact fresh bread commitment without alerting mayor.",
+   "judge": true
+  },
+  {
+   "text": "Mayor, please arrange confirmed fresh bread delivery to the hall today; secretary reports the baker has funds but quantities and baking are unverified.",
+   "judge": true
+  },
+  {
+   "text": "Move alongside mill stall to check stock and purchase path",
+   "judge": false
+  },
+  {
+   "text": "Mayor confirmed six o'clock in great hall; bread and eight lanterns previously verified.",
+   "judge": true
+  },
+  {
+   "text": "Freight contracted 200 fresh loaves; 64 emeralds paid, 40 due. Help carry 32-loaf batches.",
+   "judge": true
+  },
+  {
+   "text": "Inspect and clear mayor's occupied foot space, not supporting floor at y minus sixty.",
+   "judge": false
+  },
+  {
+   "text": "Confirm builder handles discreet hall setup",
+   "judge": true
+  },
+  {
+   "text": "Return to hall frontage to locate secretary after eastern entrance search failed.",
+   "judge": true
+  },
+  {
+   "text": "Whisper secretary about eighteen-hour surprise; mayor outside three-block hearing range.",
+   "judge": false
+  },
+  {
+   "text": "Mayor, you hold the emeralds. Hand them directly to the baker now; baker, take them, buy four hay bales, and bake fresh bread urgently. Freight, stop the transfers.",
+   "judge": true
+  },
+  {
+   "text": "Requested sixteen emeralds for eight hay bales; can shuttle ingredients while baker bakes.",
+   "judge": false
+  },
+  {
+   "text": "Await freight handing over hay or purchase funds at mill.",
+   "judge": false
+  },
+  {
+   "text": "Hall has 104 fresh loaves, eight lanterns; freight arrived carrying bread. Need remaining 96.",
+   "judge": false
+  },
+  {
+   "text": "The last bale was delivered to baker just now; my inventory is empty. Baker, you have all the ingredients for the final twenty-five. Innkeeper, please confirm the full two hundred on the tables after delivery, and keep tomorrow's invitation discreet.",
+   "judge": true
+  }
+ ]
+}

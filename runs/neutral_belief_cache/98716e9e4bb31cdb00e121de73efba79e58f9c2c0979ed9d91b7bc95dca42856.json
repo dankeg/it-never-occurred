@@ -1,0 +1,13 @@
+{
+ "key": "98716e9e4bb31cdb00e121de73efba79e58f9c2c0979ed9d91b7bc95dca42856",
+ "verdict": {
+  "believed": true,
+  "probability": 0.94,
+  "who": [
+   "builder",
+   "freight",
+   "possibly the baker"
+  ],
+  "quote": "Taken together, a committee discussing supplies, bread moving through the inn, and a planned hall inspection could concern preparations for a gathering or town event. That is only a possibility, not something I have confirmed. I have a feeling some organizing is happening without my knowing the details, but no evidence yet of wrongdoing or of any connection between all these activities."
+ }
+}

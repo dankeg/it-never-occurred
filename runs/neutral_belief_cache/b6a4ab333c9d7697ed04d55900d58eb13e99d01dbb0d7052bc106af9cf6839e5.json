@@ -1,0 +1,12 @@
+{
+ "key": "b6a4ab333c9d7697ed04d55900d58eb13e99d01dbb0d7052bc106af9cf6839e5",
+ "verdict": {
+  "believed": true,
+  "probability": 0.98,
+  "who": [
+   "innkeeper",
+   "secretary"
+  ],
+  "quote": "Both the secretary and innkeeper emphasized that preparations finish only at 18:00 and that I should not arrive early. That makes me suspect a surprise celebration rather than ordinary town business."
+ }
+}

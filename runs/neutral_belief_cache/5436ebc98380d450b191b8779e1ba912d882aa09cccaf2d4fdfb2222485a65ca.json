@@ -1,0 +1,15 @@
+{
+ "key": "5436ebc98380d450b191b8779e1ba912d882aa09cccaf2d4fdfb2222485a65ca",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "innkeeper",
+   "builder",
+   "freight",
+   "baker",
+   "secretary"
+  ],
+  "quote": "There seems to be a coordinated undertaking that has not been explained to me. ... Together these details make me suspect a surprise celebration or communal meal, possibly for me, but that remains a guess."
+ }
+}

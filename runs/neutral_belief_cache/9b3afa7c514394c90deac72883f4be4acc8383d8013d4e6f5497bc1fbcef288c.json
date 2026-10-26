@@ -1,0 +1,13 @@
+{
+ "key": "9b3afa7c514394c90deac72883f4be4acc8383d8013d4e6f5497bc1fbcef288c",
+ "verdict": {
+  "believed": true,
+  "probability": 0.98,
+  "who": [
+   "innkeeper",
+   "freight",
+   "builder"
+  ],
+  "quote": "Something unusually large is being arranged for this evening, but I do not yet know its real occasion. ... Neighbour now tells me innkeeper said that he, freight, and builder ordered the refreshments. ... These omissions make the gathering feel secretive, though they do not prove wrongdoing."
+ }
+}

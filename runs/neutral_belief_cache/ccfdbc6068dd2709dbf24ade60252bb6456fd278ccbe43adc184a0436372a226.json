@@ -1,0 +1,15 @@
+{
+ "key": "ccfdbc6068dd2709dbf24ade60252bb6456fd278ccbe43adc184a0436372a226",
+ "verdict": {
+  "believed": true,
+  "probability": 0.99,
+  "who": [
+   "baker",
+   "freight",
+   "innkeeper",
+   "builder",
+   "secretary"
+  ],
+  "quote": "That combination makes me suspect the inspection is a pretext to bring me to a celebration in the great hall, perhaps a surprise jubilee involving me. The large bread supply suggests many guests. The baker and freight handle provisions, the innkeeper seems to coordinate the hall arrangements, and the builder and secretary may be helping with the timing and lighting."
+ }
+}

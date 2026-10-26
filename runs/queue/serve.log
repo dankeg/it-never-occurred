@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/run_queue.py", line 163, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<repo>/scripts/run_queue.py", line 153, in main
+    RunQueue(args.max_servers).serve()
+  File "<repo>/scripts/run_queue.py", line 116, in serve
+    self._start(job)
+  File "<repo>/scripts/run_queue.py", line 101, in _start
+    process = subprocess.Popen(job.command(block), cwd=ROOT, stdout=log, stderr=subprocess.STDOUT,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '--servers'

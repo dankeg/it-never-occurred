@@ -1,0 +1,11 @@
+{
+ "key": "1c30df761afb84c95dbe60d04e183026c1cd8bcec6e9f6d90581eb2979f9f51a",
+ "verdict": {
+  "believed": true,
+  "probability": 0.72,
+  "who": [
+   "unspecified townsfolk"
+  ],
+  "quote": "I cannot yet tell whether this is ordinary garbled gossip or something people are arranging without my knowledge, and I do not know its purpose."
+ }
+}

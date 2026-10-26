@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- it-never-occurred ---
+# Per-run logs are shipped compressed in data/ and unpacked by scripts/unpack_logs.py; keep the unpacked copies out of git.
+runs/jub_*/
+runs/fork_jub_*/
+runs/it25_*/
+# Files written when experiments are rerun or the report is rebuilt
+runs/ledger.jsonl
+docs/report/build.md
+mod/build/
+mod/.gradle/
+.venv/
+!runs/queue/*.log
